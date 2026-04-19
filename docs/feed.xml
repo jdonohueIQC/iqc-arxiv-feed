@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>IQC arXiv Feed — quant-ph</title>
+    <link>https://arxiv.org/list/quant-ph/recent</link>
+    <description>Recent quant-ph papers with authors affiliated with the Institute for Quantum Computing (IQC), University of Waterloo.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Apr 2026 23:35:28 +0000</lastBuildDate>
+    <ttl>360</ttl>
+
+  </channel>
+</rss>
