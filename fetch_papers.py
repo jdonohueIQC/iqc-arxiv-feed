@@ -33,9 +33,12 @@ SECONDARY_KEYWORDS = [
     "Perimeter Institute",
 ]
 
-# How many recent quant-ph papers to pull from arXiv per run.
-# arXiv typically posts 100–300 new papers per day.
+# How many papers to fetch per paginated request
 MAX_RESULTS = 300
+
+# For the initial backfill, how many pages to fetch (300 × 5 = 1500 papers ≈ 1 month)
+# After the first run, only 1 page is needed to catch new daily submissions.
+BACKFILL_PAGES = 5
 
 # Maximum number of papers to keep in the feed (most recent first).
 MAX_FEED_ITEMS = 200
@@ -221,8 +224,17 @@ def main():
     print(f"Loaded {len(existing)} existing papers.")
 
     print("Fetching from arXiv...")
-    root = fetch_arxiv()
-    entries = root.findall(f"{{{ATOM_NS}}}entry")
+    entries = []
+    is_first_run = len(existing) == 0
+    pages = BACKFILL_PAGES if is_first_run else 1
+    for page in range(pages):
+        root = fetch_arxiv(start=page * MAX_RESULTS)
+        batch = root.findall(f"{{{ATOM_NS}}}entry")
+        entries.extend(batch)
+        print(f"  Page {page+1}: got {len(batch)} entries")
+        if len(batch) < MAX_RESULTS:
+            break  # no more results
+    
     print(f"Got {len(entries)} entries from arXiv.")
 
     new_count = 0
