@@ -5,8 +5,16 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>arXiv papers by tracked IQC authors.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Apr 2026 13:27:23 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 15:26:58 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>A perfect crystal neutron loop cavity</title>
+      <link>https://arxiv.org/abs/2604.02541</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2604.02541</guid>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Owen Lailey, Dusan Sarenac, David G. Cory, M. G. Huber, D. A. Pushin</author>
+      <description>Abstract not available.</description>
+    </item>
     <item>
       <title>Imperfect detectors for adversarial tasks with applications to quantum key distribution</title>
       <link>https://arxiv.org/abs/2503.06328</link>
@@ -21,6 +29,72 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.13576</guid>
       <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
       <author>Pinki Chahal, Naume Shentevski, Priyanka Vadnere, David G. Cory, Owen Lailey, D. A. Pushin, Dusan Sarenac</author>
+      <description>Abstract not available.</description>
+    </item>
+    <item>
+      <title>Lower bounds on non-local computation from controllable correlation</title>
+      <link>https://arxiv.org/abs/2602.00255</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.00255</guid>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+      <author>Richard Cleve, Alex May</author>
+      <description>Abstract not available.
+
+Tracked authors: Richard Cleve</description>
+    </item>
+    <item>
+      <title>Imaging Electron-Hole Asymmetry in the Quantum Melting of Generalized Wigner Crystals</title>
+      <link>https://arxiv.org/abs/2512.16050</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2512.16050</guid>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <author>Emma Berger, Michael Arumainayagam, Zhihuan Dong, Lucas Schneider, Tianle Wang, George Nichols, Salman Kahn, Rwik Dutta, Gaoqiang Wang, Takashi Taniguchi, Kenji Watanabe, Mit H. Naik, Michael P. Zaletel, Feng Wang, Michael F. Crommie</author>
+      <description>Abstract not available.
+
+Tracked authors: George Nichols</description>
+    </item>
+    <item>
+      <title>Quantum-inspired Chemical Rule for Discovering Topological Materials</title>
+      <link>https://arxiv.org/abs/2512.13115</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2512.13115</guid>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <author>Xi Xu, Rajibul Islam, Ghulam Hussain, Yuting Huang, Xiaoguang Li, Pavlo O. Dral, Arif Ullah, Ming Yang</author>
+      <description>Abstract not available.
+
+Tracked authors: Rajibul Islam</description>
+    </item>
+    <item>
+      <title>Achieving $10^{-5}$ level relative intensity crosstalk in optical holographic qubit addressing via a double-pass digital micromirror device</title>
+      <link>https://arxiv.org/abs/2512.13882</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2512.13882</guid>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <author>Shilpa Mahato, Rajibul Islam</author>
+      <description>Abstract not available.
+
+Tracked authors: Rajibul Islam</description>
+    </item>
+    <item>
+      <title>Scalable simulation of fermionic encoding performance on noisy quantum computers</title>
+      <link>https://arxiv.org/abs/2506.06425</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2506.06425</guid>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+      <author>Emiliia Dyrenkova, Raymond Laflamme, Michael Vasmer</author>
+      <description>Abstract not available.
+
+Tracked authors: Raymond Laflamme</description>
+    </item>
+    <item>
+      <title>Finite-Key Analysis of Quantum Key Distribution with Characterized Devices Using Entropy Accumulation</title>
+      <link>https://arxiv.org/abs/2203.06554</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2203.06554</guid>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+      <author>I. M. George, Jie Lin, Thomas van Himbeeck, Kun Fang, Norbert Lütkenhaus</author>
+      <description>Abstract not available.</description>
+    </item>
+    <item>
+      <title>Phase error rate estimation in QKD with imperfect detectors</title>
+      <link>https://arxiv.org/abs/2408.17349</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2408.17349</guid>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+      <author>Devashish Tupkary, Shlok Nahar, P. Sinha, Norbert Lütkenhaus</author>
       <description>Abstract not available.</description>
     </item>
   </channel>

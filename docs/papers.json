@@ -1,0 +1,448 @@
+{
+  "updated": "2026-04-20T15:26:58.702168+00:00",
+  "total": 10,
+  "papers": [
+    {
+      "id": "2604.02541",
+      "url": "https://arxiv.org/abs/2604.02541",
+      "pdf_url": "https://arxiv.org/pdf/2604.02541",
+      "title": "A perfect crystal neutron loop cavity",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Owen Lailey",
+          "affiliations": []
+        },
+        {
+          "name": "Dusan Sarenac",
+          "affiliations": []
+        },
+        {
+          "name": "David G. Cory",
+          "affiliations": []
+        },
+        {
+          "name": "M. G. Huber",
+          "affiliations": []
+        },
+        {
+          "name": "D. A. Pushin",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [],
+      "published": "2026-04-02",
+      "updated": "2026-04-18T07:56:08.524223",
+      "categories": [
+        "Atomic and Subatomic Physics Research"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2503.06328",
+      "url": "https://arxiv.org/abs/2503.06328",
+      "pdf_url": "https://arxiv.org/pdf/2503.06328",
+      "title": "Imperfect detectors for adversarial tasks with applications to quantum key distribution",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Shlok Nahar",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Devashish Tupkary",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Norbert L\u00fctkenhaus",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        }
+      ],
+      "iqc_authors": [],
+      "published": "2026-03-24",
+      "updated": "2026-04-20T07:46:08.049788",
+      "categories": [
+        "Quantum Information and Cryptography"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2603.13576",
+      "url": "https://arxiv.org/abs/2603.13576",
+      "pdf_url": "https://arxiv.org/pdf/2603.13576",
+      "title": "A generalized K-space coherent averaging method for engineering lattices of spin-orbit beams",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Pinki Chahal",
+          "affiliations": []
+        },
+        {
+          "name": "Naume Shentevski",
+          "affiliations": []
+        },
+        {
+          "name": "Priyanka Vadnere",
+          "affiliations": []
+        },
+        {
+          "name": "David G. Cory",
+          "affiliations": []
+        },
+        {
+          "name": "Owen Lailey",
+          "affiliations": []
+        },
+        {
+          "name": "D. A. Pushin",
+          "affiliations": []
+        },
+        {
+          "name": "Dusan Sarenac",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [],
+      "published": "2026-03-13",
+      "updated": "2026-03-20T20:54:20.808490",
+      "categories": [
+        "Orbital Angular Momentum in Optics"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2602.00255",
+      "url": "https://arxiv.org/abs/2602.00255",
+      "pdf_url": "https://arxiv.org/pdf/2602.00255",
+      "title": "Lower bounds on non-local computation from controllable correlation",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Richard Cleve",
+          "affiliations": []
+        },
+        {
+          "name": "Alex May",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Richard Cleve"
+      ],
+      "published": "2026-01-30",
+      "updated": "2026-04-18T06:05:20.339008",
+      "categories": [
+        "Quantum Information and Cryptography"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2512.16050",
+      "url": "https://arxiv.org/abs/2512.16050",
+      "pdf_url": "https://arxiv.org/pdf/2512.16050",
+      "title": "Imaging Electron-Hole Asymmetry in the Quantum Melting of Generalized Wigner Crystals",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Emma Berger",
+          "affiliations": []
+        },
+        {
+          "name": "Michael Arumainayagam",
+          "affiliations": []
+        },
+        {
+          "name": "Zhihuan Dong",
+          "affiliations": []
+        },
+        {
+          "name": "Lucas Schneider",
+          "affiliations": []
+        },
+        {
+          "name": "Tianle Wang",
+          "affiliations": []
+        },
+        {
+          "name": "George Nichols",
+          "affiliations": []
+        },
+        {
+          "name": "Salman Kahn",
+          "affiliations": []
+        },
+        {
+          "name": "Rwik Dutta",
+          "affiliations": []
+        },
+        {
+          "name": "Gaoqiang Wang",
+          "affiliations": []
+        },
+        {
+          "name": "Takashi Taniguchi",
+          "affiliations": []
+        },
+        {
+          "name": "Kenji Watanabe",
+          "affiliations": []
+        },
+        {
+          "name": "Mit H. Naik",
+          "affiliations": []
+        },
+        {
+          "name": "Michael P. Zaletel",
+          "affiliations": []
+        },
+        {
+          "name": "Feng Wang",
+          "affiliations": []
+        },
+        {
+          "name": "Michael F. Crommie",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "George Nichols"
+      ],
+      "published": "2025-12-18",
+      "updated": "2026-03-07T16:01:11.037858",
+      "categories": [
+        "2D Materials and Applications"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2512.13115",
+      "url": "https://arxiv.org/abs/2512.13115",
+      "pdf_url": "https://arxiv.org/pdf/2512.13115",
+      "title": "Quantum-inspired Chemical Rule for Discovering Topological Materials",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Xi Xu",
+          "affiliations": []
+        },
+        {
+          "name": "Rajibul Islam",
+          "affiliations": []
+        },
+        {
+          "name": "Ghulam Hussain",
+          "affiliations": []
+        },
+        {
+          "name": "Yuting Huang",
+          "affiliations": []
+        },
+        {
+          "name": "Xiaoguang Li",
+          "affiliations": []
+        },
+        {
+          "name": "Pavlo O. Dral",
+          "affiliations": []
+        },
+        {
+          "name": "Arif Ullah",
+          "affiliations": []
+        },
+        {
+          "name": "Ming Yang",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Rajibul Islam"
+      ],
+      "published": "2025-12-15",
+      "updated": "2026-04-18T07:56:08.524223",
+      "categories": [
+        "Machine Learning in Materials Science"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2512.13882",
+      "url": "https://arxiv.org/abs/2512.13882",
+      "pdf_url": "https://arxiv.org/pdf/2512.13882",
+      "title": "Achieving $10^{-5}$ level relative intensity crosstalk in optical holographic qubit addressing via a double-pass digital micromirror device",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Shilpa Mahato",
+          "affiliations": []
+        },
+        {
+          "name": "Rajibul Islam",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Rajibul Islam"
+      ],
+      "published": "2025-12-15",
+      "updated": "2026-03-07T16:01:11.037858",
+      "categories": [
+        "Photorefractive and Nonlinear Optics"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2506.06425",
+      "url": "https://arxiv.org/abs/2506.06425",
+      "pdf_url": "https://arxiv.org/pdf/2506.06425",
+      "title": "Scalable simulation of fermionic encoding performance on noisy quantum computers",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Emiliia Dyrenkova",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Raymond Laflamme",
+          "affiliations": [
+            "University of Waterloo",
+            "Perimeter Institute"
+          ]
+        },
+        {
+          "name": "Michael Vasmer",
+          "affiliations": [
+            "University of Waterloo",
+            "Perimeter Institute"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Raymond Laflamme"
+      ],
+      "published": "2025-12-12",
+      "updated": "2026-04-16T08:26:57.006410",
+      "categories": [
+        "Quantum Computing Algorithms and Architecture"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2203.06554",
+      "url": "https://arxiv.org/abs/2203.06554",
+      "pdf_url": "https://arxiv.org/pdf/2203.06554",
+      "title": "Finite-Key Analysis of Quantum Key Distribution with Characterized Devices Using Entropy Accumulation",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "I. M. George",
+          "affiliations": [
+            "University of Waterloo",
+            "University of Illinois Urbana-Champaign",
+            "University of Illinois System"
+          ]
+        },
+        {
+          "name": "Jie Lin",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Thomas van Himbeeck",
+          "affiliations": [
+            "University of Waterloo",
+            "University of Toronto"
+          ]
+        },
+        {
+          "name": "Kun Fang",
+          "affiliations": [
+            "University of Waterloo",
+            "Chinese University of Hong Kong, Shenzhen"
+          ]
+        },
+        {
+          "name": "Norbert L\u00fctkenhaus",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        }
+      ],
+      "iqc_authors": [],
+      "published": "2025-12-12",
+      "updated": "2026-04-20T07:46:08.049788",
+      "categories": [
+        "Quantum Information and Cryptography"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2408.17349",
+      "url": "https://arxiv.org/abs/2408.17349",
+      "pdf_url": "https://arxiv.org/pdf/2408.17349",
+      "title": "Phase error rate estimation in QKD with imperfect detectors",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Devashish Tupkary",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Shlok Nahar",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "P. Sinha",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Norbert L\u00fctkenhaus",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        }
+      ],
+      "iqc_authors": [],
+      "published": "2025-12-11",
+      "updated": "2026-04-19T08:26:33.389920",
+      "categories": [
+        "Advancements in PLL and VCO Technologies"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    }
+  ]
+}
