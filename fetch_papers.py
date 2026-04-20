@@ -23,7 +23,7 @@ BACKFILL_DAYS = 90
 
 OPENALEX_API = "https://api.openalex.org/works"
 # Polite pool: include your email so OpenAlex gives you faster responses
-MAILTO = "your@email.com"  # <-- change this
+MAILTO = "jdonohue@uwaterloo.ca"  # <-- change this
 
 
 def fetch_page(from_date: str, page: int = 1) -> dict:
