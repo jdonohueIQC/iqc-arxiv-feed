@@ -20,49 +20,45 @@ from pathlib import Path
 #   name       : Display name (used in the feed)
 #   openalex_id: OpenAlex author ID (e.g. "A1234567890")
 #                Leave as None to have the script look it up automatically
-#                by name on first run. Check the printed output and paste
-#                the confirmed ID in to lock it down permanently.
+#                by name on first run. Check the Action log and paste the
+#                confirmed ID in to lock it down permanently.
 # ---------------------------------------------------------------------------
 
 AUTHORS = [
-    {"name": "David Cory",        "openalex_id": None},
-    # Add more authors here, e.g.:
-    {"name": "Christine Muschik", "openalex_id": None},
-    {"name": "Alan Jamison", "openalex_id": None},
-    {"name": "Dmitry Pushin", "openalex_id": None},
-    {"name": "Michal Bajcsy", "openalex_id": None},
-    {"name": "Michele Mosca", "openalex_id": None},
-    {"name": "John Donohue", "openalex_id": None},
-    {"name": "Ray Laflamme", "openalex_id": None},
-    {"name": "Raymond Laflamme", "openalex_id": None},
-    {"name": "Bradley Hauer", "openalex_id": None},
-    {"name": "Bradley Hauer"},
-    {"name": "B Hauer", "openalex_id": None},
-    {"name": "Luke Schaeffer", "openalex_id": None},
-    {"name": "Graeme Smith", "openalex_id": None},
-    {"name": "Shalev Ben-David", "openalex_id": None},
-    {"name": "Crystal Senko", "openalex_id": None},
-    {"name": "Rajibul Islam", "openalex_id": None},
-    {"name": "David Gosset", "openalex_id": None},
-    {"name": "Matteo Mariantoni", "openalex_id": None},
-    {"name": "Jonathan Baugh", "openalex_id": None},
-    {"name": "Richard Cleve", "openalex_id": None},
-    {"name": "Raffi Budakian", "openalex_id": None},
-    {"name": "Joseph Emerson", "openalex_id": None},
-    {"name": "Na Young Kim", "openalex_id": None},
-    {"name": "Debbie Leung", "openalex_id": None},
-    {"name": "Adrian Lupascu", "openalex_id": None},
-    {"name": "Guo-Xing Miao", "openalex_id": None},
-    {"name": "Ashwin Nayak", "openalex_id": None},
-    {"name": "Michael Reimer", "openalex_id": None},
-    {"name": "Kevin Resch", "openalex_id": None},
-    {"name": "William Slofstra", "openalex_id": None},
-    {"name": "Wei Tsen", "openalex_id": None},
-    {"name": "Christopher Wilson", "openalex_id": None},
-    {"name": "Alexandre Cooper-Roy", "openalex_id": None},
-    {"name": "George Nichols", "openalex_id": None},
-    {"name": "Thomas Jennewein", "openalex_id": None},
-    {"name": "Norbert Lutkenhaus", "openalex_id": None}
+    {"name": "David Cory",            "openalex_id": None},
+    {"name": "Christine Muschik",     "openalex_id": None},
+    {"name": "Alan Jamison",          "openalex_id": None},
+    {"name": "Dmitry Pushin",         "openalex_id": None},
+    {"name": "Michal Bajcsy",         "openalex_id": None},
+    {"name": "Michele Mosca",         "openalex_id": None},
+    {"name": "John Donohue",          "openalex_id": None},
+    {"name": "Raymond Laflamme",      "openalex_id": None},
+    {"name": "Bradley Hauer",         "openalex_id": None},
+    {"name": "Luke Schaeffer",        "openalex_id": None},
+    {"name": "Graeme Smith",          "openalex_id": None},
+    {"name": "Shalev Ben-David",      "openalex_id": None},
+    {"name": "Crystal Senko",         "openalex_id": None},
+    {"name": "Rajibul Islam",         "openalex_id": None},
+    {"name": "David Gosset",          "openalex_id": None},
+    {"name": "Matteo Mariantoni",     "openalex_id": None},
+    {"name": "Jonathan Baugh",        "openalex_id": None},
+    {"name": "Richard Cleve",         "openalex_id": None},
+    {"name": "Raffi Budakian",        "openalex_id": None},
+    {"name": "Joseph Emerson",        "openalex_id": None},
+    {"name": "Na Young Kim",          "openalex_id": None},
+    {"name": "Debbie Leung",          "openalex_id": None},
+    {"name": "Adrian Lupascu",        "openalex_id": None},
+    {"name": "Guo-Xing Miao",         "openalex_id": None},
+    {"name": "Ashwin Nayak",          "openalex_id": None},
+    {"name": "Michael Reimer",        "openalex_id": None},
+    {"name": "Kevin Resch",           "openalex_id": None},
+    {"name": "William Slofstra",      "openalex_id": None},
+    {"name": "Wei Tsen",              "openalex_id": None},
+    {"name": "Christopher Wilson",    "openalex_id": None},
+    {"name": "Alexandre Cooper-Roy",  "openalex_id": None},
+    {"name": "George Nichols",        "openalex_id": None},
+    {"name": "Thomas Jennewein",      "openalex_id": None},
+    {"name": "Norbert Lutkenhaus",    "openalex_id": None},
 ]
 
 # ---------------------------------------------------------------------------
@@ -77,7 +73,7 @@ BACKFILL_DAYS = 350
 
 # How many days back to fetch on regular daily runs.
 # Wider than 1 day to account for OpenAlex indexing lag on new preprints.
-LOOKBACK_DAYS = 7
+LOOKBACK_DAYS = 14
 
 # Maximum number of papers to keep in the feed (most recent first).
 MAX_FEED_ITEMS = 200
@@ -92,6 +88,7 @@ AUTHOR_CACHE_PATH = Path(__file__).parent / "author_ids.json"
 
 OPENALEX_AUTHORS_API = "https://api.openalex.org/authors"
 OPENALEX_WORKS_API   = "https://api.openalex.org/works"
+ARXIV_API            = "https://export.arxiv.org/api/query"
 ARXIV_SOURCE_ID      = "s4306400194"  # OpenAlex source ID for arXiv
 
 
@@ -115,7 +112,6 @@ def resolve_author_id(name: str) -> str | None:
         print(f"  WARNING: No OpenAlex author found for '{name}'")
         return None
 
-    # Pick the top result and show alternatives so the user can verify
     best = results[0]
     author_id = best["id"].replace("https://openalex.org/", "")
     institution = ""
@@ -149,13 +145,19 @@ def save_author_cache(cache: dict):
 
 
 def resolve_all_authors() -> list[dict]:
-    """Return AUTHORS list with all openalex_ids filled in."""
+    """Return AUTHORS list with all openalex_ids filled in, deduped by name."""
     cache = load_author_cache()
     resolved = []
+    seen_names = set()
     cache_dirty = False
 
     for author in AUTHORS:
         name = author["name"]
+        if name in seen_names:
+            print(f"  Skipping duplicate entry for: {name}")
+            continue
+        seen_names.add(name)
+
         oa_id = author.get("openalex_id") or cache.get(name)
         if not oa_id:
             oa_id = resolve_author_id(name)
@@ -188,6 +190,56 @@ def fetch_works_for_author(openalex_id: str, from_date: str, page: int = 1) -> d
     return openalex_get(url)
 
 
+def arxiv_search_by_name(name: str, from_date: str) -> list[str]:
+    """
+    Fallback: search arXiv directly by author name for recent papers.
+    Returns a list of arXiv IDs. Used to catch papers OpenAlex hasn't
+    indexed or linked to an author record yet.
+    """
+    # Use lastname only to reduce missed matches due to initials
+    lastname = name.strip().split()[-1]
+    query = urllib.parse.urlencode({
+        "search_query": f"au:{lastname}",
+        "sortBy": "submittedDate",
+        "sortOrder": "descending",
+        "max_results": 50,
+    })
+    url = f"{ARXIV_API}?{query}"
+    try:
+        with urllib.request.urlopen(url, timeout=30) as resp:
+            xml = resp.read().decode()
+    except Exception as e:
+        print(f"    arXiv fallback failed for {name}: {e}")
+        return []
+
+    # Parse out IDs and submission dates from the Atom feed
+    import re
+    entries = re.findall(
+        r'<id>(https://arxiv\.org/abs/[^<]+)</id>.*?<published>([^<]+)</published>',
+        xml, re.DOTALL
+    )
+    cutoff = datetime.fromisoformat(from_date)
+    results = []
+    for arxiv_url, pub_str in entries:
+        try:
+            pub_dt = datetime.fromisoformat(pub_str.replace("Z", "+00:00")).replace(tzinfo=None)
+            if pub_dt >= cutoff:
+                arxiv_id = arxiv_url.replace("https://arxiv.org/abs/", "").strip()
+                results.append(arxiv_id)
+        except Exception:
+            continue
+    return results
+
+
+def fetch_openalex_by_arxiv_id(arxiv_id: str) -> dict | None:
+    """Look up a specific arXiv paper in OpenAlex by its ID."""
+    url = f"{OPENALEX_WORKS_API}/https://arxiv.org/abs/{arxiv_id}?mailto={MAILTO}"
+    try:
+        return openalex_get(url)
+    except Exception:
+        return None
+
+
 def extract_arxiv_id(work: dict) -> str | None:
     ids = work.get("ids", {})
     if "arxiv" in ids:
@@ -202,7 +254,11 @@ def extract_arxiv_id(work: dict) -> str | None:
     return None
 
 
-def to_paper(work: dict, tracked_author_names: set[str]) -> dict | None:
+def to_paper(work: dict, tracked_ids: dict[str, str]) -> dict | None:
+    """
+    Convert an OpenAlex work to a paper dict.
+    tracked_ids: maps openalex_author_id -> display_name for our tracked authors.
+    """
     arxiv_id = extract_arxiv_id(work)
     if not arxiv_id:
         return None
@@ -210,11 +266,14 @@ def to_paper(work: dict, tracked_author_names: set[str]) -> dict | None:
     authors = []
     iqc_authors = []
     for auth in work.get("authorships", []):
+        raw_id = auth.get("author", {}).get("id", "")
+        short_id = raw_id.replace("https://openalex.org/", "")
         name = auth.get("author", {}).get("display_name", "")
         inst_names = [i.get("display_name", "") for i in auth.get("institutions", [])]
         authors.append({"name": name, "affiliations": inst_names})
-        if name in tracked_author_names:
-            iqc_authors.append(name)
+        # Match by OpenAlex author ID — immune to name formatting differences
+        if short_id in tracked_ids:
+            iqc_authors.append(tracked_ids[short_id])
 
     topic = (work.get("primary_topic") or {}).get("display_name", "")
     published = work.get("publication_date") or ""
@@ -292,16 +351,20 @@ def main():
     if not resolved_authors:
         print("No authors resolved — check your AUTHORS list and network access.")
         return
-    tracked_names = {a["name"] for a in resolved_authors}
-    print(f"Tracking {len(resolved_authors)} authors: {', '.join(tracked_names)}")
+
+    # Map openalex_id -> display name for fast lookup in to_paper()
+    tracked_ids = {a["openalex_id"]: a["name"] for a in resolved_authors}
+    print(f"Tracking {len(resolved_authors)} authors.")
 
     days_back = BACKFILL_DAYS if is_first_run else LOOKBACK_DAYS
     from_date = (datetime.now(timezone.utc) - timedelta(days=days_back)).strftime("%Y-%m-%d")
     print(f"Fetching works since {from_date}...")
 
     new_count = 0
+
+    # --- Primary pass: OpenAlex by author ID ---
     for author in resolved_authors:
-        print(f"  Fetching works for {author['name']} ({author['openalex_id']})...")
+        print(f"  OpenAlex: {author['name']} ({author['openalex_id']})...")
         page = 1
         while True:
             data = fetch_works_for_author(author["openalex_id"], from_date, page)
@@ -309,7 +372,7 @@ def main():
             if not results:
                 break
             for work in results:
-                paper = to_paper(work, tracked_names)
+                paper = to_paper(work, tracked_ids)
                 if paper and paper["id"] not in existing:
                     existing[paper["id"]] = paper
                     new_count += 1
@@ -320,7 +383,27 @@ def main():
                 break
             page += 1
 
-    print(f"Found {new_count} new papers.")
+    # --- Fallback pass: arXiv direct search (catches OpenAlex indexing lag) ---
+    # Only run for the recent window, not the full backfill, to avoid rate limits.
+    fallback_days = min(days_back, 30)
+    fallback_date = (datetime.now(timezone.utc) - timedelta(days=fallback_days)).strftime("%Y-%m-%d")
+    print(f"\nFallback arXiv search (last {fallback_days} days)...")
+    for author in resolved_authors:
+        candidate_ids = arxiv_search_by_name(author["name"], fallback_date)
+        for arxiv_id in candidate_ids:
+            if arxiv_id in existing:
+                continue
+            # Look up in OpenAlex to get full metadata
+            work = fetch_openalex_by_arxiv_id(arxiv_id)
+            if not work:
+                continue
+            paper = to_paper(work, tracked_ids)
+            if paper and paper["id"] not in existing:
+                existing[paper["id"]] = paper
+                new_count += 1
+                print(f"    Fallback found: {arxiv_id} for {author['name']}")
+
+    print(f"\nFound {new_count} new papers total.")
 
     all_papers = sorted(
         existing.values(),
