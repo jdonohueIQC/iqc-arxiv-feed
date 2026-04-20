@@ -8,6 +8,7 @@ Run locally with: python fetch_papers.py
 """
 
 import json
+import re
 import urllib.request
 import urllib.parse
 from datetime import datetime, timezone, timedelta
@@ -16,49 +17,46 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 # AUTHORS — edit this list to track different people.
 #
-# Each entry is a dict with:
-#   name       : Display name (used in the feed)
-#   openalex_id: OpenAlex author ID (e.g. "A1234567890")
-#                Leave as None to have the script look it up automatically
-#                by name on first run. Check the Action log and paste the
-#                confirmed ID in to lock it down permanently.
+# IDs below were verified from the Action log on first run.
+# For authors marked None, the script will auto-resolve on next run
+# and print candidates — check the log and paste the correct ID in.
 # ---------------------------------------------------------------------------
 
 AUTHORS = [
-    {"name": "David Cory",            "openalex_id": None},
-    {"name": "Christine Muschik",     "openalex_id": None},
-    {"name": "Alan Jamison",          "openalex_id": None},
-    {"name": "Dmitry Pushin",         "openalex_id": None},
-    {"name": "Michal Bajcsy",         "openalex_id": None},
-    {"name": "Michele Mosca",         "openalex_id": None},
-    {"name": "John Donohue",          "openalex_id": None},
-    {"name": "Raymond Laflamme",      "openalex_id": None},
-    {"name": "Bradley Hauer",         "openalex_id": None},
-    {"name": "Luke Schaeffer",        "openalex_id": None},
-    {"name": "Graeme Smith",          "openalex_id": None},
-    {"name": "Shalev Ben-David",      "openalex_id": None},
-    {"name": "Crystal Senko",         "openalex_id": None},
-    {"name": "Rajibul Islam",         "openalex_id": None},
-    {"name": "David Gosset",          "openalex_id": None},
-    {"name": "Matteo Mariantoni",     "openalex_id": None},
-    {"name": "Jonathan Baugh",        "openalex_id": None},
-    {"name": "Richard Cleve",         "openalex_id": None},
-    {"name": "Raffi Budakian",        "openalex_id": None},
-    {"name": "Joseph Emerson",        "openalex_id": None},
-    {"name": "Na Young Kim",          "openalex_id": None},
-    {"name": "Debbie Leung",          "openalex_id": None},
-    {"name": "Adrian Lupascu",        "openalex_id": None},
-    {"name": "Guo-Xing Miao",         "openalex_id": None},
-    {"name": "Ashwin Nayak",          "openalex_id": None},
-    {"name": "Michael Reimer",        "openalex_id": None},
-    {"name": "Kevin Resch",           "openalex_id": None},
-    {"name": "William Slofstra",      "openalex_id": None},
-    {"name": "Wei Tsen",              "openalex_id": None},
-    {"name": "Christopher Wilson",    "openalex_id": None},
-    {"name": "Alexandre Cooper-Roy",  "openalex_id": None},
-    {"name": "George Nichols",        "openalex_id": None},
-    {"name": "Thomas Jennewein",      "openalex_id": None},
-    {"name": "Norbert Lutkenhaus",    "openalex_id": None},
+    {"name": "David Cory",            "openalex_id": "A5033501753"},  # Canadian Institute for Advanced Research ✓
+    {"name": "Christine Muschik",     "openalex_id": "A5021091852"},  # ✓
+    {"name": "Alan Jamison",          "openalex_id": None},            # log showed UEA/UCF — needs manual check
+    {"name": "Dmitry Pushin",         "openalex_id": "A5071074359"},  # ✓
+    {"name": "Michal Bajcsy",         "openalex_id": "A5029299711"},  # Harvard ✓
+    {"name": "Michele Mosca",         "openalex_id": "A5009567571"},  # CIFAR ✓
+    {"name": "John Donohue",          "openalex_id": None},            # USC picked — needs manual check
+    {"name": "Raymond Laflamme",      "openalex_id": "A5110723059"},  # University of Waterloo ✓ (was wrong, corrected)
+    {"name": "Bradley Hauer",         "openalex_id": "A5133888074"},  # corrected from Georgia Tech pick
+    {"name": "Luke Schaeffer",        "openalex_id": "A5114470241"},  # University of Waterloo ✓ (was wrong, corrected)
+    {"name": "Graeme Smith",          "openalex_id": None},            # AstraZeneca picked — needs manual check
+    {"name": "Shalev Ben-David",      "openalex_id": "A5010258967"},  # University of Waterloo ✓
+    {"name": "Crystal Senko",         "openalex_id": "A5054684488"},  # NIST ✓
+    {"name": "Rajibul Islam",         "openalex_id": "A5053336892"},  # NIST ✓ (now at Waterloo)
+    {"name": "David Gosset",          "openalex_id": "A5103184148"},  # Caltech/Google ✓
+    {"name": "Matteo Mariantoni",     "openalex_id": "A5008314339"},  # ✓
+    {"name": "Jonathan Baugh",        "openalex_id": None},            # UNC picked — needs manual check
+    {"name": "Richard Cleve",         "openalex_id": "A5001743971"},  # CIFAR ✓
+    {"name": "Raffi Budakian",        "openalex_id": "A5044506827"},  # CIFAR ✓
+    {"name": "Joseph Emerson",        "openalex_id": "A5112868557"},  # CIFAR ✓
+    {"name": "Na Young Kim",          "openalex_id": None},            # Korean universities picked — needs manual check
+    {"name": "Debbie Leung",          "openalex_id": "A5057755410"},  # CIFAR ✓
+    {"name": "Adrian Lupascu",        "openalex_id": "A5049962944"},  # University of Waterloo ✓ (corrected)
+    {"name": "Guo-Xing Miao",         "openalex_id": "A5120980527"},  # University of Waterloo ✓ (corrected)
+    {"name": "Ashwin Nayak",          "openalex_id": "A5017951192"},  # Paris-Sud ✓ (likely right, active in QI)
+    {"name": "Michael Reimer",        "openalex_id": "A5051932856"},  # University of Waterloo ✓ (corrected)
+    {"name": "Kevin Resch",           "openalex_id": "A5102053353"},  # Vienna ✓ (now at Waterloo)
+    {"name": "William Slofstra",      "openalex_id": "A5102809836"},  # CIFAR ✓
+    {"name": "Adam Tsen",             "openalex_id": None},            # renamed from "Wei Tsen" — needs manual check
+    {"name": "Christopher Wilson",    "openalex_id": None},            # Broad Institute picked — needs manual check
+    {"name": "Alexandre Cooper-Roy",  "openalex_id": "A5120080445"},  # ✓
+    {"name": "George Nichols",        "openalex_id": "A5067202240"},  # CIFAR ✓
+    {"name": "Thomas Jennewein",      "openalex_id": "A5055373870"},  # CIFAR ✓
+    {"name": "Norbert Lutkenhaus",    "openalex_id": "A5076065879"},  # Geneva ✓ (now at Waterloo)
 ]
 
 # ---------------------------------------------------------------------------
@@ -165,7 +163,7 @@ def resolve_all_authors() -> list[dict]:
                 cache[name] = oa_id
                 cache_dirty = True
         else:
-            print(f"  Using cached ID for {name}: {oa_id}")
+            print(f"  {name}: {oa_id}")
         resolved.append({"name": name, "openalex_id": oa_id})
 
     if cache_dirty:
@@ -192,11 +190,9 @@ def fetch_works_for_author(openalex_id: str, from_date: str, page: int = 1) -> d
 
 def arxiv_search_by_name(name: str, from_date: str) -> list[str]:
     """
-    Fallback: search arXiv directly by author name for recent papers.
-    Returns a list of arXiv IDs. Used to catch papers OpenAlex hasn't
-    indexed or linked to an author record yet.
+    Fallback: search arXiv directly by author last name for recent papers.
+    Catches papers OpenAlex hasn't linked to the author record yet.
     """
-    # Use lastname only to reduce missed matches due to initials
     lastname = name.strip().split()[-1]
     query = urllib.parse.urlencode({
         "search_query": f"au:{lastname}",
@@ -212,8 +208,6 @@ def arxiv_search_by_name(name: str, from_date: str) -> list[str]:
         print(f"    arXiv fallback failed for {name}: {e}")
         return []
 
-    # Parse out IDs and submission dates from the Atom feed
-    import re
     entries = re.findall(
         r'<id>(https://arxiv\.org/abs/[^<]+)</id>.*?<published>([^<]+)</published>',
         xml, re.DOTALL
@@ -266,13 +260,14 @@ def to_paper(work: dict, tracked_ids: dict[str, str]) -> dict | None:
     authors = []
     iqc_authors = []
     for auth in work.get("authorships", []):
-        raw_id = auth.get("author", {}).get("id", "")
+        # FIX: guard against None author id (some OpenAlex records are incomplete)
+        raw_id = (auth.get("author") or {}).get("id") or ""
         short_id = raw_id.replace("https://openalex.org/", "")
-        name = auth.get("author", {}).get("display_name", "")
+        name = (auth.get("author") or {}).get("display_name", "")
         inst_names = [i.get("display_name", "") for i in auth.get("institutions", [])]
         authors.append({"name": name, "affiliations": inst_names})
         # Match by OpenAlex author ID — immune to name formatting differences
-        if short_id in tracked_ids:
+        if short_id and short_id in tracked_ids:
             iqc_authors.append(tracked_ids[short_id])
 
     topic = (work.get("primary_topic") or {}).get("display_name", "")
@@ -352,7 +347,6 @@ def main():
         print("No authors resolved — check your AUTHORS list and network access.")
         return
 
-    # Map openalex_id -> display name for fast lookup in to_paper()
     tracked_ids = {a["openalex_id"]: a["name"] for a in resolved_authors}
     print(f"Tracking {len(resolved_authors)} authors.")
 
@@ -384,7 +378,6 @@ def main():
             page += 1
 
     # --- Fallback pass: arXiv direct search (catches OpenAlex indexing lag) ---
-    # Only run for the recent window, not the full backfill, to avoid rate limits.
     fallback_days = min(days_back, 30)
     fallback_date = (datetime.now(timezone.utc) - timedelta(days=fallback_days)).strftime("%Y-%m-%d")
     print(f"\nFallback arXiv search (last {fallback_days} days)...")
@@ -393,7 +386,6 @@ def main():
         for arxiv_id in candidate_ids:
             if arxiv_id in existing:
                 continue
-            # Look up in OpenAlex to get full metadata
             work = fetch_openalex_by_arxiv_id(arxiv_id)
             if not work:
                 continue
