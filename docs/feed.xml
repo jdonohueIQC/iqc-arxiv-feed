@@ -5,7 +5,7 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Recent quant-ph papers with authors affiliated with the Institute for Quantum Computing (IQC), University of Waterloo.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Apr 2026 00:14:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 00:21:01 +0000</lastBuildDate>
     <ttl>360</ttl>
     <item>
       <title>Parallel iQCC Enables 200 Qubit Scale Quantum Chemistry on Accelerated Computing Platforms Surpassing Classical Benchmarks in Ruthenium Catalysts</title>
@@ -14,8 +14,7 @@
       <pubDate>Mon, 09 Mar 2026 19:49:37 +0000</pubDate>
       <author>Seyyed Mehdi Hosseini Jenab, Brandon Henderson, Scott N. Genin</author>
       <description>We introduce a parallel, GPU-accelerated implementation of the iterative qubit coupled cluster (iQCC) method that overcomes the exponential growth of the transformed Hamiltonian -- the principal bottleneck for classical emulation of quantum chemistry circuits. By distributing Hamiltonian terms across compute nodes via bit-wise partitioning and offloading Pauli contractions to GPUs, we achieve speedups exceeding two orders of magnitude over the serial CPU approach. Crucially, iQCC confines the variational evolution to a classically simulable operator subspace by selecting entanglers exclusively from the Direct Interaction Space, which guarantees non-vanishing energy gradients at every iteration and thereby naturally avoids the barren-plateau phenomenon that renders highly expressive quantum circuits untrainable. Leveraging these algorithmic and hardware advances, we simulate electronic-structure Hamiltonians for industrially relevant ruthenium catalysts in the 100--124 qubit regime, completing full ground-state calculations on NVIDIA GPUs in the ranges of 1.2 - 45 hrs and surpassing the accuracy of Density Matrix Renormalization Group. These results effectively de-quantize a significant portion of the NISQ roadmap: quantum advantage for chemistry is often assumed to emerge beyond ${\sim}50$ qubits, yet our work demonstrates that this frontier lies significantly further -- potentially past 200 qubits -- reshaping expectations for where genuine quantum advantage may first appear.</description>
-    </item>
-    <item>
+    </item>    <item>
       <title>Towards Quantum Advantage in Chemistry</title>
       <link>https://arxiv.org/abs/2512.13657v2</link>
       <guid isPermaLink="true">https://arxiv.org/abs/2512.13657v2</guid>
