@@ -37,7 +37,7 @@ AUTHORS = [
     {"name": "Raymond Laflamme", "openalex_id": None},
     {"name": "Bradley Hauer", "openalex_id": None},
     {"name": "Bradley Hauer"},
-    {"name": "Brad Hauer", "openalex_id": None},
+    {"name": "B Hauer", "openalex_id": None},
     {"name": "Luke Schaeffer", "openalex_id": None},
     {"name": "Graeme Smith", "openalex_id": None},
     {"name": "Shalev Ben-David", "openalex_id": None},
