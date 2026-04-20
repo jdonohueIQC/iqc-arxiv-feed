@@ -5,7 +5,7 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>arXiv papers by tracked IQC authors.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Apr 2026 15:26:58 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 16:58:18 +0000</lastBuildDate>
     <ttl>360</ttl>
     <item>
       <title>A perfect crystal neutron loop cavity</title>
@@ -95,6 +95,208 @@ Tracked authors: Raymond Laflamme</description>
       <guid isPermaLink="true">https://arxiv.org/abs/2408.17349</guid>
       <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
       <author>Devashish Tupkary, Shlok Nahar, P. Sinha, Norbert Lütkenhaus</author>
+      <description>Abstract not available.</description>
+    </item>
+    <item>
+      <title>Multimode structured neutron beams</title>
+      <link>https://arxiv.org/abs/2511.07662</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2511.07662</guid>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <author>Owen Lailey, Dusan Sarenac, Charles W. Clark, David G. Cory, Lisa DeBeer‐Schmitt, Huseyin Ekinci, Davis V. Garrad, Melissa E. Henderson, M. G. Huber, Priyanka Vadnere, Kirill Zhernenkov, D. A. Pushin</author>
+      <description>Abstract not available.</description>
+    </item>
+    <item>
+      <title>Topological Expansion of Boehm's Brushes via Structured Light</title>
+      <link>https://arxiv.org/abs/2511.01841</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2511.01841</guid>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <author>D. A. Pushin, Iman Salehi, Amy Chow, Andrew E. Silva, Premjeet Chahal, David G. Cory, Mukhit Kulmaganbetov, Gary P. Misson, Naume Shentevski, Taranjit Singh, Shelby E. Temple, Benjamin Thompson, Dusan Sarenac</author>
+      <description>Abstract not available.</description>
+    </item>
+    <item>
+      <title>Fast Bosonic Control via Multiphoton Qubit-Oscillator Interactions</title>
+      <link>https://arxiv.org/abs/2510.27035</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2510.27035</guid>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <author>Noah Gorgichuk, Mohammad Ayyash, M. Mariantoni, Sahel Ashhab</author>
+      <description>Abstract not available.</description>
+    </item>
+    <item>
+      <title>Self-Configuring Quantum Networks with Superposition of Trajectories</title>
+      <link>https://arxiv.org/abs/2510.19092</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2510.19092</guid>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <author>Albie Chan, Zheng Shi, Jorge Miguel-Ramiro, Luca Dellantonio, Christine A. Muschik, Wolfgang Dür</author>
+      <description>Abstract not available.</description>
+    </item>
+    <item>
+      <title>The charge-singlet measurement toolbox</title>
+      <link>https://arxiv.org/abs/2510.08718</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2510.08718</guid>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+      <author>Abhijit Chakraborty, Randy Lewis, Christine A. Muschik</author>
+      <description>Abstract not available.</description>
+    </item>
+    <item>
+      <title>Multi-qubit Toffoli with exponentially fewer T gates</title>
+      <link>https://arxiv.org/abs/2510.07223</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2510.07223</guid>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <author>David Gosset, Robin Kothari, Chenyi Zhang</author>
+      <description>Abstract not available.
+
+Tracked authors: David Gosset</description>
+    </item>
+    <item>
+      <title>Improved Clifford operations in constant commutative depth</title>
+      <link>https://arxiv.org/abs/2510.04921</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2510.04921</guid>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <author>Richard Cleve, ZP Ding, Luke Schaeffer</author>
+      <description>Abstract not available.
+
+Tracked authors: Richard Cleve, Luke Schaeffer</description>
+    </item>
+    <item>
+      <title>The NPA hierarchy does not always attain the commuting operator value</title>
+      <link>https://arxiv.org/abs/2510.04943</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2510.04943</guid>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <author>Marco Fanizza, Larissa Kroell, Arthur Mehta, Connor Paddock, Denis Rochette, William Slofstra, Yuming Zhao</author>
+      <description>Abstract not available.
+
+Tracked authors: William Slofstra</description>
+    </item>
+    <item>
+      <title>Dorabella Cipher as Musical Inspiration</title>
+      <link>https://arxiv.org/abs/2509.17950</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2509.17950</guid>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+      <author>Bradley Hauer, Colin Choi, Abram Hindle, Scott Smallwood, Grzegorz Kondrak</author>
+      <description>Abstract not available.
+
+Tracked authors: Bradley Hauer</description>
+    </item>
+    <item>
+      <title>Optical field characterization at the fundamental limit of spatial resolution with a trapped ion</title>
+      <link>https://arxiv.org/abs/2509.07214</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2509.07214</guid>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+      <author>Nikhil Kotibhaskar, Sainath Motlakunta, Anthony Vogliano, L. Hahn, Rajibul Islam</author>
+      <description>Abstract not available.
+
+Tracked authors: Rajibul Islam</description>
+    </item>
+    <item>
+      <title>Low Loss Aluminum Nitride Waveguide Fabrication: Propagation Loss Reduction Through ALD and RTA</title>
+      <link>https://arxiv.org/abs/2508.20245</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2508.20245</guid>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <author>Nikolay Videnov, Matthew Day, Michal Bajcsy</author>
+      <description>Abstract not available.
+
+Tracked authors: Michal Bajcsy</description>
+    </item>
+    <item>
+      <title>Quantum logic operations and algorithms in a single 25-level atomic qudit</title>
+      <link>https://arxiv.org/abs/2507.15799</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2507.15799</guid>
+      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
+      <author>Pei Jiang Low, Nicholas Zutt, Gaurav A. Tathed, Crystal Senko</author>
+      <description>Abstract not available.
+
+Tracked authors: Crystal Senko</description>
+    </item>
+    <item>
+      <title>Optimizing loading of cold cesium atoms into a hollow-core fiber using machine learning</title>
+      <link>https://arxiv.org/abs/2507.11519</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2507.11519</guid>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <author>Paul Anderson, Sreesh Venuturumilli, Michal Bajcsy</author>
+      <description>Abstract not available.
+
+Tracked authors: Michal Bajcsy</description>
+    </item>
+    <item>
+      <title>A new paradigm for entanglement certification using noncontextuality inequalities</title>
+      <link>https://arxiv.org/abs/2507.01122</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2507.01122</guid>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <author>Yujie Zhang, Jonah Spodek, David Schmid, Carter Reid, Liam Morrison, Thomas Jennewein, Kevin J. Resch, Robert W. Spekkens</author>
+      <description>Abstract not available.
+
+Tracked authors: Thomas Jennewein</description>
+    </item>
+    <item>
+      <title>Electron Phase Detection in Single Molecules by Interferometry</title>
+      <link>https://arxiv.org/abs/2411.11243</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2411.11243</guid>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+      <author>Zhixin Chen, Jie‐Ren Deng, Mengyun Wang, Nikolaos Farmakidis, Jonathan Baugh, Harish Bhaskaran, Jan A. Mol, Harry L. Anderson, Lapo Bogani, James Oscar Thomas</author>
+      <description>Abstract not available.
+
+Tracked authors: Jonathan Baugh</description>
+    </item>
+    <item>
+      <title>Experimental Test of the Principle of Tomographic Locality</title>
+      <link>https://arxiv.org/abs/2506.07775</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2506.07775</guid>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <author>Tristan S. Lismer, Kaleb B. Felefele, Robert W. Spekkens, Kevin J. Resch</author>
+      <description>Abstract not available.</description>
+    </item>
+    <item>
+      <title>Finite-Size Analysis of Prepare-and-Measure and Decoy-State Quantum Key Distribution via Entropy Accumulation</title>
+      <link>https://arxiv.org/abs/2406.10198</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2406.10198</guid>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      <author>Lars Kamin, Amir Arqand, I. M. George, Norbert Lütkenhaus, Ernest Y.-Z. Tan</author>
+      <description>Abstract not available.</description>
+    </item>
+    <item>
+      <title>Magnetically controlled vortex dynamics in a ferromagnetic superconductor</title>
+      <link>https://arxiv.org/abs/2412.04098</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2412.04098</guid>
+      <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
+      <author>Joseph Alec Wilcox, Lukas Schneider, Estefani Marchiori, Vadim Plastovets, A. I. Buzdin, Pardis Sahafi, Andrew N. Jordan, Raffi Budakian, Tong Ren, Ivan Veshchunov, T. Tamegai, Sven Friedemann, Martino Poggio, S. J. Bending</author>
+      <description>Abstract not available.
+
+Tracked authors: Raffi Budakian</description>
+    </item>
+    <item>
+      <title>Demonstration of a reconfigurable quantum network architecture suitable for ground-to-space communication</title>
+      <link>https://arxiv.org/abs/2506.00194</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2506.00194</guid>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <author>Stéphane Vinet, Duncan England, Chang‐Qing Xu, Thomas Jennewein</author>
+      <description>Abstract not available.
+
+Tracked authors: Thomas Jennewein</description>
+    </item>
+    <item>
+      <title>Fermionic sub-GeV Dark Matter from evaporating Primordial Black Holes at DarkSide-50</title>
+      <link>https://arxiv.org/abs/2505.13093</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2505.13093</guid>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <author>50 Collaboration, P. Agnes, Albuquerque, I. F., T. Alexander, Alton, A. K., M. Ave, Back, H. O., G. Batignani, K. Biery, V. Bocci, Bonivento, W. M., B. Bottino, S. Bussino, M. Cadeddu, M. Cadoni, R. Calabrese, F. P. Calaprice, A Caminata, N. Canci, M. Caravati, N. Cargioli, M. Cariello, M. Carlini, P. Cavalcante, S. Chashin, A.S. Chepurnov, Marco Chianese, Danila d’Angelo, S. Davini, S. De Cecco, Derbin, A. V., M. D’Incecco, C. Dionisi, F. Dordei, M. Downing, G. Fiorillo, D. Franco, F. Gabriele, C. Galbiati, C Ghiano, C. Giganti, Giovanetti, G. K., Goretti, A. M., Giovanni Grilli di Cortona, A. Grobov, M. Gromov, M Guam, M Gulino, Hackett, B. R., K. Herner, T Hessel, F. Hubaut, Hungerford, E. V., Aldo Ianni, V. Ippolito, K. Keeter, Kendziora, C. L., Masao Kimura, I. Kochanek, D. Korablëv, G Korga, A Kubankin, M. Kuss, M. La Commara, M. Laí, X. Li, M. Lissia, O. Lychagina, Machulin, I. N., Mapelli, L. P., Mari, S. M., J. Maricic, A. Messina, R. Milincic, J. Monroe, M. Morrocchi, Muratova, V. N., P. Musico, Nozdrina, A. O., A. Oleinik, F. Ortica, L. Pagani, M. Pallavicini, L. Pandola, E. Pantic, E. Paoloni, K. Pelczar, N. Pelliccia, Stefano Piacentini, A. Pocar, M. Poehlmann, S. Pordes, Poudel, S. S., P. Pralavorio, D. Price, F. Ragusa, M. Razeti, Renshaw, A. L., M. Rescigno, J. Rode</author>
+      <description>Abstract not available.</description>
+    </item>
+    <item>
+      <title>Efficiently Computable Limits on EPR Pair Generation in Quantum Broadcast Channels</title>
+      <link>https://arxiv.org/abs/2505.07218</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2505.07218</guid>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <author>Patrick Hayden, Debbie Leung, Hjalmar Rall, Farzin Salek</author>
+      <description>Abstract not available.
+
+Tracked authors: Debbie Leung</description>
+    </item>
+    <item>
+      <title>Enhanced resolution chirped-pulse interferometry</title>
+      <link>https://arxiv.org/abs/2505.04901</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2505.04901</guid>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      <author>Bérubé, Madeleine, Michael D. Mazurek, Kevin J. Resch</author>
       <description>Abstract not available.</description>
     </item>
   </channel>
