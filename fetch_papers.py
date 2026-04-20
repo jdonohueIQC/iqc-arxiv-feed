@@ -36,6 +36,7 @@ AUTHORS = [
     {"name": "Ray Laflamme", "openalex_id": None},
     {"name": "Raymond Laflamme", "openalex_id": None},
     {"name": "Bradley Hauer", "openalex_id": None},
+    {"name": "Bradley Hauer"},
     {"name": "Brad Hauer", "openalex_id": None},
     {"name": "Luke Schaeffer", "openalex_id": None},
     {"name": "Graeme Smith", "openalex_id": None},
@@ -69,10 +70,10 @@ AUTHORS = [
 # ---------------------------------------------------------------------------
 
 # Your email — OpenAlex gives faster "polite pool" responses when provided.
-MAILTO = "your@email.com"
+MAILTO = "jdonohue@uwaterloo.ca"
 
 # How many days back to fetch on the very first run (backfill).
-BACKFILL_DAYS = 150
+BACKFILL_DAYS = 350
 
 # How many days back to fetch on regular daily runs.
 # Wider than 1 day to account for OpenAlex indexing lag on new preprints.
