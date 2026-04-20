@@ -3,139 +3,25 @@
   <channel>
     <title>IQC arXiv Feed</title>
     <link>https://arxiv.org/list/quant-ph/recent</link>
-    <description>arXiv papers by University of Waterloo / IQC authors.</description>
+    <description>arXiv papers by tracked IQC authors.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Apr 2026 09:48:15 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 13:20:06 +0000</lastBuildDate>
     <ttl>360</ttl>
     <item>
-      <title>Mind the crosscap: τ-scaling in non-orientable gravity and time-reversal-invariant systems</title>
-      <link>https://arxiv.org/abs/2509.20448</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2509.20448</guid>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-      <author>Gabriele Di Ubaldo, Altay Etkin, Felix M. Haehl, Moshe Rozali</author>
-      <description>Abstract not available.
-
-IQC-affiliated authors: Moshe Rozali</description>
+      <title>Imperfect detectors for adversarial tasks with applications to quantum key distribution</title>
+      <link>https://arxiv.org/abs/2503.06328</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2503.06328</guid>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <author>Shlok Nahar, Devashish Tupkary, Norbert Lütkenhaus</author>
+      <description>Abstract not available.</description>
     </item>
     <item>
-      <title>Multi-method Timing of Transient Radio Pulsars with the GBT350 and GBNCC Surveys</title>
-      <link>https://arxiv.org/abs/2512.13498</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2512.13498</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-      <author>Evan F. Lewis, M. A. McLaughlin, Joseph K. Swiggum, Harsha Blumer, J. Boyles, Pragya Chawla, Timothy Dolch, J. W. T. Hessels, D. L. Kaplan, C. Karako-Argaman, V. M. Kaspi, V. I. Kondratiev, L. Levin, Ryan S. Lynch, José Martinez, Alexander McEwen, Rossina B. Miller, E. Parent, S. M. Ransom, M. S. Roberts, Alan J. Rowe, R. Spiewak, I. H. Stairs, Kevin Stovall, Jennifer Thorley, J. van Leeuwen</author>
-      <description>Abstract not available.
-
-IQC-affiliated authors: I. H. Stairs</description>
-    </item>
-    <item>
-      <title>Are You Comfortable Sharing It?: Leveraging Image Obfuscation Techniques to Enhance Sharing Privacy for Blind and Visually Impaired Users</title>
-      <link>https://arxiv.org/abs/2603.03606</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.03606</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-      <author>Satabdi Das, Nahian Beente Firuj, Manjot Singh, Arshad Nasser, Khalad Hasan</author>
-      <description>Abstract not available.
-
-IQC-affiliated authors: Satabdi Das, Manjot Singh, Arshad Nasser, Khalad Hasan</description>
-    </item>
-    <item>
-      <title>Leveraging Head Movement for Navigating Off-Screen Content on Large Curved Displays</title>
-      <link>https://arxiv.org/abs/2603.12620</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.12620</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-      <author>A K M Amanat Ullah, David Ahlström, Khalad Hasan</author>
-      <description>Abstract not available.
-
-IQC-affiliated authors: A K M Amanat Ullah, Khalad Hasan</description>
-    </item>
-    <item>
-      <title>Flows of Conformally Coclosed $$G_2$$-Structures with Dilaton</title>
-      <link>https://arxiv.org/abs/2511.21055</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.21055</guid>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-      <author>Spiro Karigiannis, Sébastien Picard, Caleb Suan</author>
-      <description>Abstract not available.
-
-IQC-affiliated authors: Sébastien Picard</description>
-    </item>
-    <item>
-      <title>Representativeness and Efficiency in Overidentified IV</title>
-      <link>https://arxiv.org/abs/2604.07131</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.07131</guid>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-      <author>Chun Pang Chow, Hiroyuki Kasahara</author>
-      <description>Abstract not available.
-
-IQC-affiliated authors: Chun Pang Chow, Hiroyuki Kasahara</description>
-    </item>
-    <item>
-      <title>Smoothness of Markov Partitions for Expanding Toral Endomorphisms</title>
-      <link>https://arxiv.org/abs/2604.00257</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.00257</guid>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-      <author>Chayce Hughes, Huub de Jong</author>
-      <description>Abstract not available.
-
-IQC-affiliated authors: Chayce Hughes, Huub de Jong</description>
-    </item>
-    <item>
-      <title>From Scalars to Tensors: Declared Losses Recover Epistemic Distinctions That Neutrosophic Scalars Cannot Express</title>
-      <link>https://arxiv.org/abs/2604.09602</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.09602</guid>
-      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
-      <author>Tony Mason</author>
-      <description>Abstract not available.
-
-IQC-affiliated authors: Tony Mason</description>
-    </item>
-    <item>
-      <title>Event-Study Designs for Discrete Outcomes under Transition Independence</title>
-      <link>https://arxiv.org/abs/2603.07914</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.07914</guid>
-      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
-      <author>Young Ahn, Hiroyuki Kasahara</author>
-      <description>Abstract not available.
-
-IQC-affiliated authors: Young Ahn, Hiroyuki Kasahara</description>
-    </item>
-    <item>
-      <title>Singular hypersurfaces and thin shells in cosmology</title>
-      <link>https://arxiv.org/abs/2402.09539</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2402.09539</guid>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
-      <author>Abhisek Sahu</author>
-      <description>Abstract not available.
-
-IQC-affiliated authors: Abhisek Sahu</description>
-    </item>
-    <item>
-      <title>Near optimal sample complexity for matrix and tensor normal models via geodesic convexity</title>
-      <link>https://arxiv.org/abs/2110.07583</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2110.07583</guid>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <author>Cole Franks, Rafael Oliveira, Akshay Ramachandran, Michael Walter</author>
-      <description>Abstract not available.
-
-IQC-affiliated authors: Akshay Ramachandran</description>
-    </item>
-    <item>
-      <title>Gaussian deconvolution and the lace expansion for spread-out models</title>
-      <link>https://arxiv.org/abs/2310.07640</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2310.07640</guid>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <author>Yucheng Liu, Gordon Slade</author>
-      <description>Abstract not available.
-
-IQC-affiliated authors: Yucheng Liu, Gordon Slade</description>
-    </item>
-    <item>
-      <title>Growth Rates for Anti-Parallel Vortex Tube Euler Flows in Three and Higher Dimensions</title>
-      <link>https://arxiv.org/abs/2303.12043</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2303.12043</guid>
-      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-      <author>Stephen J. Gustafson, Evan W. Miller, Tai‐Peng Tsai</author>
-      <description>Abstract not available.
-
-IQC-affiliated authors: Stephen J. Gustafson, Tai‐Peng Tsai</description>
+      <title>A generalized K-space coherent averaging method for engineering lattices of spin-orbit beams</title>
+      <link>https://arxiv.org/abs/2603.13576</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.13576</guid>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <author>Pinki Chahal, Naume Shentevski, Priyanka Vadnere, David G. Cory, Owen Lailey, D. A. Pushin, Dusan Sarenac</author>
+      <description>Abstract not available.</description>
     </item>
   </channel>
 </rss>

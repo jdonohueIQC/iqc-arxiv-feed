@@ -1,0 +1,88 @@
+{
+  "updated": "2026-04-20T13:20:06.785627+00:00",
+  "total": 2,
+  "papers": [
+    {
+      "id": "2503.06328",
+      "url": "https://arxiv.org/abs/2503.06328",
+      "pdf_url": "https://arxiv.org/pdf/2503.06328",
+      "title": "Imperfect detectors for adversarial tasks with applications to quantum key distribution",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Shlok Nahar",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Devashish Tupkary",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Norbert L\u00fctkenhaus",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        }
+      ],
+      "iqc_authors": [],
+      "published": "2026-03-24",
+      "updated": "2026-04-20T07:46:08.049788",
+      "categories": [
+        "Quantum Information and Cryptography"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2603.13576",
+      "url": "https://arxiv.org/abs/2603.13576",
+      "pdf_url": "https://arxiv.org/pdf/2603.13576",
+      "title": "A generalized K-space coherent averaging method for engineering lattices of spin-orbit beams",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Pinki Chahal",
+          "affiliations": []
+        },
+        {
+          "name": "Naume Shentevski",
+          "affiliations": []
+        },
+        {
+          "name": "Priyanka Vadnere",
+          "affiliations": []
+        },
+        {
+          "name": "David G. Cory",
+          "affiliations": []
+        },
+        {
+          "name": "Owen Lailey",
+          "affiliations": []
+        },
+        {
+          "name": "D. A. Pushin",
+          "affiliations": []
+        },
+        {
+          "name": "Dusan Sarenac",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [],
+      "published": "2026-03-13",
+      "updated": "2026-03-20T20:54:20.808490",
+      "categories": [
+        "Orbital Angular Momentum in Optics"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    }
+  ]
+}
