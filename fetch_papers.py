@@ -38,7 +38,7 @@ MAX_RESULTS = 300
 
 # For the initial backfill, how many pages to fetch (300 × 5 = 1500 papers ≈ 1 month)
 # After the first run, only 1 page is needed to catch new daily submissions.
-BACKFILL_PAGES = 5
+BACKFILL_PAGES = 25
 
 # Maximum number of papers to keep in the feed (most recent first).
 MAX_FEED_ITEMS = 200
