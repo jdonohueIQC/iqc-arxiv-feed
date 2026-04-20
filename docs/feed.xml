@@ -5,7 +5,7 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>arXiv papers by tracked IQC authors.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Apr 2026 18:28:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 19:01:15 +0000</lastBuildDate>
     <ttl>360</ttl>
     <item>
       <title>A perfect crystal neutron loop cavity</title>
@@ -36,6 +36,16 @@ Tracked authors: Norbert Lutkenhaus</description>
       <description>Abstract not available.
 
 Tracked authors: David Cory, Dmitry Pushin</description>
+    </item>
+    <item>
+      <title>On Error Thresholds for Pauli Channels: Some answers with many more questions</title>
+      <link>https://arxiv.org/abs/2603.04357</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.04357</guid>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <author>Avantika Agarwal, Alan Bu, Amolak Ratan Kalra, Debbie Leung, Schaeffer, Luke, Graeme Smith</author>
+      <description>Abstract not available.
+
+Tracked authors: Graeme Smith</description>
     </item>
     <item>
       <title>Lower bounds on non-local computation from controllable correlation</title>
@@ -96,6 +106,26 @@ Tracked authors: Norbert Lutkenhaus</description>
       <description>Abstract not available.
 
 Tracked authors: Norbert Lutkenhaus</description>
+    </item>
+    <item>
+      <title>Spaceflight KID Readout Electronics for PRIMA</title>
+      <link>https://arxiv.org/abs/2512.04816</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2512.04816</guid>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+      <author>Thomas Essinger-Hileman, C. M. Bradford, Patrick L. Brown, Sean Bryan, Jesse Coldsmith, Jennifer Corekin, Sumit Dahal, T. Devlin, M. C. Foote, Daniel J. Friedman, Alessandro Geist, Jason Glenn, Chris Green, Tracee Jamison-Hooks, Kevin Horgan, Jared Lucey, P. Mauskopf, Lynn Miles, Sanetra Bailey Newman, G. Quilligan, Cody Roberson, Adrian K. Sinclair, Salman Sheikh, Eric Weeks, C. M. Wilson, Travis Wise</author>
+      <description>Abstract not available.
+
+Tracked authors: Christopher Wilson</description>
+    </item>
+    <item>
+      <title>A High-Performance Training-Free Pipeline for Robust Random Telegraph Signal Characterization via Adaptive Wavelet-Based Denoising and Bayesian Digitization Methods</title>
+      <link>https://arxiv.org/abs/2510.10752</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2510.10752</guid>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <author>Tonghe Bai, Ayush Kapoor, Na Young Kim</author>
+      <description>Abstract not available.
+
+Tracked authors: Na Young Kim</description>
     </item>
     <item>
       <title>Lessons from $α$-RuCl3 for pursuing quantum spin liquid physics in atomically thin materials</title>
@@ -186,6 +216,16 @@ Tracked authors: Richard Cleve</description>
       <description>Abstract not available.
 
 Tracked authors: William Slofstra</description>
+    </item>
+    <item>
+      <title>Observation of Genuine Tripartite Non-Gaussian Entanglement from a Superconducting Three-Photon Spontaneous Parametric Down-Conversion Source</title>
+      <link>https://arxiv.org/abs/2510.05405</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2510.05405</guid>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <author>Benjamin Jarvis-Frain, Andy Schang, Fernando Quijandría, Ibrahim Nsanzineza, Dmytro Dubyna, C. W. Sandbo Chang, Franco Nori, C. M. Wilson</author>
+      <description>Abstract not available.
+
+Tracked authors: Christopher Wilson</description>
     </item>
     <item>
       <title>Tuning Coupled Toroidic and Polar Orders in a Bilayer Antiferromagnet</title>
