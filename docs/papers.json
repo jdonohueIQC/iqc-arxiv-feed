@@ -1,5 +1,96 @@
 {
-  "updated": "2026-04-20T00:10:51.992072+00:00",
-  "total": 0,
-  "papers": []
+  "updated": "2026-04-20T00:14:05.506480+00:00",
+  "total": 2,
+  "papers": [
+    {
+      "id": "2603.08883v1",
+      "url": "https://arxiv.org/abs/2603.08883v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.08883v1",
+      "title": "Parallel iQCC Enables 200 Qubit Scale Quantum Chemistry on Accelerated Computing Platforms Surpassing Classical Benchmarks in Ruthenium Catalysts",
+      "summary": "We introduce a parallel, GPU-accelerated implementation of the iterative qubit coupled cluster (iQCC) method that overcomes the exponential growth of the transformed Hamiltonian -- the principal bottleneck for classical emulation of quantum chemistry circuits. By distributing Hamiltonian terms across compute nodes via bit-wise partitioning and offloading Pauli contractions to GPUs, we achieve speedups exceeding two orders of magnitude over the serial CPU approach. Crucially, iQCC confines the variational evolution to a classically simulable operator subspace by selecting entanglers exclusively from the Direct Interaction Space, which guarantees non-vanishing energy gradients at every iteration and thereby naturally avoids the barren-plateau phenomenon that renders highly expressive quantum circuits untrainable. Leveraging these algorithmic and hardware advances, we simulate electronic-structure Hamiltonians for industrially relevant ruthenium catalysts in the 100--124 qubit regime, completing full ground-state calculations on NVIDIA GPUs in the ranges of 1.2 - 45 hrs and surpassing the accuracy of Density Matrix Renormalization Group. These results effectively de-quantize a significant portion of the NISQ roadmap: quantum advantage for chemistry is often assumed to emerge beyond ${\\sim}50$ qubits, yet our work demonstrates that this frontier lies significantly further -- potentially past 200 qubits -- reshaping expectations for where genuine quantum advantage may first appear.",
+      "authors": [
+        {
+          "name": "Seyyed Mehdi Hosseini Jenab",
+          "affiliations": []
+        },
+        {
+          "name": "Brandon Henderson",
+          "affiliations": []
+        },
+        {
+          "name": "Scott N. Genin",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [],
+      "published": "2026-03-09T19:49:37Z",
+      "updated": "2026-03-09T19:49:37Z",
+      "categories": [
+        "quant-ph",
+        "physics.chem-ph"
+      ],
+      "matched_keywords": [
+        "IQC"
+      ]
+    },
+    {
+      "id": "2512.13657v2",
+      "url": "https://arxiv.org/abs/2512.13657v2",
+      "pdf_url": "https://arxiv.org/pdf/2512.13657v2",
+      "title": "Towards Quantum Advantage in Chemistry",
+      "summary": "Molecular simulations are widely regarded as leading candidates to demonstrate quantum advantage--defined as the point at which quantum methods surpass classical approaches in either accuracy or scale. Yet the qubit counts and error rates required to realize such an advantage remain uncertain; resource estimates for ground-state electronic structure span orders of magnitude, and no quantum-native method has been validated at a commercially relevant scale. Here we address this uncertainty by executing the iterative qubit coupled-cluster (iQCC) algorithm, designed for fault-tolerant quantum hardware, at unprecedented scale using a quantum solver on classical processors, enabling simulations of transition organo-metallic complexes requiring hundreds of logical qubits and millions of entangling gates. Using this approach, we compute the lowest triplet excited state (T$_1$) energies of Ir(III) and Pt(II) phosphorescent organometallic compounds and show that iQCC achieves the lowest mean absolute error (0.05 eV) and highest R$^2$ (0.94) relative to experiment, outperforming leading classical methods. We find these systems remain classically tractable up to $\\sim$200 logical qubits, establishing the threshold at which quantum advantage in computational chemistry may emerge and clarifying resource requirements for future quantum computers.",
+      "authors": [
+        {
+          "name": "Scott N. Genin",
+          "affiliations": []
+        },
+        {
+          "name": "Ohyun Kwon",
+          "affiliations": []
+        },
+        {
+          "name": "Seyyed Mehdi Hosseini Jenab",
+          "affiliations": []
+        },
+        {
+          "name": "Seon-Jeong Lim",
+          "affiliations": []
+        },
+        {
+          "name": "Taehyung Kim",
+          "affiliations": []
+        },
+        {
+          "name": "Tae-Gon Kim",
+          "affiliations": []
+        },
+        {
+          "name": "Rami Gherib",
+          "affiliations": []
+        },
+        {
+          "name": "Angela F. Harper",
+          "affiliations": []
+        },
+        {
+          "name": "Ilya G. Ryabinkin",
+          "affiliations": []
+        },
+        {
+          "name": "Michael G. Helander",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [],
+      "published": "2025-12-15T18:49:30Z",
+      "updated": "2026-03-05T21:48:09Z",
+      "categories": [
+        "physics.chem-ph",
+        "quant-ph"
+      ],
+      "matched_keywords": [
+        "IQC"
+      ]
+    }
+  ]
 }
