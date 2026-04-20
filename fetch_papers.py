@@ -28,6 +28,39 @@ AUTHORS = [
     {"name": "David Cory",        "openalex_id": None},
     # Add more authors here, e.g.:
     {"name": "Christine Muschik", "openalex_id": None},
+    {"name": "Alan Jamison", "openalex_id": None},
+    {"name": "Dmitry Pushin", "openalex_id": None},
+    {"name": "Michal Bajcsy", "openalex_id": None},
+    {"name": "Michele Mosca", "openalex_id": None},
+    {"name": "John Donohue", "openalex_id": None},
+    {"name": "Ray Laflamme", "openalex_id": None},
+    {"name": "Raymond Laflamme", "openalex_id": None},
+    {"name": "Bradley Hauer", "openalex_id": None},
+    {"name": "Brad Hauer", "openalex_id": None},
+    {"name": "Luke Schaeffer", "openalex_id": None},
+    {"name": "Graeme Smith", "openalex_id": None},
+    {"name": "Shalev Ben-David", "openalex_id": None},
+    {"name": "Crystal Senko", "openalex_id": None},
+    {"name": "Rajibul Islam", "openalex_id": None},
+    {"name": "David Gosset", "openalex_id": None},
+    {"name": "Matteo Mariantoni", "openalex_id": None},
+    {"name": "Jonathan Baugh", "openalex_id": None},
+    {"name": "Richard Cleve", "openalex_id": None},
+    {"name": "Raffi Budakian", "openalex_id": None},
+    {"name": "Joseph Emerson", "openalex_id": None},
+    {"name": "Na Young Kim", "openalex_id": None},
+    {"name": "Debbie Leung", "openalex_id": None},
+    {"name": "Adrian Lupascu", "openalex_id": None},
+    {"name": "Guo-Xing Miao", "openalex_id": None},
+    {"name": "Ashwin Nayak", "openalex_id": None},
+    {"name": "Michael Reimer", "openalex_id": None},
+    {"name": "Kevin Resch", "openalex_id": None},
+    {"name": "William Slofstra", "openalex_id": None},
+    {"name": "Wei Tsen", "openalex_id": None},
+    {"name": "Christopher Wilson", "openalex_id": None},
+    {"name": "Alexandre Cooper-Roy", "openalex_id": None},
+    {"name": "George Nichols", "openalex_id": None},
+    {"name": "Thomas Jennewein", "openalex_id": None},
     {"name": "Norbert Lutkenhaus", "openalex_id": None}
 ]
 
@@ -39,7 +72,7 @@ AUTHORS = [
 MAILTO = "your@email.com"
 
 # How many days back to fetch on the very first run (backfill).
-BACKFILL_DAYS = 60
+BACKFILL_DAYS = 150
 
 # How many days back to fetch on regular daily runs.
 # Wider than 1 day to account for OpenAlex indexing lag on new preprints.
