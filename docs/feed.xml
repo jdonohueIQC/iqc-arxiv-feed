@@ -5,8 +5,18 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>arXiv papers by tracked IQC authors.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Apr 2026 01:38:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 02:34:58 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>Generating Concept Lexicalizations via Dictionary-Based Cross-Lingual Sense Projection</title>
+      <link>https://arxiv.org/abs/2604.14397</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2604.14397</guid>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <author>David Basil, Chirooth Girigowda, Bradley Hauer, Sahir Momin, Ning Shi, Grzegorz Kondrak</author>
+      <description>Abstract not available.
+
+Tracked authors: Bradley Hauer</description>
+    </item>
     <item>
       <title>A perfect crystal neutron loop cavity</title>
       <link>https://arxiv.org/abs/2604.02541</link>
@@ -28,6 +38,16 @@ Tracked authors: Dmitry Pushin</description>
 Tracked authors: Norbert Lutkenhaus</description>
     </item>
     <item>
+      <title>Millimeter Wave Readout of a Superconducting Qubit</title>
+      <link>https://arxiv.org/abs/2603.13837</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.13837</guid>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <author>Akash Dixit, Zachary Parrott, Dennis Chunikhin, Bradley Hauer, Trevyn F. Q. Larson, John D. Teufel</author>
+      <description>Abstract not available.
+
+Tracked authors: Bradley Hauer</description>
+    </item>
+    <item>
       <title>A generalized K-space coherent averaging method for engineering lattices of spin-orbit beams</title>
       <link>https://arxiv.org/abs/2603.13576</link>
       <guid isPermaLink="true">https://arxiv.org/abs/2603.13576</guid>
@@ -36,6 +56,16 @@ Tracked authors: Norbert Lutkenhaus</description>
       <description>Abstract not available.
 
 Tracked authors: David Cory, Dmitry Pushin</description>
+    </item>
+    <item>
+      <title>Long-Lived Mechanically-Detected Molecular Spins for Quantum Sensing</title>
+      <link>https://arxiv.org/abs/2603.04708</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.04708</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <author>Sahand Tabatabaei, Pritam Priyadarsi, Daniel Tay, Namanish Singh, Pardis Sahafi, Andrew Jordan, Raffi Budakian</author>
+      <description>Abstract not available.
+
+Tracked authors: Raffi Budakian</description>
     </item>
     <item>
       <title>On Error Thresholds for Pauli Channels: Some answers with many more questions</title>
@@ -48,6 +78,16 @@ Tracked authors: David Cory, Dmitry Pushin</description>
 Tracked authors: Graeme Smith</description>
     </item>
     <item>
+      <title>Test-retest Reliability of Psychophysical Tasks Using Structured Light-Induced Entoptic Phenomena</title>
+      <link>https://arxiv.org/abs/2602.08836</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.08836</guid>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      <author>Taranjit Singh, Mukhit Kulmaganbetov, Zhangting Wang, Pushin, Dmitry, Benjamin Thompson, Andrew Silva, Melanie Mungalsingh, Iman Salehi, Davis V. Garrad, David G. Cory, Dusan Sarenac</author>
+      <description>Abstract not available.
+
+Tracked authors: David Cory</description>
+    </item>
+    <item>
       <title>Lower bounds on non-local computation from controllable correlation</title>
       <link>https://arxiv.org/abs/2602.00255</link>
       <guid isPermaLink="true">https://arxiv.org/abs/2602.00255</guid>
@@ -56,6 +96,16 @@ Tracked authors: Graeme Smith</description>
       <description>Abstract not available.
 
 Tracked authors: Richard Cleve</description>
+    </item>
+    <item>
+      <title>Easier randomizing gates provide more accurate fidelity estimation</title>
+      <link>https://arxiv.org/abs/2512.24744</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2512.24744</guid>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+      <author>Debankan Sannamoth, Kristine Boone, Arnaud Carignan-Dugas, Akel Hashim, Irfan Siddiqi, Karl Mayer, Joseph Emerson</author>
+      <description>Abstract not available.
+
+Tracked authors: Joseph Emerson</description>
     </item>
     <item>
       <title>Imaging Electron-Hole Asymmetry in the Quantum Melting of Generalized Wigner Crystals</title>
@@ -268,6 +318,16 @@ Tracked authors: Rajibul Islam</description>
 Tracked authors: Michal Bajcsy</description>
     </item>
     <item>
+      <title>A Complete and Natural Rule Set for Multi-Qutrit Clifford Circuits</title>
+      <link>https://arxiv.org/abs/2508.14670</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2508.14670</guid>
+      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
+      <author>Sarah Meng Li, Michele Mosca, Neil J. Ross, John van de Wetering, Yuming Zhao</author>
+      <description>Abstract not available.
+
+Tracked authors: Michele Mosca</description>
+    </item>
+    <item>
       <title>Quantum logic operations and algorithms in a single 25-level atomic qudit</title>
       <link>https://arxiv.org/abs/2507.15799</link>
       <guid isPermaLink="true">https://arxiv.org/abs/2507.15799</guid>
@@ -286,6 +346,16 @@ Tracked authors: Crystal Senko</description>
       <description>Abstract not available.
 
 Tracked authors: Michal Bajcsy</description>
+    </item>
+    <item>
+      <title>Direct observation of distinct bulk and edge nonequilibrium spin accumulation in ultrathin MoTe2</title>
+      <link>https://arxiv.org/abs/2507.04437</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2507.04437</guid>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <author>Fangchu Chen, Kamal Das, Bowen Yang, Chuangtang Wang, Shazhou Zhong, Diana Golovanova, Ren He, Tianyang Wang, Xuan Luo, Yuping Sun, Liuyan Zhao, Guo‐Xing Miao, Binghai Yan, Adam W. Tsen</author>
+      <description>Abstract not available.
+
+Tracked authors: Adam Tsen</description>
     </item>
     <item>
       <title>A new paradigm for entanglement certification using noncontextuality inequalities</title>
