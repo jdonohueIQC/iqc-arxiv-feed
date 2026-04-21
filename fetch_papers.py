@@ -33,8 +33,7 @@ AUTHORS = [
     {"name": "Michele Mosca",         "openalex_id": "A5009567571"},  # CIFAR ✓
     {"name": "John Donohue",          "openalex_id": "A5006621633"},            # USC picked — needs manual check
     {"name": "Raymond Laflamme",      "openalex_id": "A5110723059"},  # University of Waterloo ✓ (was wrong, corrected)
-    {"name": "Bradley Hauer",         "openalex_id": "A5133888074"},  # corrected from Georgia Tech pick
-    {"name": "Bradley Hauer",         "openalex_id": "A5058034795"},  # corrected from Georgia Tech pick
+    {"name": "Bradley Hauer",         "openalex_id": "A5058034795"},  # corrected from Georgia Tech pick 
     {"name": "Luke Schaeffer",        "openalex_id": "A5114470241"},  # University of Waterloo ✓ (was wrong, corrected)
     {"name": "Graeme Smith",          "openalex_id": "A5111460938"},            # AstraZeneca picked — needs manual check
     {"name": "Shalev Ben-David",      "openalex_id": "A5010258967"},  # University of Waterloo ✓
