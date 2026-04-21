@@ -5,7 +5,7 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>arXiv papers by tracked IQC authors.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Apr 2026 19:01:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 01:38:26 +0000</lastBuildDate>
     <ttl>360</ttl>
     <item>
       <title>A perfect crystal neutron loop cavity</title>
@@ -226,6 +226,16 @@ Tracked authors: William Slofstra</description>
       <description>Abstract not available.
 
 Tracked authors: Christopher Wilson</description>
+    </item>
+    <item>
+      <title>Dorabella Cipher as Musical Inspiration</title>
+      <link>https://arxiv.org/abs/2509.17950</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2509.17950</guid>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+      <author>Bradley Hauer, Colin Choi, Abram Hindle, Scott Smallwood, Grzegorz Kondrak</author>
+      <description>Abstract not available.
+
+Tracked authors: Bradley Hauer</description>
     </item>
     <item>
       <title>Tuning Coupled Toroidic and Polar Orders in a Bilayer Antiferromagnet</title>
