@@ -30,7 +30,7 @@ from pathlib import Path
 AUTHORS = [
     {"name": "David Cory",            "openalex_id": "A5033501753"},
     {"name": "Christine Muschik",     "openalex_id": "A5021091852"},
-    {"name": "Alan Jamison",          "openalex_id": {"A5020327774", "A5120643698"},
+    {"name": "Alan Jamison",          "openalex_id": ["A5020327774", "A5120643698"]},
     {"name": "Dmitry Pushin",         "openalex_id": "A5071074359"},
     {"name": "Michal Bajcsy",         "openalex_id": "A5029299711"},
     {"name": "Michele Mosca",         "openalex_id": "A5009567571"},
@@ -53,7 +53,7 @@ AUTHORS = [
     {"name": "Adrian Lupascu",        "openalex_id": "A5049962944"},
     {"name": "Guo-Xing Miao",         "openalex_id": "A5120980527"},
     {"name": "Ashwin Nayak",          "openalex_id": "A5017951192"},
-    {"name": "Michael Reimer",        "openalex_id": {"A5051932856","A5122652625"}, 
+    {"name": "Michael Reimer",        "openalex_id": ["A5051932856","A5122652625"]}, 
     {"name": "Kevin Resch",           "openalex_id": "A5102053353"},
     {"name": "William Slofstra",      "openalex_id": "A5102809836"},
     {"name": "Adam Tsen",             "openalex_id": "A5038704910"},
