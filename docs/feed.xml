@@ -5,7 +5,7 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>arXiv papers by tracked IQC authors.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Apr 2026 02:34:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 10:42:22 +0000</lastBuildDate>
     <ttl>360</ttl>
     <item>
       <title>Generating Concept Lexicalizations via Dictionary-Based Cross-Lingual Sense Projection</title>
@@ -96,6 +96,16 @@ Tracked authors: David Cory</description>
       <description>Abstract not available.
 
 Tracked authors: Richard Cleve</description>
+    </item>
+    <item>
+      <title>A Broadband Nanowire Quantum Dot Cavity Design for the Efficient Extraction of Entangled Photons</title>
+      <link>https://arxiv.org/abs/2601.04440</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2601.04440</guid>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+      <author>Sayan Gangopadhyay, Sasan V. Grayli, Sathursan Kokilathasan, Michael E. Reimer</author>
+      <description>Abstract not available.
+
+Tracked authors: Michael Reimer</description>
     </item>
     <item>
       <title>Easier randomizing gates provide more accurate fidelity estimation</title>
@@ -286,6 +296,16 @@ Tracked authors: Christopher Wilson</description>
       <description>Abstract not available.
 
 Tracked authors: Bradley Hauer</description>
+    </item>
+    <item>
+      <title>The Varieties of Schelling Model Experience</title>
+      <link>https://arxiv.org/abs/2509.14462</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2509.14462</guid>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+      <author>Marlyn Boke, Timothy Sorochkin, Jesse Anttila-Hughes, Alan O. Jamison</author>
+      <description>Abstract not available.
+
+Tracked authors: Alan Jamison</description>
     </item>
     <item>
       <title>Tuning Coupled Toroidic and Polar Orders in a Bilayer Antiferromagnet</title>
