@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Fetches arXiv papers by a specific list of tracked authors, using OpenAlex
-to resolve author IDs and retrieve their works.
+Fetches papers by a specific list of tracked authors via OpenAlex.
 
 To add or remove authors, edit the AUTHORS list below.
+To switch between arXiv-only and broad journal mode, see SOURCES below.
 Run locally with: python fetch_papers.py
 """
 
@@ -65,28 +65,59 @@ AUTHORS = [
 ]
 
 # ---------------------------------------------------------------------------
+# SOURCES — controls which publications appear in the feed.
+#
+# MODE 1: arXiv only (default)
+#   Comment out MODE 2 and uncomment MODE 1.
+#
+# MODE 2: arXiv + selected journals
+#   Comment out MODE 1 and uncomment MODE 2.
+#   Add or remove journals from JOURNALS freely — find OpenAlex source IDs at:
+#   https://openalex.org/sources?search=<journal name>
+#
+# In both modes, papers without any identifiable URL are silently dropped.
+# ---------------------------------------------------------------------------
+
+# -- MODE 1: arXiv only --
+#ARXIV_ONLY = True
+
+# -- MODE 2: arXiv + journals (uncomment block below and set ARXIV_ONLY = False) --
+# Source for codes: openalex.org/sources?search=<journal name>
+ARXIV_ONLY = False
+JOURNALS = [
+     "S4210172848",   # PRX Quantum
+     "S137773608",    # Physical Review Letters
+     "S4306525036",   # Physical Review A
+     "S162716966",    # Nature Physics
+     "S153481925",    # Nature Communications
+     "S3880285",      # npj Quantum Information
+     "S2764512",      # Science
+     "S136199823",    # Nature
+ ]
+
+# ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
 
-MAILTO        = "jdonohue@uwaterloo.ca"
-BACKFILL_DAYS = 350   # days back on very first run
-LOOKBACK_DAYS = 14    # days back on regular daily runs
+MAILTO         = "jdonohue@uwaterloo.ca"
+BACKFILL_DAYS  = 350   # days back on very first run
+LOOKBACK_DAYS  = 14    # days back on regular daily runs
 MAX_FEED_ITEMS = 200
-OUTPUT_DIR         = Path(__file__).parent / "docs"
-AUTHOR_CACHE_PATH  = Path(__file__).parent / "author_ids.json"
+OUTPUT_DIR        = Path(__file__).parent / "docs"
+AUTHOR_CACHE_PATH = Path(__file__).parent / "author_ids.json"
 
 # ---------------------------------------------------------------------------
 
 OPENALEX_AUTHORS_API = "https://api.openalex.org/authors"
 OPENALEX_WORKS_API   = "https://api.openalex.org/works"
 ARXIV_API            = "https://export.arxiv.org/api/query"
-ARXIV_SOURCE_ID      = "s4306400194"
+ARXIV_SOURCE_ID      = "s4306400194"   # OpenAlex source ID for arXiv
 
 
 def openalex_get(url: str) -> dict:
     req = urllib.request.Request(
         url,
-        headers={"User-Agent": f"IQC-arXiv-Feed/1.0 (mailto:{MAILTO})"},
+        headers={"User-Agent": f"IQC-Feed/1.0 (mailto:{MAILTO})"},
     )
     with urllib.request.urlopen(req, timeout=30) as resp:
         return json.loads(resp.read())
@@ -111,7 +142,6 @@ def resolve_author_id(name: str) -> str | None:
     if not results:
         print(f"  WARNING: No OpenAlex author found for '{name}'")
         return None
-
     best = results[0]
     author_id = best["id"].replace("https://openalex.org/", "")
     institution = ""
@@ -145,11 +175,7 @@ def save_author_cache(cache: dict):
 
 
 def resolve_all_authors() -> list[dict]:
-    """
-    Return a flat list of {name, openalex_id} dicts, one per ID.
-    Authors with multiple IDs appear multiple times (one per ID),
-    so each ID gets its own fetch loop.
-    """
+    """Return a flat list of {name, openalex_id} dicts, one per ID."""
     cache = load_author_cache()
     resolved = []
     seen_names = set()
@@ -163,9 +189,7 @@ def resolve_all_authors() -> list[dict]:
         seen_names.add(name)
 
         ids = normalize_ids(author.get("openalex_id"))
-
         if not ids:
-            # Try cache first, then live lookup
             cached = cache.get(name)
             if cached:
                 ids = normalize_ids(cached)
@@ -186,13 +210,21 @@ def resolve_all_authors() -> list[dict]:
     return resolved
 
 
+def build_source_filter() -> str:
+    """Return the OpenAlex source filter string for the current mode."""
+    if ARXIV_ONLY:
+        return f"locations.source.id:{ARXIV_SOURCE_ID}"
+    else:
+        all_sources = [ARXIV_SOURCE_ID] + [j.lower() for j in JOURNALS]
+        return "locations.source.id:" + "|".join(all_sources)
+
+
 def fetch_works_for_author(openalex_id: str, from_date: str, page: int = 1) -> dict:
-    # Note: no source filter here — we filter for arXiv IDs in extract_arxiv_id()
-    # instead. Filtering by source would miss papers where OpenAlex's primary
-    # location is a journal (e.g. cond-mat papers that are also on arXiv).
+    source_filter = build_source_filter()
     params = urllib.parse.urlencode({
         "filter": (
             f"authorships.author.id:{openalex_id},"
+            f"{source_filter},"
             f"from_publication_date:{from_date}"
         ),
         "sort": "publication_date:desc",
@@ -206,16 +238,10 @@ def fetch_works_for_author(openalex_id: str, from_date: str, page: int = 1) -> d
 
 def arxiv_search_by_name(name: str, from_date: str) -> list[str]:
     """
-    Fallback: search arXiv by author name for recent papers.
-    Catches papers OpenAlex hasn't linked to an author record yet.
-    Searches by full name in quotes for precision; falls back to lastname only.
+    Fallback: search arXiv by author last name for recent papers.
+    Only used in ARXIV_ONLY mode. Catches papers OpenAlex hasn't linked yet.
     """
-    # Try quoted full name first for precision, then lastname-only as fallback
-    parts = name.strip().split()
-    lastname = parts[-1]
-    firstname = parts[0] if len(parts) > 1 else ""
-    # arXiv author search: "Firstname Lastname" or just Lastname
-    search_term = f'"{firstname}+{lastname}"' if firstname else lastname
+    lastname = name.strip().split()[-1]
     query = urllib.parse.urlencode({
         "search_query": f"au:{lastname}",
         "sortBy": "submittedDate",
@@ -254,24 +280,62 @@ def fetch_openalex_by_arxiv_id(arxiv_id: str) -> dict | None:
         return None
 
 
-def extract_arxiv_id(work: dict) -> str | None:
+def extract_paper_url(work: dict) -> tuple[str, str, str] | None:
+    """
+    Returns (paper_id, url, pdf_url) for a work.
+    Prefers arXiv; falls back to DOI for journal papers (MODE 2).
+    Returns None if no usable identifier found.
+    """
     ids = work.get("ids", {})
+
+    # Always prefer arXiv if available
     if "arxiv" in ids:
-        return ids["arxiv"].replace("https://arxiv.org/abs/", "").strip()
+        arxiv_id = ids["arxiv"].replace("https://arxiv.org/abs/", "").strip()
+        return arxiv_id, f"https://arxiv.org/abs/{arxiv_id}", f"https://arxiv.org/pdf/{arxiv_id}"
+
     for loc in (work.get("locations") or []) + [
         work.get("primary_location") or {},
         work.get("best_oa_location") or {},
     ]:
-        url = loc.get("landing_page_url") or ""
-        if "arxiv.org/abs/" in url:
-            return url.split("arxiv.org/abs/")[-1].strip()
+        landing = loc.get("landing_page_url") or ""
+        if "arxiv.org/abs/" in landing:
+            arxiv_id = landing.split("arxiv.org/abs/")[-1].strip()
+            return arxiv_id, f"https://arxiv.org/abs/{arxiv_id}", f"https://arxiv.org/pdf/{arxiv_id}"
+
+    # In MODE 2: fall back to DOI
+    if not ARXIV_ONLY:
+        doi = ids.get("doi") or work.get("doi") or ""
+        if doi:
+            doi_url = doi if doi.startswith("http") else f"https://doi.org/{doi}"
+            # Use best open-access PDF if available
+            pdf_url = ""
+            for loc in (work.get("locations") or []) + [work.get("best_oa_location") or {}]:
+                candidate = loc.get("pdf_url") or ""
+                if candidate:
+                    pdf_url = candidate
+                    break
+            return doi, doi_url, pdf_url
+
     return None
 
 
+def source_label(work: dict) -> str:
+    """Return a short source label for display, e.g. 'arXiv' or 'PRX Quantum'."""
+    ids = work.get("ids", {})
+    if "arxiv" in ids:
+        return "arXiv"
+    for loc in (work.get("locations") or []) + [work.get("primary_location") or {}]:
+        src = (loc.get("source") or {}).get("display_name") or ""
+        if src:
+            return src
+    return ""
+
+
 def to_paper(work: dict, tracked_ids: dict[str, str]) -> dict | None:
-    arxiv_id = extract_arxiv_id(work)
-    if not arxiv_id:
+    result = extract_paper_url(work)
+    if not result:
         return None
+    paper_id, url, pdf_url = result
 
     authors = []
     iqc_authors = []
@@ -290,11 +354,13 @@ def to_paper(work: dict, tracked_ids: dict[str, str]) -> dict | None:
 
     topic = (work.get("primary_topic") or {}).get("display_name", "")
     published = work.get("publication_date") or ""
+    source = source_label(work)
 
     return {
-        "id": arxiv_id,
-        "url": f"https://arxiv.org/abs/{arxiv_id}",
-        "pdf_url": f"https://arxiv.org/pdf/{arxiv_id}",
+        "id": paper_id,
+        "url": url,
+        "pdf_url": pdf_url,
+        "source": source,
         "title": work.get("title") or "",
         "summary": work.get("abstract") or "Abstract not available.",
         "authors": authors,
@@ -323,6 +389,7 @@ def build_rss(papers: list[dict]) -> str:
     for p in papers:
         author_names = ", ".join(a["name"] for a in p["authors"])
         iqc_note = f"\n\nTracked authors: {', '.join(p['iqc_authors'])}" if p["iqc_authors"] else ""
+        source_note = f"\n\nSource: {p['source']}" if p.get("source") else ""
         try:
             dt = datetime.fromisoformat(p["published"])
             pub_date = dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
@@ -330,18 +397,19 @@ def build_rss(papers: list[dict]) -> str:
             pub_date = now
         items.append(f"""    <item>
       <title>{esc(p["title"])}</title>
-      <link>{p["url"]}</link>
-      <guid isPermaLink="true">{p["url"]}</guid>
+      <link>{esc(p["url"])}</link>
+      <guid isPermaLink="true">{esc(p["url"])}</guid>
       <pubDate>{pub_date}</pubDate>
       <author>{esc(author_names)}</author>
-      <description>{esc(p["summary"])}{esc(iqc_note)}</description>
+      <description>{esc(p["summary"])}{esc(iqc_note)}{esc(source_note)}</description>
     </item>""")
+    mode = "arXiv" if ARXIV_ONLY else "arXiv + journals"
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>IQC arXiv Feed</title>
+    <title>IQC Feed ({mode})</title>
     <link>https://arxiv.org/list/quant-ph/recent</link>
-    <description>arXiv papers by tracked IQC authors.</description>
+    <description>Papers by tracked IQC authors ({mode}).</description>
     <language>en-us</language>
     <lastBuildDate>{now}</lastBuildDate>
     <ttl>360</ttl>
@@ -355,6 +423,9 @@ def main():
     json_path = OUTPUT_DIR / "papers.json"
     rss_path  = OUTPUT_DIR / "feed.xml"
 
+    mode = "arXiv only" if ARXIV_ONLY else f"arXiv + {len(JOURNALS)} journals"
+    print(f"Mode: {mode}")
+
     existing = load_existing(json_path)
     is_first_run = len(existing) == 0
     print(f"Loaded {len(existing)} existing papers. First run: {is_first_run}")
@@ -365,10 +436,8 @@ def main():
         print("No authors resolved — check your AUTHORS list and network access.")
         return
 
-    # Map every openalex_id -> display name (multiple IDs can map to same name)
     tracked_ids = {a["openalex_id"]: a["name"] for a in resolved_authors}
-    # Deduplicated list of unique (name, id) pairs for the fetch loop
-    seen_ids = set()
+    seen_ids: set[str] = set()
     unique_authors = []
     for a in resolved_authors:
         if a["openalex_id"] not in seen_ids:
@@ -403,28 +472,29 @@ def main():
                 break
             page += 1
 
-    # --- Fallback pass: arXiv direct search (catches OpenAlex indexing lag) ---
-    # Deduplicate by name so we don't double-search for multi-ID authors
-    seen_names = set()
-    fallback_days = min(days_back, 30)
-    fallback_date = (datetime.now(timezone.utc) - timedelta(days=fallback_days)).strftime("%Y-%m-%d")
-    print(f"\nFallback arXiv search (last {fallback_days} days)...")
-    for author in unique_authors:
-        if author["name"] in seen_names:
-            continue
-        seen_names.add(author["name"])
-        candidate_ids = arxiv_search_by_name(author["name"], fallback_date)
-        for arxiv_id in candidate_ids:
-            if arxiv_id in existing:
+    # --- Fallback arXiv search (arXiv-only mode only) ---
+    # Not needed in journal mode since OpenAlex source filter handles selection.
+    if ARXIV_ONLY:
+        seen_names: set[str] = set()
+        fallback_days = min(days_back, 30)
+        fallback_date = (datetime.now(timezone.utc) - timedelta(days=fallback_days)).strftime("%Y-%m-%d")
+        print(f"\nFallback arXiv search (last {fallback_days} days)...")
+        for author in unique_authors:
+            if author["name"] in seen_names:
                 continue
-            work = fetch_openalex_by_arxiv_id(arxiv_id)
-            if not work:
-                continue
-            paper = to_paper(work, tracked_ids)
-            if paper and paper["id"] not in existing:
-                existing[paper["id"]] = paper
-                new_count += 1
-                print(f"    Fallback found: {arxiv_id} for {author['name']}")
+            seen_names.add(author["name"])
+            candidate_ids = arxiv_search_by_name(author["name"], fallback_date)
+            for arxiv_id in candidate_ids:
+                if arxiv_id in existing:
+                    continue
+                work = fetch_openalex_by_arxiv_id(arxiv_id)
+                if not work:
+                    continue
+                paper = to_paper(work, tracked_ids)
+                if paper and paper["id"] not in existing:
+                    existing[paper["id"]] = paper
+                    new_count += 1
+                    print(f"    Fallback found: {arxiv_id} for {author['name']}")
 
     print(f"\nFound {new_count} new papers total.")
 
