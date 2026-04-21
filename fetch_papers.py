@@ -17,79 +17,70 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 # AUTHORS — edit this list to track different people.
 #
-# IDs below were verified from the Action log on first run.
-# For authors marked None, the script will auto-resolve on next run
-# and print candidates — check the log and paste the correct ID in.
+# openalex_id can be:
+#   - A string:  "A1234567890"
+#   - A list:    ["A1234567890", "A9876543210"]  (use when one person has
+#                multiple OpenAlex records, e.g. Bradley Hauer)
+#   - None:      auto-resolved by name on first run; check the Action log
+#                to confirm the right person was picked, then paste the ID in.
+#
+# To find an author's OpenAlex ID: https://openalex.org/authors?search=<name>
 # ---------------------------------------------------------------------------
 
-# To find authors OpenAlex ID, visit and search here: https://openalex.org/authors?search=%3Cname%3E
-
 AUTHORS = [
-    {"name": "David Cory",            "openalex_id": "A5033501753"},  # Canadian Institute for Advanced Research ✓
-    {"name": "Christine Muschik",     "openalex_id": "A5021091852"},  # ✓
-    {"name": "Alan Jamison",          "openalex_id": "A5020327774"},            # log showed UEA/UCF — needs manual check
-    {"name": "Dmitry Pushin",         "openalex_id": "A5071074359"},  # ✓
-    {"name": "Michal Bajcsy",         "openalex_id": "A5029299711"},  # Harvard ✓
-    {"name": "Michele Mosca",         "openalex_id": "A5009567571"},  # CIFAR ✓
-    {"name": "John Donohue",          "openalex_id": "A5006621633"},            # USC picked — needs manual check
-    {"name": "Raymond Laflamme",      "openalex_id": "A5110723059"},  # University of Waterloo ✓ (was wrong, corrected)
-    {"name": "Bradley Hauer",         "openalex_id": "A5058034795"},  # corrected from Georgia Tech pick 
-    {"name": "Luke Schaeffer",        "openalex_id": "A5114470241"},  # University of Waterloo ✓ (was wrong, corrected)
-    {"name": "Graeme Smith",          "openalex_id": "A5111460938"},            # AstraZeneca picked — needs manual check
-    {"name": "Shalev Ben-David",      "openalex_id": "A5010258967"},  # University of Waterloo ✓
-    {"name": "Crystal Senko",         "openalex_id": "A5054684488"},  # NIST ✓
-    {"name": "Rajibul Islam",         "openalex_id": "A5053336892"},  # NIST ✓ (now at Waterloo)
-    {"name": "David Gosset",          "openalex_id": "A5103184148"},  # Caltech/Google ✓
-    {"name": "Matteo Mariantoni",     "openalex_id": "A5008314339"},  # ✓
-    {"name": "Jonathan Baugh",        "openalex_id": "A5020853148"},            # UNC picked — needs manual check
-    {"name": "Richard Cleve",         "openalex_id": "A5001743971"},  # CIFAR ✓
-    {"name": "Raffi Budakian",        "openalex_id": "A5044506827"},  # CIFAR ✓
-    {"name": "Joseph Emerson",        "openalex_id": "A5112868557"},  # CIFAR ✓
-    {"name": "Na Young Kim",          "openalex_id": "A5100434951"},            # Korean universities picked — needs manual check
-    {"name": "Debbie Leung",          "openalex_id": "A5057755410"},  # CIFAR ✓
-    {"name": "Adrian Lupascu",        "openalex_id": "A5049962944"},  # University of Waterloo ✓ (corrected)
-    {"name": "Guo-Xing Miao",         "openalex_id": "A5120980527"},  # University of Waterloo ✓ (corrected)
-    {"name": "Ashwin Nayak",          "openalex_id": "A5017951192"},  # Paris-Sud ✓ (likely right, active in QI)
-    {"name": "Michael Reimer",        "openalex_id": "A5051932856"},  # University of Waterloo ✓ (corrected)
-    {"name": "Kevin Resch",           "openalex_id": "A5102053353"},  # Vienna ✓ (now at Waterloo)
-    {"name": "William Slofstra",      "openalex_id": "A5102809836"},  # CIFAR ✓
-    {"name": "Adam Tsen",             "openalex_id": "A5038704910"},            # renamed from "Wei Tsen" — needs manual check
-    {"name": "Christopher Wilson",    "openalex_id": "A5076530713"},            # Broad Institute picked — needs manual check
-    {"name": "Alexandre Cooper-Roy",  "openalex_id": "A5120080445"},  # ✓
-    {"name": "George Nichols",        "openalex_id": "A5067202240"},  # CIFAR ✓
-    {"name": "Thomas Jennewein",      "openalex_id": "A5055373870"},  # CIFAR ✓
-    {"name": "Norbert Lutkenhaus",    "openalex_id": "A5076065879"},  # Geneva ✓ (now at Waterloo)
+    {"name": "David Cory",            "openalex_id": "A5033501753"},
+    {"name": "Christine Muschik",     "openalex_id": "A5021091852"},
+    {"name": "Alan Jamison",          "openalex_id": "A5020327774"},
+    {"name": "Dmitry Pushin",         "openalex_id": "A5071074359"},
+    {"name": "Michal Bajcsy",         "openalex_id": "A5029299711"},
+    {"name": "Michele Mosca",         "openalex_id": "A5009567571"},
+    {"name": "John Donohue",          "openalex_id": "A5006621633"},
+    {"name": "Raymond Laflamme",      "openalex_id": "A5110723059"},
+    {"name": "Bradley Hauer",         "openalex_id": ["A5133888074", "A5058034795"]},  # two OA records
+    {"name": "Luke Schaeffer",        "openalex_id": "A5114470241"},
+    {"name": "Graeme Smith",          "openalex_id": "A5111460938"},
+    {"name": "Shalev Ben-David",      "openalex_id": "A5010258967"},
+    {"name": "Crystal Senko",         "openalex_id": "A5054684488"},
+    {"name": "Rajibul Islam",         "openalex_id": "A5053336892"},
+    {"name": "David Gosset",          "openalex_id": "A5103184148"},
+    {"name": "Matteo Mariantoni",     "openalex_id": "A5008314339"},
+    {"name": "Jonathan Baugh",        "openalex_id": "A5020853148"},
+    {"name": "Richard Cleve",         "openalex_id": "A5001743971"},
+    {"name": "Raffi Budakian",        "openalex_id": "A5044506827"},
+    {"name": "Joseph Emerson",        "openalex_id": "A5112868557"},
+    {"name": "Na Young Kim",          "openalex_id": "A5100434951"},
+    {"name": "Debbie Leung",          "openalex_id": "A5057755410"},
+    {"name": "Adrian Lupascu",        "openalex_id": "A5049962944"},
+    {"name": "Guo-Xing Miao",         "openalex_id": "A5120980527"},
+    {"name": "Ashwin Nayak",          "openalex_id": "A5017951192"},
+    {"name": "Michael Reimer",        "openalex_id": "A5051932856"},
+    {"name": "Kevin Resch",           "openalex_id": "A5102053353"},
+    {"name": "William Slofstra",      "openalex_id": "A5102809836"},
+    {"name": "Adam Tsen",             "openalex_id": "A5038704910"},
+    {"name": "Christopher Wilson",    "openalex_id": "A5076530713"},
+    {"name": "Alexandre Cooper-Roy",  "openalex_id": "A5120080445"},
+    {"name": "George Nichols",        "openalex_id": "A5067202240"},
+    {"name": "Thomas Jennewein",      "openalex_id": "A5055373870"},
+    {"name": "Norbert Lutkenhaus",    "openalex_id": "A5076065879"},
 ]
 
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
 
-# Your email — OpenAlex gives faster "polite pool" responses when provided.
-MAILTO = "jdonohue@uwaterloo.ca"
-
-# How many days back to fetch on the very first run (backfill).
-BACKFILL_DAYS = 350
-
-# How many days back to fetch on regular daily runs.
-# Wider than 1 day to account for OpenAlex indexing lag on new preprints.
-LOOKBACK_DAYS = 14
-
-# Maximum number of papers to keep in the feed (most recent first).
+MAILTO        = "jdonohue@uwaterloo.ca"
+BACKFILL_DAYS = 350   # days back on very first run
+LOOKBACK_DAYS = 14    # days back on regular daily runs
 MAX_FEED_ITEMS = 200
-
-# Output directory (relative to this script).
-OUTPUT_DIR = Path(__file__).parent / "docs"
-
-# Path where resolved author IDs are cached so lookups only happen once.
-AUTHOR_CACHE_PATH = Path(__file__).parent / "author_ids.json"
+OUTPUT_DIR         = Path(__file__).parent / "docs"
+AUTHOR_CACHE_PATH  = Path(__file__).parent / "author_ids.json"
 
 # ---------------------------------------------------------------------------
 
 OPENALEX_AUTHORS_API = "https://api.openalex.org/authors"
 OPENALEX_WORKS_API   = "https://api.openalex.org/works"
 ARXIV_API            = "https://export.arxiv.org/api/query"
-ARXIV_SOURCE_ID      = "s4306400194"  # OpenAlex source ID for arXiv
+ARXIV_SOURCE_ID      = "s4306400194"
 
 
 def openalex_get(url: str) -> dict:
@@ -99,6 +90,15 @@ def openalex_get(url: str) -> dict:
     )
     with urllib.request.urlopen(req, timeout=30) as resp:
         return json.loads(resp.read())
+
+
+def normalize_ids(raw) -> list[str]:
+    """Accept a string, list of strings, or None; always return a list."""
+    if raw is None:
+        return []
+    if isinstance(raw, list):
+        return [x for x in raw if x]
+    return [raw]
 
 
 def resolve_author_id(name: str) -> str | None:
@@ -128,7 +128,7 @@ def resolve_author_id(name: str) -> str | None:
                 alt_inst = inst.get("institution", {}).get("display_name", "")
                 break
             print(f"    {alt_id} — {r.get('display_name')} ({alt_inst})")
-        print(f"  If the wrong author was picked, set openalex_id manually in AUTHORS.")
+        print(f"  If wrong, set openalex_id manually in AUTHORS.")
     return author_id
 
 
@@ -145,7 +145,11 @@ def save_author_cache(cache: dict):
 
 
 def resolve_all_authors() -> list[dict]:
-    """Return AUTHORS list with all openalex_ids filled in, deduped by name."""
+    """
+    Return a flat list of {name, openalex_id} dicts, one per ID.
+    Authors with multiple IDs appear multiple times (one per ID),
+    so each ID gets its own fetch loop.
+    """
     cache = load_author_cache()
     resolved = []
     seen_names = set()
@@ -154,31 +158,41 @@ def resolve_all_authors() -> list[dict]:
     for author in AUTHORS:
         name = author["name"]
         if name in seen_names:
-            print(f"  Skipping duplicate entry for: {name}")
+            print(f"  Skipping duplicate name entry: {name}")
             continue
         seen_names.add(name)
 
-        oa_id = author.get("openalex_id") or cache.get(name)
-        if not oa_id:
-            oa_id = resolve_author_id(name)
-            if oa_id:
-                cache[name] = oa_id
-                cache_dirty = True
-        else:
+        ids = normalize_ids(author.get("openalex_id"))
+
+        if not ids:
+            # Try cache first, then live lookup
+            cached = cache.get(name)
+            if cached:
+                ids = normalize_ids(cached)
+            else:
+                oa_id = resolve_author_id(name)
+                if oa_id:
+                    ids = [oa_id]
+                    cache[name] = oa_id
+                    cache_dirty = True
+
+        for oa_id in ids:
             print(f"  {name}: {oa_id}")
-        resolved.append({"name": name, "openalex_id": oa_id})
+            resolved.append({"name": name, "openalex_id": oa_id})
 
     if cache_dirty:
         save_author_cache(cache)
 
-    return [a for a in resolved if a["openalex_id"]]
+    return resolved
 
 
 def fetch_works_for_author(openalex_id: str, from_date: str, page: int = 1) -> dict:
+    # Note: no source filter here — we filter for arXiv IDs in extract_arxiv_id()
+    # instead. Filtering by source would miss papers where OpenAlex's primary
+    # location is a journal (e.g. cond-mat papers that are also on arXiv).
     params = urllib.parse.urlencode({
         "filter": (
             f"authorships.author.id:{openalex_id},"
-            f"locations.source.id:{ARXIV_SOURCE_ID},"
             f"from_publication_date:{from_date}"
         ),
         "sort": "publication_date:desc",
@@ -192,15 +206,21 @@ def fetch_works_for_author(openalex_id: str, from_date: str, page: int = 1) -> d
 
 def arxiv_search_by_name(name: str, from_date: str) -> list[str]:
     """
-    Fallback: search arXiv directly by author last name for recent papers.
-    Catches papers OpenAlex hasn't linked to the author record yet.
+    Fallback: search arXiv by author name for recent papers.
+    Catches papers OpenAlex hasn't linked to an author record yet.
+    Searches by full name in quotes for precision; falls back to lastname only.
     """
-    lastname = name.strip().split()[-1]
+    # Try quoted full name first for precision, then lastname-only as fallback
+    parts = name.strip().split()
+    lastname = parts[-1]
+    firstname = parts[0] if len(parts) > 1 else ""
+    # arXiv author search: "Firstname Lastname" or just Lastname
+    search_term = f'"{firstname}+{lastname}"' if firstname else lastname
     query = urllib.parse.urlencode({
         "search_query": f"au:{lastname}",
         "sortBy": "submittedDate",
         "sortOrder": "descending",
-        "max_results": 50,
+        "max_results": 200,
     })
     url = f"{ARXIV_API}?{query}"
     try:
@@ -212,7 +232,7 @@ def arxiv_search_by_name(name: str, from_date: str) -> list[str]:
 
     entries = re.findall(
         r'<id>(https://arxiv\.org/abs/[^<]+)</id>.*?<published>([^<]+)</published>',
-        xml, re.DOTALL
+        xml, re.DOTALL,
     )
     cutoff = datetime.fromisoformat(from_date)
     results = []
@@ -220,15 +240,13 @@ def arxiv_search_by_name(name: str, from_date: str) -> list[str]:
         try:
             pub_dt = datetime.fromisoformat(pub_str.replace("Z", "+00:00")).replace(tzinfo=None)
             if pub_dt >= cutoff:
-                arxiv_id = arxiv_url.replace("https://arxiv.org/abs/", "").strip()
-                results.append(arxiv_id)
+                results.append(arxiv_url.replace("https://arxiv.org/abs/", "").strip())
         except Exception:
             continue
     return results
 
 
 def fetch_openalex_by_arxiv_id(arxiv_id: str) -> dict | None:
-    """Look up a specific arXiv paper in OpenAlex by its ID."""
     url = f"{OPENALEX_WORKS_API}/https://arxiv.org/abs/{arxiv_id}?mailto={MAILTO}"
     try:
         return openalex_get(url)
@@ -251,26 +269,24 @@ def extract_arxiv_id(work: dict) -> str | None:
 
 
 def to_paper(work: dict, tracked_ids: dict[str, str]) -> dict | None:
-    """
-    Convert an OpenAlex work to a paper dict.
-    tracked_ids: maps openalex_author_id -> display_name for our tracked authors.
-    """
     arxiv_id = extract_arxiv_id(work)
     if not arxiv_id:
         return None
 
     authors = []
     iqc_authors = []
+    seen_tracked = set()
     for auth in work.get("authorships", []):
-        # FIX: guard against None author id (some OpenAlex records are incomplete)
         raw_id = (auth.get("author") or {}).get("id") or ""
         short_id = raw_id.replace("https://openalex.org/", "")
         name = (auth.get("author") or {}).get("display_name", "")
         inst_names = [i.get("display_name", "") for i in auth.get("institutions", [])]
         authors.append({"name": name, "affiliations": inst_names})
-        # Match by OpenAlex author ID — immune to name formatting differences
         if short_id and short_id in tracked_ids:
-            iqc_authors.append(tracked_ids[short_id])
+            display = tracked_ids[short_id]
+            if display not in seen_tracked:
+                iqc_authors.append(display)
+                seen_tracked.add(display)
 
     topic = (work.get("primary_topic") or {}).get("display_name", "")
     published = work.get("publication_date") or ""
@@ -349,8 +365,16 @@ def main():
         print("No authors resolved — check your AUTHORS list and network access.")
         return
 
+    # Map every openalex_id -> display name (multiple IDs can map to same name)
     tracked_ids = {a["openalex_id"]: a["name"] for a in resolved_authors}
-    print(f"Tracking {len(resolved_authors)} authors.")
+    # Deduplicated list of unique (name, id) pairs for the fetch loop
+    seen_ids = set()
+    unique_authors = []
+    for a in resolved_authors:
+        if a["openalex_id"] not in seen_ids:
+            seen_ids.add(a["openalex_id"])
+            unique_authors.append(a)
+    print(f"Tracking {len(unique_authors)} author IDs across {len({a['name'] for a in unique_authors})} people.")
 
     days_back = BACKFILL_DAYS if is_first_run else LOOKBACK_DAYS
     from_date = (datetime.now(timezone.utc) - timedelta(days=days_back)).strftime("%Y-%m-%d")
@@ -359,7 +383,7 @@ def main():
     new_count = 0
 
     # --- Primary pass: OpenAlex by author ID ---
-    for author in resolved_authors:
+    for author in unique_authors:
         print(f"  OpenAlex: {author['name']} ({author['openalex_id']})...")
         page = 1
         while True:
@@ -380,10 +404,15 @@ def main():
             page += 1
 
     # --- Fallback pass: arXiv direct search (catches OpenAlex indexing lag) ---
+    # Deduplicate by name so we don't double-search for multi-ID authors
+    seen_names = set()
     fallback_days = min(days_back, 30)
     fallback_date = (datetime.now(timezone.utc) - timedelta(days=fallback_days)).strftime("%Y-%m-%d")
     print(f"\nFallback arXiv search (last {fallback_days} days)...")
-    for author in resolved_authors:
+    for author in unique_authors:
+        if author["name"] in seen_names:
+            continue
+        seen_names.add(author["name"])
         candidate_ids = arxiv_search_by_name(author["name"], fallback_date)
         for arxiv_id in candidate_ids:
             if arxiv_id in existing:
