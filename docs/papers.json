@@ -1,7 +1,106 @@
 {
-  "updated": "2026-04-29T21:04:08.109649+00:00",
-  "total": 64,
+  "updated": "2026-04-30T09:58:24.957798+00:00",
+  "total": 66,
   "papers": [
+    {
+      "id": "https://doi.org/10.48550/arxiv.2604.25808",
+      "url": "https://doi.org/10.48550/arxiv.2604.25808",
+      "pdf_url": "",
+      "source": "arXiv (Cornell University)",
+      "title": "A unified quantum random walk model for internal crystal effects in dynamical diffraction",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Owen Lailey",
+          "affiliations": []
+        },
+        {
+          "name": "Dusan Sarenac",
+          "affiliations": []
+        },
+        {
+          "name": "David G. Cory",
+          "affiliations": []
+        },
+        {
+          "name": "M. G. Huber",
+          "affiliations": []
+        },
+        {
+          "name": "D. A. Pushin",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "David Cory",
+        "Dmitry Pushin"
+      ],
+      "published": "2026-04-28",
+      "updated": "2026-04-30T09:15:22.047038",
+      "categories": [
+        "Nuclear Physics and Applications"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.48550/arxiv.2604.25124",
+      "url": "https://doi.org/10.48550/arxiv.2604.25124",
+      "pdf_url": "",
+      "source": "arXiv (Cornell University)",
+      "title": "USEQIP: Outcomes and experiences from 17 years of undergraduate summer schools in experimental quantum information science",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "John M. Donohue",
+          "affiliations": []
+        },
+        {
+          "name": "Michael Grabowecky",
+          "affiliations": []
+        },
+        {
+          "name": "George Nichols",
+          "affiliations": []
+        },
+        {
+          "name": "Martin Laforest",
+          "affiliations": []
+        },
+        {
+          "name": "Lino Eugene",
+          "affiliations": []
+        },
+        {
+          "name": "Fiona Thompson",
+          "affiliations": []
+        },
+        {
+          "name": "Peter Sprenger",
+          "affiliations": []
+        },
+        {
+          "name": "Kevin Resch",
+          "affiliations": []
+        },
+        {
+          "name": "David G Cory",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "John Donohue"
+      ],
+      "published": "2026-04-28",
+      "updated": "2026-04-30T09:15:22.047038",
+      "categories": [
+        "Quantum Computing Algorithms and Architecture"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.48550/arxiv.2604.14397",
       "url": "https://doi.org/10.48550/arxiv.2604.14397",

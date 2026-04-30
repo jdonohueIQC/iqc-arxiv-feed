@@ -5,8 +5,32 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2026 21:04:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 09:58:24 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>A unified quantum random walk model for internal crystal effects in dynamical diffraction</title>
+      <link>https://doi.org/10.48550/arxiv.2604.25808</link>
+      <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2604.25808</guid>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Owen Lailey, Dusan Sarenac, David G. Cory, M. G. Huber, D. A. Pushin</author>
+      <description>Abstract not available.
+
+Tracked authors: David Cory, Dmitry Pushin
+
+Source: arXiv (Cornell University)</description>
+    </item>
+    <item>
+      <title>USEQIP: Outcomes and experiences from 17 years of undergraduate summer schools in experimental quantum information science</title>
+      <link>https://doi.org/10.48550/arxiv.2604.25124</link>
+      <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2604.25124</guid>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <author>John M. Donohue, Michael Grabowecky, George Nichols, Martin Laforest, Lino Eugene, Fiona Thompson, Peter Sprenger, Kevin Resch, David G Cory</author>
+      <description>Abstract not available.
+
+Tracked authors: John Donohue
+
+Source: arXiv (Cornell University)</description>
+    </item>
     <item>
       <title>Generating Concept Lexicalizations via Dictionary-Based Cross-Lingual Sense Projection</title>
       <link>https://doi.org/10.48550/arxiv.2604.14397</link>
