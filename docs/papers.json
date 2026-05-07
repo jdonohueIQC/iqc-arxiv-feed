@@ -1,7 +1,80 @@
 {
-  "updated": "2026-05-06T10:08:50.518627+00:00",
-  "total": 66,
+  "updated": "2026-05-07T10:13:56.723144+00:00",
+  "total": 67,
   "papers": [
+    {
+      "id": "https://doi.org/10.48550/arxiv.2605.02240",
+      "url": "https://doi.org/10.48550/arxiv.2605.02240",
+      "pdf_url": "",
+      "source": "arXiv (Cornell University)",
+      "title": "PhysicianBench: Evaluating LLM Agents in Real-World EHR Environments",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Ruoqi Liu",
+          "affiliations": []
+        },
+        {
+          "name": "Imran Q. Mohiuddin",
+          "affiliations": []
+        },
+        {
+          "name": "Austin Schoeffler",
+          "affiliations": []
+        },
+        {
+          "name": "Kavita Renduchintala",
+          "affiliations": []
+        },
+        {
+          "name": "Ashwin Nayak",
+          "affiliations": []
+        },
+        {
+          "name": "Prasantha L. Vemu",
+          "affiliations": []
+        },
+        {
+          "name": "Shivam C. Vedak",
+          "affiliations": []
+        },
+        {
+          "name": "Kameron C. Black",
+          "affiliations": []
+        },
+        {
+          "name": "John L. Havlik",
+          "affiliations": []
+        },
+        {
+          "name": "Isaac Ogunmola",
+          "affiliations": []
+        },
+        {
+          "name": "Stephen P. Ma",
+          "affiliations": []
+        },
+        {
+          "name": "Roopa Dhatt",
+          "affiliations": []
+        },
+        {
+          "name": "Jonathan H. Chen",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Ashwin Nayak"
+      ],
+      "published": "2026-05-04",
+      "updated": "2026-05-06T08:25:59.206177",
+      "categories": [
+        "Electronic Health Records Systems"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.48550/arxiv.2604.25808",
       "url": "https://doi.org/10.48550/arxiv.2604.25808",

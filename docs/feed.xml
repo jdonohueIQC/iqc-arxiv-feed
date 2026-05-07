@@ -5,8 +5,20 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 May 2026 10:08:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 10:13:56 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>PhysicianBench: Evaluating LLM Agents in Real-World EHR Environments</title>
+      <link>https://doi.org/10.48550/arxiv.2605.02240</link>
+      <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2605.02240</guid>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+      <author>Ruoqi Liu, Imran Q. Mohiuddin, Austin Schoeffler, Kavita Renduchintala, Ashwin Nayak, Prasantha L. Vemu, Shivam C. Vedak, Kameron C. Black, John L. Havlik, Isaac Ogunmola, Stephen P. Ma, Roopa Dhatt, Jonathan H. Chen</author>
+      <description>Abstract not available.
+
+Tracked authors: Ashwin Nayak
+
+Source: arXiv (Cornell University)</description>
+    </item>
     <item>
       <title>A unified quantum random walk model for internal crystal effects in dynamical diffraction</title>
       <link>https://doi.org/10.48550/arxiv.2604.25808</link>
