@@ -1,7 +1,40 @@
 {
-  "updated": "2026-05-08T09:04:46.017433+00:00",
-  "total": 67,
+  "updated": "2026-05-09T09:08:05.929542+00:00",
+  "total": 68,
   "papers": [
+    {
+      "id": "https://doi.org/10.1038/s41563-026-02591-w",
+      "url": "https://doi.org/10.1038/s41563-026-02591-w",
+      "pdf_url": "",
+      "source": "Nature Materials",
+      "title": "Two-dimensional magnets stack up against multiferroic competition",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Meixin Cheng",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Adam W. Tsen",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Adam Tsen"
+      ],
+      "published": "2026-05-06",
+      "updated": "2026-05-08T15:41:06.802602",
+      "categories": [
+        "Multiferroics and related materials"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.48550/arxiv.2605.02240",
       "url": "https://doi.org/10.48550/arxiv.2605.02240",
