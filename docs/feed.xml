@@ -5,8 +5,20 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 10:58:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 10:41:42 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>Environmental Stabilization of Perfect-Crystal Neutron Interferometry Using a Large Vacuum Chamber with Cryogenic Sample Access</title>
+      <link>https://doi.org/10.48550/arxiv.2605.18874</link>
+      <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2605.18874</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <author>R. Valdillez, David G. Cory, R. Haun, B. Heacock, Colin Heikes, Shannon F. Hoogerheide, M. G. Huber, T. Mineeva, Jeremy Paster, Dusan Sarenac, D. A. Pushin, A. R. Young</author>
+      <description>Abstract not available.
+
+Tracked authors: Dmitry Pushin
+
+Source: arXiv (Cornell University)</description>
+    </item>
     <item>
       <title>Two-dimensional magnets stack up against multiferroic competition</title>
       <link>https://doi.org/10.1038/s41563-026-02591-w</link>

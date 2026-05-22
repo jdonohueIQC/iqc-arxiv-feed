@@ -1,7 +1,76 @@
 {
-  "updated": "2026-05-21T10:58:27.013294+00:00",
-  "total": 68,
+  "updated": "2026-05-22T10:41:42.098434+00:00",
+  "total": 69,
   "papers": [
+    {
+      "id": "https://doi.org/10.48550/arxiv.2605.18874",
+      "url": "https://doi.org/10.48550/arxiv.2605.18874",
+      "pdf_url": "",
+      "source": "arXiv (Cornell University)",
+      "title": "Environmental Stabilization of Perfect-Crystal Neutron Interferometry Using a Large Vacuum Chamber with Cryogenic Sample Access",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "R. Valdillez",
+          "affiliations": []
+        },
+        {
+          "name": "David G. Cory",
+          "affiliations": []
+        },
+        {
+          "name": "R. Haun",
+          "affiliations": []
+        },
+        {
+          "name": "B. Heacock",
+          "affiliations": []
+        },
+        {
+          "name": "Colin Heikes",
+          "affiliations": []
+        },
+        {
+          "name": "Shannon F. Hoogerheide",
+          "affiliations": []
+        },
+        {
+          "name": "M. G. Huber",
+          "affiliations": []
+        },
+        {
+          "name": "T. Mineeva",
+          "affiliations": []
+        },
+        {
+          "name": "Jeremy Paster",
+          "affiliations": []
+        },
+        {
+          "name": "Dusan Sarenac",
+          "affiliations": []
+        },
+        {
+          "name": "D. A. Pushin",
+          "affiliations": []
+        },
+        {
+          "name": "A. R. Young",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Dmitry Pushin"
+      ],
+      "published": "2026-05-15",
+      "updated": "2026-05-21T09:19:25.381259",
+      "categories": [
+        "Nuclear Physics and Applications"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.1038/s41563-026-02591-w",
       "url": "https://doi.org/10.1038/s41563-026-02591-w",
