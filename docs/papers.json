@@ -1,7 +1,88 @@
 {
-  "updated": "2026-05-22T10:41:42.098434+00:00",
-  "total": 69,
+  "updated": "2026-05-23T09:42:49.409645+00:00",
+  "total": 70,
   "papers": [
+    {
+      "id": "https://doi.org/10.1126/sciadv.aea5936",
+      "url": "https://doi.org/10.1126/sciadv.aea5936",
+      "pdf_url": "",
+      "source": "Science Advances",
+      "title": "Probing individual quantum emitters in bulk semiconductors via photonic nanojets",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Behrooz Semnani",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Sai Sreesh Venuturumilli",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Mohammad Soltani",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Pratik Adhikary",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Abdolreza Pasharavesh",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Nikolay Videnov",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Paul Anderson",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Supratik Sarkar",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Vinodh Raj Rajagopal Muthu",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Michal Bajcsy",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Michal Bajcsy"
+      ],
+      "published": "2026-05-20",
+      "updated": "2026-05-22T09:01:20.584952",
+      "categories": [
+        "Near-Field Optical Microscopy"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.48550/arxiv.2605.18874",
       "url": "https://doi.org/10.48550/arxiv.2605.18874",

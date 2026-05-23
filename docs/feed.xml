@@ -5,8 +5,20 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 May 2026 10:41:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 09:42:49 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>Probing individual quantum emitters in bulk semiconductors via photonic nanojets</title>
+      <link>https://doi.org/10.1126/sciadv.aea5936</link>
+      <guid isPermaLink="true">https://doi.org/10.1126/sciadv.aea5936</guid>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <author>Behrooz Semnani, Sai Sreesh Venuturumilli, Mohammad Soltani, Pratik Adhikary, Abdolreza Pasharavesh, Nikolay Videnov, Paul Anderson, Supratik Sarkar, Vinodh Raj Rajagopal Muthu, Michal Bajcsy</author>
+      <description>Abstract not available.
+
+Tracked authors: Michal Bajcsy
+
+Source: Science Advances</description>
+    </item>
     <item>
       <title>Environmental Stabilization of Perfect-Crystal Neutron Interferometry Using a Large Vacuum Chamber with Cryogenic Sample Access</title>
       <link>https://doi.org/10.48550/arxiv.2605.18874</link>
