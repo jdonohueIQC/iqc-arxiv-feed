@@ -1,7 +1,85 @@
 {
-  "updated": "2026-06-01T13:27:48.539685+00:00",
-  "total": 70,
+  "updated": "2026-06-02T11:57:14.929288+00:00",
+  "total": 71,
   "papers": [
+    {
+      "id": "https://doi.org/10.48550/arxiv.2605.30575",
+      "url": "https://doi.org/10.48550/arxiv.2605.30575",
+      "pdf_url": "",
+      "source": "arXiv (Cornell University)",
+      "title": "Observation and Control of the Magnetic Photogalvanic Effect from Strongly Bound Excitons",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Xianfan Nie",
+          "affiliations": []
+        },
+        {
+          "name": "Tarun Patel",
+          "affiliations": []
+        },
+        {
+          "name": "Hyunggeun Lee",
+          "affiliations": []
+        },
+        {
+          "name": "Chuangtang Wang",
+          "affiliations": []
+        },
+        {
+          "name": "Meixin Cheng",
+          "affiliations": []
+        },
+        {
+          "name": "Mingrui Lai",
+          "affiliations": []
+        },
+        {
+          "name": "Bowen Yang",
+          "affiliations": []
+        },
+        {
+          "name": "Matteo Pennacchietti",
+          "affiliations": []
+        },
+        {
+          "name": "Shiyu Liu",
+          "affiliations": []
+        },
+        {
+          "name": "Hechang Lei",
+          "affiliations": []
+        },
+        {
+          "name": "Liuyan Zhao",
+          "affiliations": []
+        },
+        {
+          "name": "Michael E. Reimer",
+          "affiliations": []
+        },
+        {
+          "name": "Su Ying Quek",
+          "affiliations": []
+        },
+        {
+          "name": "Adam W. Tsen",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Michael Reimer",
+        "Adam Tsen"
+      ],
+      "published": "2026-05-28",
+      "updated": "2026-06-02T09:04:35.204637",
+      "categories": [
+        "2D Materials and Applications"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.1126/sciadv.aea5936",
       "url": "https://doi.org/10.1126/sciadv.aea5936",

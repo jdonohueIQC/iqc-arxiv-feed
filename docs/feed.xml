@@ -5,8 +5,20 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2026 13:27:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 11:57:14 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>Observation and Control of the Magnetic Photogalvanic Effect from Strongly Bound Excitons</title>
+      <link>https://doi.org/10.48550/arxiv.2605.30575</link>
+      <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2605.30575</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <author>Xianfan Nie, Tarun Patel, Hyunggeun Lee, Chuangtang Wang, Meixin Cheng, Mingrui Lai, Bowen Yang, Matteo Pennacchietti, Shiyu Liu, Hechang Lei, Liuyan Zhao, Michael E. Reimer, Su Ying Quek, Adam W. Tsen</author>
+      <description>Abstract not available.
+
+Tracked authors: Michael Reimer, Adam Tsen
+
+Source: arXiv (Cornell University)</description>
+    </item>
     <item>
       <title>Probing individual quantum emitters in bulk semiconductors via photonic nanojets</title>
       <link>https://doi.org/10.1126/sciadv.aea5936</link>
