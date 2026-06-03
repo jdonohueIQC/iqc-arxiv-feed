@@ -5,8 +5,20 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jun 2026 11:57:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 12:30:15 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>Software-based compensation of AC-line-induced control errors in qubits and qudits</title>
+      <link>https://doi.org/10.48550/arxiv.2606.00358</link>
+      <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2606.00358</guid>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <author>Gaurav A. Tathed, Nicholas Zutt, Collin Epstein, Crystal Senko</author>
+      <description>Abstract not available.
+
+Tracked authors: Crystal Senko
+
+Source: arXiv (Cornell University)</description>
+    </item>
     <item>
       <title>Observation and Control of the Magnetic Photogalvanic Effect from Strongly Bound Excitons</title>
       <link>https://doi.org/10.48550/arxiv.2605.30575</link>

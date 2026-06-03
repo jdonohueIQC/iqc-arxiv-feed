@@ -1,7 +1,44 @@
 {
-  "updated": "2026-06-02T11:57:14.929288+00:00",
-  "total": 71,
+  "updated": "2026-06-03T12:30:15.809477+00:00",
+  "total": 72,
   "papers": [
+    {
+      "id": "https://doi.org/10.48550/arxiv.2606.00358",
+      "url": "https://doi.org/10.48550/arxiv.2606.00358",
+      "pdf_url": "",
+      "source": "arXiv (Cornell University)",
+      "title": "Software-based compensation of AC-line-induced control errors in qubits and qudits",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Gaurav A. Tathed",
+          "affiliations": []
+        },
+        {
+          "name": "Nicholas Zutt",
+          "affiliations": []
+        },
+        {
+          "name": "Collin Epstein",
+          "affiliations": []
+        },
+        {
+          "name": "Crystal Senko",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Crystal Senko"
+      ],
+      "published": "2026-05-29",
+      "updated": "2026-06-03T09:05:47.796612",
+      "categories": [
+        "Quantum Information and Cryptography"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.48550/arxiv.2605.30575",
       "url": "https://doi.org/10.48550/arxiv.2605.30575",
