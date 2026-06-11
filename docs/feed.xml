@@ -5,8 +5,20 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jun 2026 11:30:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 12:02:43 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>Impact of gate-voltage noise on silicon spin-qubit variational quantum eigensolvers</title>
+      <link>https://doi.org/10.48550/arxiv.2606.08874</link>
+      <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2606.08874</guid>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+      <author>Xinning Wang, Bohdan Khromets, Zachery Merino, Jonathan Baugh</author>
+      <description>Abstract not available.
+
+Tracked authors: Jonathan Baugh
+
+Source: arXiv (Cornell University)</description>
+    </item>
     <item>
       <title>Software-based compensation of AC-line-induced control errors in qubits and qudits</title>
       <link>https://doi.org/10.48550/arxiv.2606.00358</link>
