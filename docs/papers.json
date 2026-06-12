@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-11T12:02:43.483204+00:00",
-  "total": 73,
+  "updated": "2026-06-12T11:34:54.283437+00:00",
+  "total": 74,
   "papers": [
     {
       "id": "https://doi.org/10.48550/arxiv.2606.08874",
@@ -32,6 +32,43 @@
       ],
       "published": "2026-06-07",
       "updated": "2026-06-10T14:10:52.464848",
+      "categories": [
+        "Quantum Computing Algorithms and Architecture"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2606.08874",
+      "url": "https://arxiv.org/abs/2606.08874",
+      "pdf_url": "https://arxiv.org/pdf/2606.08874",
+      "source": "arXiv (Cornell University)",
+      "title": "Impact of gate-voltage noise on silicon spin-qubit variational quantum eigensolvers",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Xinning Wang",
+          "affiliations": []
+        },
+        {
+          "name": "Bohdan Khromets",
+          "affiliations": []
+        },
+        {
+          "name": "Zachery Merino",
+          "affiliations": []
+        },
+        {
+          "name": "Jonathan Baugh",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Jonathan Baugh"
+      ],
+      "published": "2026-06-07",
+      "updated": "2026-06-12T08:23:45.883708",
       "categories": [
         "Quantum Computing Algorithms and Architecture"
       ],
