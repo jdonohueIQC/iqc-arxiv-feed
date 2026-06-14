@@ -1,7 +1,157 @@
 {
-  "updated": "2026-06-13T10:21:22.958017+00:00",
-  "total": 74,
+  "updated": "2026-06-14T10:43:44.601048+00:00",
+  "total": 75,
   "papers": [
+    {
+      "id": "2410.12915",
+      "url": "https://arxiv.org/abs/2410.12915",
+      "pdf_url": "https://arxiv.org/pdf/2410.12915",
+      "source": "Science Advances",
+      "title": "Composable free-space continuous-variable quantum key distribution using discrete modulation",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Kevin Jaksch",
+          "affiliations": [
+            "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
+            "Max Planck Institute for the Science of Light",
+            "Advanced Optical Technologies (United States)"
+          ]
+        },
+        {
+          "name": "Thomas Dirmeier",
+          "affiliations": [
+            "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
+            "Max Planck Institute for the Science of Light"
+          ]
+        },
+        {
+          "name": "Yannick Weiser",
+          "affiliations": [
+            "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
+            "Max Planck Institute for the Science of Light"
+          ]
+        },
+        {
+          "name": "Stefan Richter",
+          "affiliations": [
+            "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
+            "Max Planck Institute for the Science of Light"
+          ]
+        },
+        {
+          "name": "\u00d6mer Bayraktar",
+          "affiliations": [
+            "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
+            "Max Planck Institute for the Science of Light"
+          ]
+        },
+        {
+          "name": "Bastian Hacker",
+          "affiliations": [
+            "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
+            "Max Planck Institute for the Science of Light"
+          ]
+        },
+        {
+          "name": "Conrad R\u00f6sler",
+          "affiliations": [
+            "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
+            "Max Planck Institute for the Science of Light"
+          ]
+        },
+        {
+          "name": "Imran Khan",
+          "affiliations": [
+            "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
+            "Max Planck Institute for the Science of Light"
+          ]
+        },
+        {
+          "name": "Stefan Petscharning",
+          "affiliations": [
+            "Austrian Institute of Technology"
+          ]
+        },
+        {
+          "name": "Thomas Grafenauer",
+          "affiliations": [
+            "Austrian Institute of Technology"
+          ]
+        },
+        {
+          "name": "Michael Hentschel",
+          "affiliations": [
+            "Austrian Institute of Technology"
+          ]
+        },
+        {
+          "name": "Bernhard \u00d6mer",
+          "affiliations": [
+            "Austrian Institute of Technology"
+          ]
+        },
+        {
+          "name": "Christoph Pacher",
+          "affiliations": [
+            "Austrian Institute of Technology",
+            "Polymun (Austria)"
+          ]
+        },
+        {
+          "name": "Florian Kanitschar",
+          "affiliations": [
+            "Austrian Institute of Technology",
+            "University of Waterloo",
+            "Vienna Center for Quantum Science and Technology"
+          ]
+        },
+        {
+          "name": "Twesh Upadhyaya",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Jie Lin",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Norbert L\u00fctkenhaus",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Gerd Leuchs",
+          "affiliations": [
+            "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
+            "Max Planck Institute for the Science of Light"
+          ]
+        },
+        {
+          "name": "Christoph Marquardt",
+          "affiliations": [
+            "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
+            "Max Planck Institute for the Science of Light",
+            "Advanced Optical Technologies (United States)"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Norbert Lutkenhaus"
+      ],
+      "published": "2026-06-12",
+      "updated": "2026-06-14T07:44:22.658603",
+      "categories": [
+        "Quantum Information and Cryptography"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.48550/arxiv.2606.08874",
       "url": "https://doi.org/10.48550/arxiv.2606.08874",

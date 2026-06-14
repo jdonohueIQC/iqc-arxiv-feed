@@ -5,8 +5,20 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Jun 2026 10:21:22 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 10:43:44 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>Composable free-space continuous-variable quantum key distribution using discrete modulation</title>
+      <link>https://arxiv.org/abs/2410.12915</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2410.12915</guid>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <author>Kevin Jaksch, Thomas Dirmeier, Yannick Weiser, Stefan Richter, Ömer Bayraktar, Bastian Hacker, Conrad Rösler, Imran Khan, Stefan Petscharning, Thomas Grafenauer, Michael Hentschel, Bernhard Ömer, Christoph Pacher, Florian Kanitschar, Twesh Upadhyaya, Jie Lin, Norbert Lütkenhaus, Gerd Leuchs, Christoph Marquardt</author>
+      <description>Abstract not available.
+
+Tracked authors: Norbert Lutkenhaus
+
+Source: Science Advances</description>
+    </item>
     <item>
       <title>Impact of gate-voltage noise on silicon spin-qubit variational quantum eigensolvers</title>
       <link>https://doi.org/10.48550/arxiv.2606.08874</link>
