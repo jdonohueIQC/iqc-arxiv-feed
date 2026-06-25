@@ -5,8 +5,20 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jun 2026 10:39:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 10:33:07 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>Biophysical EPR Using Superconducting Resonators</title>
+      <link>https://doi.org/10.48550/arxiv.2606.23952</link>
+      <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2606.23952</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+      <author>Austin R. Gamble Jarvi, Hamid R. Mohebbi, Ishit Raval, Omari Culzac, Jack Erickson, Sameh Hegazy, Don Carkner, Andrew Wiles, David G. Cory, Troy W. Borneman</author>
+      <description>Abstract not available.
+
+Tracked authors: David Cory
+
+Source: arXiv (Cornell University)</description>
+    </item>
     <item>
       <title>Composable free-space continuous-variable quantum key distribution using discrete modulation</title>
       <link>https://arxiv.org/abs/2410.12915</link>

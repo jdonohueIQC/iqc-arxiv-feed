@@ -1,7 +1,68 @@
 {
-  "updated": "2026-06-24T10:39:58.608531+00:00",
-  "total": 75,
+  "updated": "2026-06-25T10:33:07.518246+00:00",
+  "total": 76,
   "papers": [
+    {
+      "id": "https://doi.org/10.48550/arxiv.2606.23952",
+      "url": "https://doi.org/10.48550/arxiv.2606.23952",
+      "pdf_url": "",
+      "source": "arXiv (Cornell University)",
+      "title": "Biophysical EPR Using Superconducting Resonators",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Austin R. Gamble Jarvi",
+          "affiliations": []
+        },
+        {
+          "name": "Hamid R. Mohebbi",
+          "affiliations": []
+        },
+        {
+          "name": "Ishit Raval",
+          "affiliations": []
+        },
+        {
+          "name": "Omari Culzac",
+          "affiliations": []
+        },
+        {
+          "name": "Jack Erickson",
+          "affiliations": []
+        },
+        {
+          "name": "Sameh Hegazy",
+          "affiliations": []
+        },
+        {
+          "name": "Don Carkner",
+          "affiliations": []
+        },
+        {
+          "name": "Andrew Wiles",
+          "affiliations": []
+        },
+        {
+          "name": "David G. Cory",
+          "affiliations": []
+        },
+        {
+          "name": "Troy W. Borneman",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "David Cory"
+      ],
+      "published": "2026-06-22",
+      "updated": "2026-06-25T08:15:23.626066",
+      "categories": [
+        "Electron Spin Resonance Studies"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "2410.12915",
       "url": "https://arxiv.org/abs/2410.12915",
