@@ -1,7 +1,50 @@
 {
-  "updated": "2026-07-10T10:43:51.855766+00:00",
-  "total": 77,
+  "updated": "2026-07-12T09:42:22.333689+00:00",
+  "total": 78,
   "papers": [
+    {
+      "id": "https://doi.org/10.1073/pnas.2502969123",
+      "url": "https://doi.org/10.1073/pnas.2502969123",
+      "pdf_url": "",
+      "source": "Proceedings of the National Academy of Sciences",
+      "title": "Orientation-tuned surround suppression exhibits a unique laminar signature in the human primary visual cortex",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Joseph Emerson",
+          "affiliations": [
+            "University of Minnesota",
+            "University of Minnesota System"
+          ]
+        },
+        {
+          "name": "Karen Navarro",
+          "affiliations": [
+            "University of Minnesota",
+            "University of Minnesota System"
+          ]
+        },
+        {
+          "name": "Cheryl A. Olman",
+          "affiliations": [
+            "University of Minnesota",
+            "University of Minnesota System",
+            "Resonance Research (United States)"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Joseph Emerson"
+      ],
+      "published": "2026-07-02",
+      "updated": "2026-07-12T07:33:03.550515",
+      "categories": [
+        "Visual perception and processing mechanisms"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.48550/arxiv.2606.23952",
       "url": "https://doi.org/10.48550/arxiv.2606.23952",
