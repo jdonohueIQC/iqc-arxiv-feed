@@ -5,8 +5,20 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2026 10:10:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 10:06:52 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>Evaluating the reliability of structured light entoptic tasks</title>
+      <link>https://doi.org/10.1038/s41598-026-63276-7</link>
+      <guid isPermaLink="true">https://doi.org/10.1038/s41598-026-63276-7</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <author>Taranjit Singh, Mukhit Kulmaganbetov, Zhangting Wang, D. A. Pushin, Benjamin Thompson, Andrew E. Silva, Melanie Mungalsingh, Iman Salehi, Davis V. Garrad, David Cory, Dusan Sarenac</author>
+      <description>Abstract not available.
+
+Tracked authors: Dmitry Pushin
+
+Source: Scientific Reports</description>
+    </item>
     <item>
       <title>Orientation-tuned surround suppression exhibits a unique laminar signature in the human primary visual cortex</title>
       <link>https://doi.org/10.1073/pnas.2502969123</link>

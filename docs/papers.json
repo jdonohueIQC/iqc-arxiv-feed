@@ -1,7 +1,104 @@
 {
-  "updated": "2026-07-23T10:10:48.747471+00:00",
-  "total": 78,
+  "updated": "2026-07-24T10:06:52.789018+00:00",
+  "total": 79,
   "papers": [
+    {
+      "id": "https://doi.org/10.1038/s41598-026-63276-7",
+      "url": "https://doi.org/10.1038/s41598-026-63276-7",
+      "pdf_url": "https://www.nature.com/articles/s41598-026-63276-7_reference.pdf",
+      "source": "Scientific Reports",
+      "title": "Evaluating the reliability of structured light entoptic tasks",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Taranjit Singh",
+          "affiliations": [
+            "North District Hospital",
+            "Vision Eye Institute"
+          ]
+        },
+        {
+          "name": "Mukhit Kulmaganbetov",
+          "affiliations": [
+            "Kazakh National Medical University",
+            "Advanced Interconnect Technologies (China)",
+            "Quantum Technologies (Sweden)"
+          ]
+        },
+        {
+          "name": "Zhangting Wang",
+          "affiliations": [
+            "Vision Eye Institute"
+          ]
+        },
+        {
+          "name": "D. A. Pushin",
+          "affiliations": [
+            "University of Waterloo",
+            "Wellesley Institute"
+          ]
+        },
+        {
+          "name": "Benjamin Thompson",
+          "affiliations": [
+            "Hong Kong Polytechnic University",
+            "University of Waterloo",
+            "Vision Eye Institute"
+          ]
+        },
+        {
+          "name": "Andrew E. Silva",
+          "affiliations": [
+            "Idaho State University",
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Melanie Mungalsingh",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Iman Salehi",
+          "affiliations": [
+            "University of Waterloo",
+            "Vision Eye Institute"
+          ]
+        },
+        {
+          "name": "Davis V. Garrad",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "David Cory",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Dusan Sarenac",
+          "affiliations": [
+            "University of Waterloo",
+            "Wellesley Institute",
+            "University at Buffalo, State University of New York"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Dmitry Pushin"
+      ],
+      "published": "2026-07-21",
+      "updated": "2026-07-23T08:03:31.855105",
+      "categories": [
+        "Ophthalmology and Visual Impairment Studies"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.1073/pnas.2502969123",
       "url": "https://doi.org/10.1073/pnas.2502969123",
