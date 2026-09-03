@@ -1,7 +1,97 @@
 {
-  "updated": "2026-09-02T12:22:33.486338+00:00",
-  "total": 79,
+  "updated": "2026-09-03T12:20:42.849682+00:00",
+  "total": 81,
   "papers": [
+    {
+      "id": "2608.29766",
+      "url": "https://arxiv.org/abs/2608.29766",
+      "pdf_url": "https://arxiv.org/pdf/2608.29766",
+      "source": "arXiv (Cornell University)",
+      "title": "Localized orbitals and tunnel couplings from general confinement potentials in gate-defined quantum-dot arrays",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Bohdan Khromets",
+          "affiliations": []
+        },
+        {
+          "name": "William Chow",
+          "affiliations": []
+        },
+        {
+          "name": "Jonathan Baugh",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Jonathan Baugh"
+      ],
+      "published": "2026-08-30",
+      "updated": "2026-09-02T18:50:13.731487",
+      "categories": [
+        "Quantum and electron transport phenomena"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1021/acsami.6c12174",
+      "url": "https://doi.org/10.1021/acsami.6c12174",
+      "pdf_url": "",
+      "source": "ACS Applied Materials & Interfaces",
+      "title": "Scalable Single-Step Open-Air Combinatorial Growth of Multifunctional Metal Oxide Thin Films by Spatial Atomic Layer Deposition",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "A.M. Shahin",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Agosh Saini",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Denys Vidish",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Mahdi Hasanzadeh Azar",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Na Young Kim",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Kevin P. Musselman",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Na Young Kim"
+      ],
+      "published": "2026-08-25",
+      "updated": "2026-09-02T07:38:04.252551",
+      "categories": [
+        "Gas Sensing Nanomaterials and Sensors"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.1038/s41598-026-63276-7",
       "url": "https://doi.org/10.1038/s41598-026-63276-7",

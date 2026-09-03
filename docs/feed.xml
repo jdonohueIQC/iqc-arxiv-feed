@@ -5,8 +5,32 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Sep 2026 12:22:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 12:20:42 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>Localized orbitals and tunnel couplings from general confinement potentials in gate-defined quantum-dot arrays</title>
+      <link>https://arxiv.org/abs/2608.29766</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2608.29766</guid>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <author>Bohdan Khromets, William Chow, Jonathan Baugh</author>
+      <description>Abstract not available.
+
+Tracked authors: Jonathan Baugh
+
+Source: arXiv (Cornell University)</description>
+    </item>
+    <item>
+      <title>Scalable Single-Step Open-Air Combinatorial Growth of Multifunctional Metal Oxide Thin Films by Spatial Atomic Layer Deposition</title>
+      <link>https://doi.org/10.1021/acsami.6c12174</link>
+      <guid isPermaLink="true">https://doi.org/10.1021/acsami.6c12174</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <author>A.M. Shahin, Agosh Saini, Denys Vidish, Mahdi Hasanzadeh Azar, Na Young Kim, Kevin P. Musselman</author>
+      <description>Abstract not available.
+
+Tracked authors: Na Young Kim
+
+Source: ACS Applied Materials &amp; Interfaces</description>
+    </item>
     <item>
       <title>Evaluating the reliability of structured light entoptic tasks</title>
       <link>https://doi.org/10.1038/s41598-026-63276-7</link>
