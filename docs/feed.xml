@@ -5,8 +5,20 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Sep 2026 12:26:04 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 11:47:13 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>Optimal Low-Rank Quantum State Tomography with Bounded-Sample Joint Measurements</title>
+      <link>https://doi.org/10.48550/arxiv.2609.10514</link>
+      <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2609.10514</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      <author>Ashwin Nayak, Xingyu Zhou</author>
+      <description>Abstract not available.
+
+Tracked authors: Ashwin Nayak
+
+Source: arXiv (Cornell University)</description>
+    </item>
     <item>
       <title>Localized orbitals and tunnel couplings from general confinement potentials in gate-defined quantum-dot arrays</title>
       <link>https://arxiv.org/abs/2608.29766</link>
