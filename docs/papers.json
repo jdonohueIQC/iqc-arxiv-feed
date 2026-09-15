@@ -1,7 +1,40 @@
 {
-  "updated": "2026-09-14T14:33:10.274709+00:00",
-  "total": 83,
+  "updated": "2026-09-15T12:58:47.085286+00:00",
+  "total": 84,
   "papers": [
+    {
+      "id": "https://doi.org/10.48550/arxiv.2609.12164",
+      "url": "https://doi.org/10.48550/arxiv.2609.12164",
+      "pdf_url": "",
+      "source": "arXiv (Cornell University)",
+      "title": "The Information Complexity of Decision Trees",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Avantika Agarwal",
+          "affiliations": []
+        },
+        {
+          "name": "Shalev Ben-David",
+          "affiliations": []
+        },
+        {
+          "name": "Eric Blais",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Shalev Ben-David"
+      ],
+      "published": "2026-09-10",
+      "updated": "2026-09-15T07:32:03.291174",
+      "categories": [
+        "Complexity and Algorithms in Graphs"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.48550/arxiv.2609.10514",
       "url": "https://doi.org/10.48550/arxiv.2609.10514",

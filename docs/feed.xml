@@ -5,8 +5,20 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Sep 2026 14:33:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 12:58:47 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>The Information Complexity of Decision Trees</title>
+      <link>https://doi.org/10.48550/arxiv.2609.12164</link>
+      <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2609.12164</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <author>Avantika Agarwal, Shalev Ben-David, Eric Blais</author>
+      <description>Abstract not available.
+
+Tracked authors: Shalev Ben-David
+
+Source: arXiv (Cornell University)</description>
+    </item>
     <item>
       <title>Optimal Low-Rank Quantum State Tomography with Bounded-Sample Joint Measurements</title>
       <link>https://doi.org/10.48550/arxiv.2609.10514</link>
