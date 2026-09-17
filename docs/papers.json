@@ -1,7 +1,65 @@
 {
-  "updated": "2026-09-16T12:55:53.333801+00:00",
-  "total": 84,
+  "updated": "2026-09-17T12:52:38.322356+00:00",
+  "total": 87,
   "papers": [
+    {
+      "id": "https://doi.org/10.48550/arxiv.2609.15063",
+      "url": "https://doi.org/10.48550/arxiv.2609.15063",
+      "pdf_url": "",
+      "source": "arXiv (Cornell University)",
+      "title": "Randomized query complexity can beat certificate complexity",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Shalev Ben-David",
+          "affiliations": []
+        },
+        {
+          "name": "Robin Kothari",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Shalev Ben-David"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-16T18:09:00.828671",
+      "categories": [
+        "Complexity and Algorithms in Graphs"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2609.15063",
+      "url": "https://arxiv.org/abs/2609.15063",
+      "pdf_url": "https://arxiv.org/pdf/2609.15063",
+      "source": "arXiv (Cornell University)",
+      "title": "Randomized query complexity can beat certificate complexity",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Shalev Ben-David",
+          "affiliations": []
+        },
+        {
+          "name": "Robin Kothari",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Shalev Ben-David"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-16T18:09:00.828671",
+      "categories": [
+        "Complexity and Algorithms in Graphs"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.48550/arxiv.2609.12164",
       "url": "https://doi.org/10.48550/arxiv.2609.12164",
@@ -28,6 +86,39 @@
       ],
       "published": "2026-09-10",
       "updated": "2026-09-15T07:32:03.291174",
+      "categories": [
+        "Complexity and Algorithms in Graphs"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2609.12164",
+      "url": "https://arxiv.org/abs/2609.12164",
+      "pdf_url": "https://arxiv.org/pdf/2609.12164",
+      "source": "arXiv (Cornell University)",
+      "title": "The Information Complexity of Decision Trees",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Avantika Agarwal",
+          "affiliations": []
+        },
+        {
+          "name": "Shalev Ben-David",
+          "affiliations": []
+        },
+        {
+          "name": "Eric Blais",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Shalev Ben-David"
+      ],
+      "published": "2026-09-10",
+      "updated": "2026-09-17T07:59:56.861425",
       "categories": [
         "Complexity and Algorithms in Graphs"
       ],

@@ -5,12 +5,48 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Sep 2026 12:55:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 12:52:38 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>Randomized query complexity can beat certificate complexity</title>
+      <link>https://doi.org/10.48550/arxiv.2609.15063</link>
+      <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2609.15063</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <author>Shalev Ben-David, Robin Kothari</author>
+      <description>Abstract not available.
+
+Tracked authors: Shalev Ben-David
+
+Source: arXiv (Cornell University)</description>
+    </item>
+    <item>
+      <title>Randomized query complexity can beat certificate complexity</title>
+      <link>https://arxiv.org/abs/2609.15063</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2609.15063</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <author>Shalev Ben-David, Robin Kothari</author>
+      <description>Abstract not available.
+
+Tracked authors: Shalev Ben-David
+
+Source: arXiv (Cornell University)</description>
+    </item>
     <item>
       <title>The Information Complexity of Decision Trees</title>
       <link>https://doi.org/10.48550/arxiv.2609.12164</link>
       <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2609.12164</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <author>Avantika Agarwal, Shalev Ben-David, Eric Blais</author>
+      <description>Abstract not available.
+
+Tracked authors: Shalev Ben-David
+
+Source: arXiv (Cornell University)</description>
+    </item>
+    <item>
+      <title>The Information Complexity of Decision Trees</title>
+      <link>https://arxiv.org/abs/2609.12164</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2609.12164</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
       <author>Avantika Agarwal, Shalev Ben-David, Eric Blais</author>
       <description>Abstract not available.
