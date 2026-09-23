@@ -5,8 +5,20 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2026 12:55:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 13:06:50 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>Pendellösung length-scale neutron and X-ray interferometry</title>
+      <link>https://doi.org/10.48550/arxiv.2609.24709</link>
+      <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2609.24709</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <author>Owen Lailey, Alexandre Boutot, David G. Cory, Joseph P. Cotter, Vishal Dhamgaye, Tao Hong, M. G. Huber, Young‐June Kim, Winfried Kockelmann, Jeremy W. Paster, Dusan Sarenac, Kawal Sawhney, Naume Shentevski, Ivar Taminiau, Dmitry A. Pushin</author>
+      <description>Abstract not available.
+
+Tracked authors: Dmitry Pushin
+
+Source: arXiv (Cornell University)</description>
+    </item>
     <item>
       <title>Randomized query complexity can beat certificate complexity</title>
       <link>https://doi.org/10.48550/arxiv.2609.15063</link>

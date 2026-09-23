@@ -1,7 +1,88 @@
 {
-  "updated": "2026-09-22T12:55:41.545781+00:00",
-  "total": 87,
+  "updated": "2026-09-23T13:06:50.281428+00:00",
+  "total": 88,
   "papers": [
+    {
+      "id": "https://doi.org/10.48550/arxiv.2609.24709",
+      "url": "https://doi.org/10.48550/arxiv.2609.24709",
+      "pdf_url": "",
+      "source": "arXiv (Cornell University)",
+      "title": "Pendell\u00f6sung length-scale neutron and X-ray interferometry",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Owen Lailey",
+          "affiliations": []
+        },
+        {
+          "name": "Alexandre Boutot",
+          "affiliations": []
+        },
+        {
+          "name": "David G. Cory",
+          "affiliations": []
+        },
+        {
+          "name": "Joseph P. Cotter",
+          "affiliations": []
+        },
+        {
+          "name": "Vishal Dhamgaye",
+          "affiliations": []
+        },
+        {
+          "name": "Tao Hong",
+          "affiliations": []
+        },
+        {
+          "name": "M. G. Huber",
+          "affiliations": []
+        },
+        {
+          "name": "Young\u2010June Kim",
+          "affiliations": []
+        },
+        {
+          "name": "Winfried Kockelmann",
+          "affiliations": []
+        },
+        {
+          "name": "Jeremy W. Paster",
+          "affiliations": []
+        },
+        {
+          "name": "Dusan Sarenac",
+          "affiliations": []
+        },
+        {
+          "name": "Kawal Sawhney",
+          "affiliations": []
+        },
+        {
+          "name": "Naume Shentevski",
+          "affiliations": []
+        },
+        {
+          "name": "Ivar Taminiau",
+          "affiliations": []
+        },
+        {
+          "name": "Dmitry A. Pushin",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Dmitry Pushin"
+      ],
+      "published": "2026-09-21",
+      "updated": "2026-09-23T09:40:40.371523",
+      "categories": [
+        "Nuclear Physics and Applications"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.48550/arxiv.2609.15063",
       "url": "https://doi.org/10.48550/arxiv.2609.15063",
