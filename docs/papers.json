@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-23T13:06:50.281428+00:00",
-  "total": 88,
+  "updated": "2026-09-24T13:00:46.740078+00:00",
+  "total": 91,
   "papers": [
     {
       "id": "https://doi.org/10.48550/arxiv.2609.24709",
@@ -84,6 +84,87 @@
       ]
     },
     {
+      "id": "2609.24709",
+      "url": "https://arxiv.org/abs/2609.24709",
+      "pdf_url": "https://arxiv.org/pdf/2609.24709",
+      "source": "arXiv (Cornell University)",
+      "title": "Pendell\u00f6sung length-scale neutron and X-ray interferometry",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Owen Lailey",
+          "affiliations": []
+        },
+        {
+          "name": "Alexandre Boutot",
+          "affiliations": []
+        },
+        {
+          "name": "David G. Cory",
+          "affiliations": []
+        },
+        {
+          "name": "Joseph P. Cotter",
+          "affiliations": []
+        },
+        {
+          "name": "Vishal Dhamgaye",
+          "affiliations": []
+        },
+        {
+          "name": "Tao Hong",
+          "affiliations": []
+        },
+        {
+          "name": "M. G. Huber",
+          "affiliations": []
+        },
+        {
+          "name": "Young\u2010June Kim",
+          "affiliations": []
+        },
+        {
+          "name": "Winfried Kockelmann",
+          "affiliations": []
+        },
+        {
+          "name": "Jeremy W. Paster",
+          "affiliations": []
+        },
+        {
+          "name": "Dusan Sarenac",
+          "affiliations": []
+        },
+        {
+          "name": "Kawal Sawhney",
+          "affiliations": []
+        },
+        {
+          "name": "Naume Shentevski",
+          "affiliations": []
+        },
+        {
+          "name": "Ivar Taminiau",
+          "affiliations": []
+        },
+        {
+          "name": "Dmitry A. Pushin",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Dmitry Pushin"
+      ],
+      "published": "2026-09-21",
+      "updated": "2026-09-24T07:57:37.273135",
+      "categories": [
+        "Nuclear Physics and Applications"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
       "id": "https://doi.org/10.48550/arxiv.2609.15063",
       "url": "https://doi.org/10.48550/arxiv.2609.15063",
       "pdf_url": "",
@@ -136,6 +217,88 @@
       "updated": "2026-09-16T18:09:00.828671",
       "categories": [
         "Complexity and Algorithms in Graphs"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.48550/arxiv.2609.15790",
+      "url": "https://doi.org/10.48550/arxiv.2609.15790",
+      "pdf_url": "",
+      "source": "arXiv (Cornell University)",
+      "title": "Security framework for practical quantum key distribution with imperfect devices",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Jerome Wiesemann",
+          "affiliations": []
+        },
+        {
+          "name": "John Burniston",
+          "affiliations": []
+        },
+        {
+          "name": "Devashish Tupkary",
+          "affiliations": []
+        },
+        {
+          "name": "Norbert L\u00fctkenhaus",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Norbert Lutkenhaus"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-24T07:57:37.273135",
+      "categories": [
+        "Quantum Information and Cryptography"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2609.15790",
+      "url": "https://arxiv.org/abs/2609.15790",
+      "pdf_url": "https://arxiv.org/pdf/2609.15790",
+      "source": "arXiv (Cornell University)",
+      "title": "Security framework for practical quantum key distribution with imperfect devices",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Jerome Wiesemann",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "John Burniston",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Devashish Tupkary",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Norbert L\u00fctkenhaus",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Norbert Lutkenhaus"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-24T07:57:37.273135",
+      "categories": [
+        "Quantum Information and Cryptography"
       ],
       "matched_keywords": [
         "tracked author"
