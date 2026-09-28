@@ -1,7 +1,40 @@
 {
-  "updated": "2026-09-27T13:23:46.381313+00:00",
-  "total": 91,
+  "updated": "2026-09-28T16:14:21.843472+00:00",
+  "total": 92,
   "papers": [
+    {
+      "id": "2312.17450",
+      "url": "https://arxiv.org/abs/2312.17450",
+      "pdf_url": "https://arxiv.org/pdf/2312.17450",
+      "source": "Communications in Mathematical Physics",
+      "title": "Information Fragility or Robustness Under Quantum Channels",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Nicholas LaRacuente",
+          "affiliations": [
+            "Indiana University Bloomington"
+          ]
+        },
+        {
+          "name": "Graeme Smith",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Graeme Smith"
+      ],
+      "published": "2026-09-27",
+      "updated": "2026-09-04T10:56:28.161419",
+      "categories": [
+        "Quantum Information and Cryptography"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.48550/arxiv.2609.24709",
       "url": "https://doi.org/10.48550/arxiv.2609.24709",

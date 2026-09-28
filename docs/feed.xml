@@ -5,8 +5,20 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Sep 2026 13:23:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 16:14:21 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>Information Fragility or Robustness Under Quantum Channels</title>
+      <link>https://arxiv.org/abs/2312.17450</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2312.17450</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+      <author>Nicholas LaRacuente, Graeme Smith</author>
+      <description>Abstract not available.
+
+Tracked authors: Graeme Smith
+
+Source: Communications in Mathematical Physics</description>
+    </item>
     <item>
       <title>Pendellösung length-scale neutron and X-ray interferometry</title>
       <link>https://doi.org/10.48550/arxiv.2609.24709</link>
