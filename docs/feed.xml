@@ -5,8 +5,20 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Sep 2026 14:26:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 14:55:04 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>Unveiling Three-Dimensional Skyrmion Transitions Through Vortices and Monopoles</title>
+      <link>https://doi.org/10.48550/arxiv.2609.36261</link>
+      <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2609.36261</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <author>Melissa E. Henderson, Daichi Kurebayashi, B. Heacock, Wangchun Chen, Charles W. Clark, David G. Cory, Dusan Sarenac, Shannon Watson, Jonathan S. White, Lisa Debeer-Schmitt, Oleg A. Tretiakov, Dmitry A. Pushin</author>
+      <description>Abstract not available.
+
+Tracked authors: David Cory, Dmitry Pushin
+
+Source: arXiv (Cornell University)</description>
+    </item>
     <item>
       <title>Information Fragility or Robustness Under Quantum Channels</title>
       <link>https://arxiv.org/abs/2312.17450</link>

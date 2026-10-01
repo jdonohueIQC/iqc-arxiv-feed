@@ -1,7 +1,77 @@
 {
-  "updated": "2026-09-29T14:26:46.349020+00:00",
-  "total": 92,
+  "updated": "2026-10-01T14:55:04.775510+00:00",
+  "total": 93,
   "papers": [
+    {
+      "id": "https://doi.org/10.48550/arxiv.2609.36261",
+      "url": "https://doi.org/10.48550/arxiv.2609.36261",
+      "pdf_url": "",
+      "source": "arXiv (Cornell University)",
+      "title": "Unveiling Three-Dimensional Skyrmion Transitions Through Vortices and Monopoles",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Melissa E. Henderson",
+          "affiliations": []
+        },
+        {
+          "name": "Daichi Kurebayashi",
+          "affiliations": []
+        },
+        {
+          "name": "B. Heacock",
+          "affiliations": []
+        },
+        {
+          "name": "Wangchun Chen",
+          "affiliations": []
+        },
+        {
+          "name": "Charles W. Clark",
+          "affiliations": []
+        },
+        {
+          "name": "David G. Cory",
+          "affiliations": []
+        },
+        {
+          "name": "Dusan Sarenac",
+          "affiliations": []
+        },
+        {
+          "name": "Shannon Watson",
+          "affiliations": []
+        },
+        {
+          "name": "Jonathan S. White",
+          "affiliations": []
+        },
+        {
+          "name": "Lisa Debeer-Schmitt",
+          "affiliations": []
+        },
+        {
+          "name": "Oleg A. Tretiakov",
+          "affiliations": []
+        },
+        {
+          "name": "Dmitry A. Pushin",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "David Cory",
+        "Dmitry Pushin"
+      ],
+      "published": "2026-09-28",
+      "updated": "2026-10-01T08:54:57.152042",
+      "categories": [
+        "Topological Materials and Phenomena"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "2312.17450",
       "url": "https://arxiv.org/abs/2312.17450",
