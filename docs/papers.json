@@ -1,7 +1,48 @@
 {
-  "updated": "2026-10-01T14:55:04.775510+00:00",
-  "total": 93,
+  "updated": "2026-10-02T14:17:48.723703+00:00",
+  "total": 95,
   "papers": [
+    {
+      "id": "https://doi.org/10.48550/arxiv.2609.39092",
+      "url": "https://doi.org/10.48550/arxiv.2609.39092",
+      "pdf_url": "",
+      "source": "arXiv (Cornell University)",
+      "title": "Quantum circuit compilation with constant overhead",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Chenyi Zhang",
+          "affiliations": []
+        },
+        {
+          "name": "Xinyu Tan",
+          "affiliations": []
+        },
+        {
+          "name": "Robin Kothari",
+          "affiliations": []
+        },
+        {
+          "name": "David Gosset",
+          "affiliations": []
+        },
+        {
+          "name": "Craig Gidney",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "David Gosset"
+      ],
+      "published": "2026-09-30",
+      "updated": "2026-10-02T10:15:12.560889",
+      "categories": [
+        "Quantum Computing Algorithms and Architecture"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.48550/arxiv.2609.36261",
       "url": "https://doi.org/10.48550/arxiv.2609.36261",
@@ -65,6 +106,76 @@
       ],
       "published": "2026-09-28",
       "updated": "2026-10-01T08:54:57.152042",
+      "categories": [
+        "Topological Materials and Phenomena"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2609.36261",
+      "url": "https://arxiv.org/abs/2609.36261",
+      "pdf_url": "https://arxiv.org/pdf/2609.36261",
+      "source": "arXiv (Cornell University)",
+      "title": "Unveiling Three-Dimensional Skyrmion Transitions Through Vortices and Monopoles",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Melissa E. Henderson",
+          "affiliations": []
+        },
+        {
+          "name": "Daichi Kurebayashi",
+          "affiliations": []
+        },
+        {
+          "name": "B. Heacock",
+          "affiliations": []
+        },
+        {
+          "name": "Wangchun Chen",
+          "affiliations": []
+        },
+        {
+          "name": "Charles W. Clark",
+          "affiliations": []
+        },
+        {
+          "name": "David G. Cory",
+          "affiliations": []
+        },
+        {
+          "name": "Dusan Sarenac",
+          "affiliations": []
+        },
+        {
+          "name": "Shannon Watson",
+          "affiliations": []
+        },
+        {
+          "name": "Jonathan S. White",
+          "affiliations": []
+        },
+        {
+          "name": "Lisa Debeer-Schmitt",
+          "affiliations": []
+        },
+        {
+          "name": "Oleg A. Tretiakov",
+          "affiliations": []
+        },
+        {
+          "name": "Dmitry A. Pushin",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "David Cory",
+        "Dmitry Pushin"
+      ],
+      "published": "2026-09-28",
+      "updated": "2026-10-02T10:15:12.560889",
       "categories": [
         "Topological Materials and Phenomena"
       ],
