@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-03T12:50:57.510220+00:00",
-  "total": 95,
+  "updated": "2026-10-04T13:33:18.655344+00:00",
+  "total": 96,
   "papers": [
     {
       "id": "https://doi.org/10.48550/arxiv.2609.39092",
@@ -36,6 +36,47 @@
       ],
       "published": "2026-09-30",
       "updated": "2026-10-02T10:15:12.560889",
+      "categories": [
+        "Quantum Computing Algorithms and Architecture"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2609.39092",
+      "url": "https://arxiv.org/abs/2609.39092",
+      "pdf_url": "https://arxiv.org/pdf/2609.39092",
+      "source": "arXiv (Cornell University)",
+      "title": "Quantum circuit compilation with constant overhead",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Chenyi Zhang",
+          "affiliations": []
+        },
+        {
+          "name": "Xinyu Tan",
+          "affiliations": []
+        },
+        {
+          "name": "Robin Kothari",
+          "affiliations": []
+        },
+        {
+          "name": "David Gosset",
+          "affiliations": []
+        },
+        {
+          "name": "Craig Gidney",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "David Gosset"
+      ],
+      "published": "2026-09-30",
+      "updated": "2026-10-03T13:16:28.481748",
       "categories": [
         "Quantum Computing Algorithms and Architecture"
       ],
