@@ -1,7 +1,40 @@
 {
-  "updated": "2026-10-05T16:35:25.290171+00:00",
-  "total": 96,
+  "updated": "2026-10-06T14:35:00.857543+00:00",
+  "total": 97,
   "papers": [
+    {
+      "id": "https://doi.org/10.48550/arxiv.2610.03545",
+      "url": "https://doi.org/10.48550/arxiv.2610.03545",
+      "pdf_url": "",
+      "source": "arXiv (Cornell University)",
+      "title": "What Must a Quantum-Memory Decoder Know About Temporally Correlated Noise?",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Danesh Morales-Hashemi",
+          "affiliations": []
+        },
+        {
+          "name": "Graeme Smith",
+          "affiliations": []
+        },
+        {
+          "name": "Ningping Cao",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Graeme Smith"
+      ],
+      "published": "2026-10-02",
+      "updated": "2026-10-06T10:28:23.643775",
+      "categories": [
+        "Quantum Computing Algorithms and Architecture"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.48550/arxiv.2609.39092",
       "url": "https://doi.org/10.48550/arxiv.2609.39092",

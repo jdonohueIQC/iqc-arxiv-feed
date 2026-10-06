@@ -5,8 +5,20 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Oct 2026 16:35:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 14:35:00 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>What Must a Quantum-Memory Decoder Know About Temporally Correlated Noise?</title>
+      <link>https://doi.org/10.48550/arxiv.2610.03545</link>
+      <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2610.03545</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <author>Danesh Morales-Hashemi, Graeme Smith, Ningping Cao</author>
+      <description>Abstract not available.
+
+Tracked authors: Graeme Smith
+
+Source: arXiv (Cornell University)</description>
+    </item>
     <item>
       <title>Quantum circuit compilation with constant overhead</title>
       <link>https://doi.org/10.48550/arxiv.2609.39092</link>
