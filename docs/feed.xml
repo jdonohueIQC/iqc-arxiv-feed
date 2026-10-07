@@ -5,12 +5,48 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Oct 2026 14:35:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 14:53:53 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>Nonadditivity in fermionic quantum Shannon theory</title>
+      <link>https://doi.org/10.48550/arxiv.2610.06758</link>
+      <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2610.06758</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <author>Farzin Salek, Amir-Reza Negari, Graeme Smith, Jens Eisert, Debbie Leung</author>
+      <description>Abstract not available.
+
+Tracked authors: Graeme Smith, Debbie Leung
+
+Source: arXiv (Cornell University)</description>
+    </item>
+    <item>
+      <title>Distributional Quantum Query Complexity</title>
+      <link>https://doi.org/10.48550/arxiv.2610.06835</link>
+      <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2610.06835</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <author>Shalev Ben-David, M. H. Ebtehaj</author>
+      <description>Abstract not available.
+
+Tracked authors: Shalev Ben-David
+
+Source: arXiv (Cornell University)</description>
+    </item>
     <item>
       <title>What Must a Quantum-Memory Decoder Know About Temporally Correlated Noise?</title>
       <link>https://doi.org/10.48550/arxiv.2610.03545</link>
       <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2610.03545</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <author>Danesh Morales-Hashemi, Graeme Smith, Ningping Cao</author>
+      <description>Abstract not available.
+
+Tracked authors: Graeme Smith
+
+Source: arXiv (Cornell University)</description>
+    </item>
+    <item>
+      <title>What Must a Quantum-Memory Decoder Know About Temporally Correlated Noise?</title>
+      <link>https://arxiv.org/abs/2610.03545</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.03545</guid>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
       <author>Danesh Morales-Hashemi, Graeme Smith, Ningping Cao</author>
       <description>Abstract not available.
