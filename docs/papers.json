@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-07T14:53:53.983685+00:00",
-  "total": 100,
+  "updated": "2026-10-08T15:03:20.912635+00:00",
+  "total": 101,
   "papers": [
     {
       "id": "https://doi.org/10.48550/arxiv.2610.06758",
@@ -68,6 +68,48 @@
       "updated": "2026-10-07T09:51:55.459714",
       "categories": [
         "Quantum Computing Algorithms and Architecture"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2610.06758",
+      "url": "https://arxiv.org/abs/2610.06758",
+      "pdf_url": "https://arxiv.org/pdf/2610.06758",
+      "source": "arXiv (Cornell University)",
+      "title": "Nonadditivity in fermionic quantum Shannon theory",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Farzin Salek",
+          "affiliations": []
+        },
+        {
+          "name": "Amir-Reza Negari",
+          "affiliations": []
+        },
+        {
+          "name": "Graeme Smith",
+          "affiliations": []
+        },
+        {
+          "name": "Jens Eisert",
+          "affiliations": []
+        },
+        {
+          "name": "Debbie Leung",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Graeme Smith",
+        "Debbie Leung"
+      ],
+      "published": "2026-10-05",
+      "updated": "2026-10-08T09:06:37.294493",
+      "categories": [
+        "Quantum Information and Cryptography"
       ],
       "matched_keywords": [
         "tracked author"
