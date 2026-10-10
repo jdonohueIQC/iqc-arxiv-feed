@@ -5,7 +5,7 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Oct 2026 14:46:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 14:05:13 +0000</lastBuildDate>
     <ttl>360</ttl>
     <item>
       <title>Nonadditivity in fermionic quantum Shannon theory</title>
@@ -40,6 +40,18 @@ Source: arXiv (Cornell University)</description>
       <description>Abstract not available.
 
 Tracked authors: Graeme Smith, Debbie Leung
+
+Source: arXiv (Cornell University)</description>
+    </item>
+    <item>
+      <title>Distributional Quantum Query Complexity</title>
+      <link>https://arxiv.org/abs/2610.06835</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.06835</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <author>Shalev Ben-David, M. H. Ebtehaj</author>
+      <description>Abstract not available.
+
+Tracked authors: Shalev Ben-David
 
 Source: arXiv (Cornell University)</description>
     </item>

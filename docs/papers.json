@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-09T14:46:45.054952+00:00",
-  "total": 101,
+  "updated": "2026-10-10T14:05:13.392851+00:00",
+  "total": 102,
   "papers": [
     {
       "id": "https://doi.org/10.48550/arxiv.2610.06758",
@@ -110,6 +110,35 @@
       "updated": "2026-10-08T09:06:37.294493",
       "categories": [
         "Quantum Information and Cryptography"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2610.06835",
+      "url": "https://arxiv.org/abs/2610.06835",
+      "pdf_url": "https://arxiv.org/pdf/2610.06835",
+      "source": "arXiv (Cornell University)",
+      "title": "Distributional Quantum Query Complexity",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Shalev Ben-David",
+          "affiliations": []
+        },
+        {
+          "name": "M. H. Ebtehaj",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Shalev Ben-David"
+      ],
+      "published": "2026-10-05",
+      "updated": "2026-10-10T09:11:00.788812",
+      "categories": [
+        "Quantum Computing Algorithms and Architecture"
       ],
       "matched_keywords": [
         "tracked author"
