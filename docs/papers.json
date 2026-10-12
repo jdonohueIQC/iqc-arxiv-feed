@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-11T14:28:58.570727+00:00",
-  "total": 102,
+  "updated": "2026-10-12T17:07:33.240898+00:00",
+  "total": 103,
   "papers": [
     {
       "id": "https://doi.org/10.48550/arxiv.2610.06758",
@@ -205,6 +205,75 @@
       "updated": "2026-10-07T09:51:55.459714",
       "categories": [
         "Quantum Computing Algorithms and Architecture"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2610.02417",
+      "url": "https://arxiv.org/abs/2610.02417",
+      "pdf_url": "https://arxiv.org/pdf/2610.02417",
+      "source": "arXiv (Cornell University)",
+      "title": "The AI Theorist reveals excitonic structure in $\u03b1$-RuCl$_3$",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Hongjian Zhou",
+          "affiliations": [
+            "University of Oxford"
+          ]
+        },
+        {
+          "name": "Xianfan Nie",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Sean Wu",
+          "affiliations": [
+            "Stanford University"
+          ]
+        },
+        {
+          "name": "Tarun Patel",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Jinge Wu",
+          "affiliations": [
+            "University College London"
+          ]
+        },
+        {
+          "name": "Andrew Liu",
+          "affiliations": [
+            "University of Oxford"
+          ]
+        },
+        {
+          "name": "Adam W. Tsen",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "David A. Clifton",
+          "affiliations": [
+            "University of Oxford"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Adam Tsen"
+      ],
+      "published": "2026-10-01",
+      "updated": "2026-10-12T09:40:04.860316",
+      "categories": [
+        "Machine Learning in Materials Science"
       ],
       "matched_keywords": [
         "tracked author"

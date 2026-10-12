@@ -5,7 +5,7 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Oct 2026 14:28:58 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 17:07:33 +0000</lastBuildDate>
     <ttl>360</ttl>
     <item>
       <title>Nonadditivity in fermionic quantum Shannon theory</title>
@@ -76,6 +76,18 @@ Source: arXiv (Cornell University)</description>
       <description>Abstract not available.
 
 Tracked authors: Graeme Smith
+
+Source: arXiv (Cornell University)</description>
+    </item>
+    <item>
+      <title>The AI Theorist reveals excitonic structure in $α$-RuCl$_3$</title>
+      <link>https://arxiv.org/abs/2610.02417</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.02417</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <author>Hongjian Zhou, Xianfan Nie, Sean Wu, Tarun Patel, Jinge Wu, Andrew Liu, Adam W. Tsen, David A. Clifton</author>
+      <description>Abstract not available.
+
+Tracked authors: Adam Tsen
 
 Source: arXiv (Cornell University)</description>
     </item>
