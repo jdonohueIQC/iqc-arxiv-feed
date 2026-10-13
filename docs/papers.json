@@ -1,7 +1,36 @@
 {
-  "updated": "2026-10-12T17:07:33.240898+00:00",
-  "total": 103,
+  "updated": "2026-10-13T15:23:46.866930+00:00",
+  "total": 104,
   "papers": [
+    {
+      "id": "https://doi.org/10.48550/arxiv.2610.13854",
+      "url": "https://doi.org/10.48550/arxiv.2610.13854",
+      "pdf_url": "",
+      "source": "arXiv (Cornell University)",
+      "title": "No advantage from classical assistance for energy-constrained bosonic dephasing channels",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Amir Arqand",
+          "affiliations": []
+        },
+        {
+          "name": "Graeme Smith",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Graeme Smith"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-13T10:08:12.033832",
+      "categories": [
+        "Quantum Information and Cryptography"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.48550/arxiv.2610.06758",
       "url": "https://doi.org/10.48550/arxiv.2610.06758",

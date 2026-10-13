@@ -5,8 +5,20 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 17:07:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 15:23:46 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>No advantage from classical assistance for energy-constrained bosonic dephasing channels</title>
+      <link>https://doi.org/10.48550/arxiv.2610.13854</link>
+      <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2610.13854</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <author>Amir Arqand, Graeme Smith</author>
+      <description>Abstract not available.
+
+Tracked authors: Graeme Smith
+
+Source: arXiv (Cornell University)</description>
+    </item>
     <item>
       <title>Nonadditivity in fermionic quantum Shannon theory</title>
       <link>https://doi.org/10.48550/arxiv.2610.06758</link>
