@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-14T13:10:14.047258+00:00",
-  "total": 104,
+  "updated": "2026-10-15T12:56:34.783144+00:00",
+  "total": 106,
   "papers": [
     {
       "id": "https://doi.org/10.48550/arxiv.2610.13854",
@@ -24,6 +24,39 @@
       ],
       "published": "2026-10-09",
       "updated": "2026-10-13T10:08:12.033832",
+      "categories": [
+        "Quantum Information and Cryptography"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2610.13854",
+      "url": "https://arxiv.org/abs/2610.13854",
+      "pdf_url": "https://arxiv.org/pdf/2610.13854",
+      "source": "arXiv (Cornell University)",
+      "title": "No advantage from classical assistance for energy-constrained bosonic dephasing channels",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Amir Arqand",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Graeme Smith",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Graeme Smith"
+      ],
+      "published": "2026-10-09",
+      "updated": "2026-10-15T10:00:46.086208",
       "categories": [
         "Quantum Information and Cryptography"
       ],
@@ -303,6 +336,44 @@
       "updated": "2026-10-12T09:40:04.860316",
       "categories": [
         "Machine Learning in Materials Science"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2610.02176",
+      "url": "https://arxiv.org/abs/2610.02176",
+      "pdf_url": "https://arxiv.org/pdf/2610.02176",
+      "source": "arXiv (Cornell University)",
+      "title": "From Permutation Symmetry to Communication Bounds and Additivity",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Zahra Baghali Khanian",
+          "affiliations": [
+            "University of Waterloo",
+            "Perimeter Institute"
+          ]
+        },
+        {
+          "name": "Debbie Leung",
+          "affiliations": []
+        },
+        {
+          "name": "Graeme Smith",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Debbie Leung"
+      ],
+      "published": "2026-10-01",
+      "updated": "2026-10-14T16:39:01.820549",
+      "categories": [
+        "Quantum Information and Cryptography"
       ],
       "matched_keywords": [
         "tracked author"

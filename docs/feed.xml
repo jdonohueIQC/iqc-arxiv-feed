@@ -5,12 +5,24 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Oct 2026 13:10:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 12:56:34 +0000</lastBuildDate>
     <ttl>360</ttl>
     <item>
       <title>No advantage from classical assistance for energy-constrained bosonic dephasing channels</title>
       <link>https://doi.org/10.48550/arxiv.2610.13854</link>
       <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2610.13854</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <author>Amir Arqand, Graeme Smith</author>
+      <description>Abstract not available.
+
+Tracked authors: Graeme Smith
+
+Source: arXiv (Cornell University)</description>
+    </item>
+    <item>
+      <title>No advantage from classical assistance for energy-constrained bosonic dephasing channels</title>
+      <link>https://arxiv.org/abs/2610.13854</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.13854</guid>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
       <author>Amir Arqand, Graeme Smith</author>
       <description>Abstract not available.
@@ -100,6 +112,18 @@ Source: arXiv (Cornell University)</description>
       <description>Abstract not available.
 
 Tracked authors: Adam Tsen
+
+Source: arXiv (Cornell University)</description>
+    </item>
+    <item>
+      <title>From Permutation Symmetry to Communication Bounds and Additivity</title>
+      <link>https://arxiv.org/abs/2610.02176</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.02176</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <author>Zahra Baghali Khanian, Debbie Leung, Graeme Smith</author>
+      <description>Abstract not available.
+
+Tracked authors: Debbie Leung
 
 Source: arXiv (Cornell University)</description>
     </item>
