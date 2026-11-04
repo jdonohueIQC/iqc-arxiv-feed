@@ -1,7 +1,44 @@
 {
-  "updated": "2026-11-03T15:36:05.420571+00:00",
-  "total": 106,
+  "updated": "2026-11-04T15:50:53.544144+00:00",
+  "total": 107,
   "papers": [
+    {
+      "id": "2609.05706",
+      "url": "https://arxiv.org/abs/2609.05706",
+      "pdf_url": "https://arxiv.org/pdf/2609.05706",
+      "source": "Biomedical Optics Express",
+      "title": "A unified dielectric-tensor model of macular form birefringence and dichroism",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Gary P. Misson",
+          "affiliations": []
+        },
+        {
+          "name": "Dusan Sarenac",
+          "affiliations": []
+        },
+        {
+          "name": "Dmitry A. Pushin",
+          "affiliations": []
+        },
+        {
+          "name": "Shelby E. Temple",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Dmitry Pushin"
+      ],
+      "published": "2026-11-03",
+      "updated": "2026-11-04T10:54:05.112534",
+      "categories": [
+        "Optical Polarization and Ellipsometry"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.48550/arxiv.2610.13854",
       "url": "https://doi.org/10.48550/arxiv.2610.13854",

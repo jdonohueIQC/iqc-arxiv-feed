@@ -5,8 +5,20 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Nov 2026 15:36:05 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 15:50:53 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>A unified dielectric-tensor model of macular form birefringence and dichroism</title>
+      <link>https://arxiv.org/abs/2609.05706</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2609.05706</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <author>Gary P. Misson, Dusan Sarenac, Dmitry A. Pushin, Shelby E. Temple</author>
+      <description>Abstract not available.
+
+Tracked authors: Dmitry Pushin
+
+Source: Biomedical Optics Express</description>
+    </item>
     <item>
       <title>No advantage from classical assistance for energy-constrained bosonic dephasing channels</title>
       <link>https://doi.org/10.48550/arxiv.2610.13854</link>
