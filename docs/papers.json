@@ -1,7 +1,64 @@
 {
-  "updated": "2026-11-05T15:55:08.664030+00:00",
-  "total": 107,
+  "updated": "2026-11-06T15:27:54.591421+00:00",
+  "total": 108,
   "papers": [
+    {
+      "id": "https://doi.org/10.48550/arxiv.2611.06898",
+      "url": "https://doi.org/10.48550/arxiv.2611.06898",
+      "pdf_url": "",
+      "source": "arXiv (Cornell University)",
+      "title": "3D Printed Monolithic Optomechanical Chassis for an Unbalanced Field-Widened Interferometer",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Ramy Tannous",
+          "affiliations": []
+        },
+        {
+          "name": "Dogan Sinar",
+          "affiliations": []
+        },
+        {
+          "name": "Sagar Patel",
+          "affiliations": []
+        },
+        {
+          "name": "Tabitha D. Arulpragasam",
+          "affiliations": []
+        },
+        {
+          "name": "Issa Rishmawi",
+          "affiliations": []
+        },
+        {
+          "name": "Mark Kirby",
+          "affiliations": []
+        },
+        {
+          "name": "Vlad Paserin",
+          "affiliations": []
+        },
+        {
+          "name": "Mihaela Vlasea",
+          "affiliations": []
+        },
+        {
+          "name": "Thomas D. Jennewein",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Thomas Jennewein"
+      ],
+      "published": "2026-11-04",
+      "updated": "2026-11-06T12:05:46.655746",
+      "categories": [
+        "Additive Manufacturing Materials and Processes"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "2609.05706",
       "url": "https://arxiv.org/abs/2609.05706",
