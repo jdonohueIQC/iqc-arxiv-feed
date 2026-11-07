@@ -5,8 +5,20 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2026 15:27:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 14:29:53 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>Software compensation of trigger-synchronous control-frame errors in qubits and qudits</title>
+      <link>https://arxiv.org/abs/2606.00358</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2606.00358</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <author>Gaurav A. Tathed, Nicholas Zutt, Collin J. C. Epstein, Crystal Senko</author>
+      <description>Abstract not available.
+
+Tracked authors: Crystal Senko
+
+Source: PRX Quantum</description>
+    </item>
     <item>
       <title>3D Printed Monolithic Optomechanical Chassis for an Unbalanced Field-Widened Interferometer</title>
       <link>https://doi.org/10.48550/arxiv.2611.06898</link>

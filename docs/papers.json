@@ -1,7 +1,44 @@
 {
-  "updated": "2026-11-06T15:27:54.591421+00:00",
-  "total": 108,
+  "updated": "2026-11-07T14:29:53.693711+00:00",
+  "total": 109,
   "papers": [
+    {
+      "id": "2606.00358",
+      "url": "https://arxiv.org/abs/2606.00358",
+      "pdf_url": "https://arxiv.org/pdf/2606.00358",
+      "source": "PRX Quantum",
+      "title": "Software compensation of trigger-synchronous control-frame errors in qubits and qudits",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Gaurav A. Tathed",
+          "affiliations": []
+        },
+        {
+          "name": "Nicholas Zutt",
+          "affiliations": []
+        },
+        {
+          "name": "Collin J. C. Epstein",
+          "affiliations": []
+        },
+        {
+          "name": "Crystal Senko",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Crystal Senko"
+      ],
+      "published": "2026-11-06",
+      "updated": "2026-11-07T11:25:07.637180",
+      "categories": [
+        "Quantum Computing Algorithms and Architecture"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.48550/arxiv.2611.06898",
       "url": "https://doi.org/10.48550/arxiv.2611.06898",
