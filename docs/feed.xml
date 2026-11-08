@@ -5,7 +5,7 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Nov 2026 14:29:53 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 14:37:55 +0000</lastBuildDate>
     <ttl>360</ttl>
     <item>
       <title>Software compensation of trigger-synchronous control-frame errors in qubits and qudits</title>
@@ -23,6 +23,18 @@ Source: PRX Quantum</description>
       <title>3D Printed Monolithic Optomechanical Chassis for an Unbalanced Field-Widened Interferometer</title>
       <link>https://doi.org/10.48550/arxiv.2611.06898</link>
       <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2611.06898</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <author>Ramy Tannous, Dogan Sinar, Sagar Patel, Tabitha D. Arulpragasam, Issa Rishmawi, Mark Kirby, Vlad Paserin, Mihaela Vlasea, Thomas D. Jennewein</author>
+      <description>Abstract not available.
+
+Tracked authors: Thomas Jennewein
+
+Source: arXiv (Cornell University)</description>
+    </item>
+    <item>
+      <title>3D Printed Monolithic Optomechanical Chassis for an Unbalanced Field-Widened Interferometer</title>
+      <link>https://arxiv.org/abs/2611.06898</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.06898</guid>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
       <author>Ramy Tannous, Dogan Sinar, Sagar Patel, Tabitha D. Arulpragasam, Issa Rishmawi, Mark Kirby, Vlad Paserin, Mihaela Vlasea, Thomas D. Jennewein</author>
       <description>Abstract not available.
