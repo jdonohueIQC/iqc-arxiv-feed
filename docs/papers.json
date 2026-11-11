@@ -1,7 +1,65 @@
 {
-  "updated": "2026-11-10T15:56:00.765348+00:00",
-  "total": 110,
+  "updated": "2026-11-11T15:41:54.195054+00:00",
+  "total": 111,
   "papers": [
+    {
+      "id": "https://doi.org/10.48550/arxiv.2611.12651",
+      "url": "https://doi.org/10.48550/arxiv.2611.12651",
+      "pdf_url": "",
+      "source": "arXiv (Cornell University)",
+      "title": "Neutronic Field-Effect Transistor",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Dusan Sarenac",
+          "affiliations": []
+        },
+        {
+          "name": "Charles W. Clark",
+          "affiliations": []
+        },
+        {
+          "name": "Owen Lailey",
+          "affiliations": []
+        },
+        {
+          "name": "Muhammad Arif",
+          "affiliations": []
+        },
+        {
+          "name": "Wangchun Chen",
+          "affiliations": []
+        },
+        {
+          "name": "David G. Cory",
+          "affiliations": []
+        },
+        {
+          "name": "M. G. Huber",
+          "affiliations": []
+        },
+        {
+          "name": "J. Nsofini",
+          "affiliations": []
+        },
+        {
+          "name": "Dmitry A. Pushin",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "David Cory",
+        "Dmitry Pushin"
+      ],
+      "published": "2026-11-09",
+      "updated": "2026-11-11T12:16:26.678958",
+      "categories": [
+        "Quantum and electron transport phenomena"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "2606.00358",
       "url": "https://arxiv.org/abs/2606.00358",
