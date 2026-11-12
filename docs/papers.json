@@ -1,7 +1,59 @@
 {
-  "updated": "2026-11-11T15:41:54.195054+00:00",
-  "total": 111,
+  "updated": "2026-11-12T16:26:01.835390+00:00",
+  "total": 115,
   "papers": [
+    {
+      "id": "https://doi.org/10.1038/s44303-026-00212-4",
+      "url": "https://doi.org/10.1038/s44303-026-00212-4",
+      "pdf_url": "https://www.nature.com/articles/s44303-026-00212-4_reference.pdf",
+      "source": "npj Imaging",
+      "title": "Lightweight deep learning framework for astrocyte-centric 3D reconstruction across normal and stress-associated ultrastructural states",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Bowen Deng",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Jeong Gwang-Jin",
+          "affiliations": [
+            "Daegu Gyeongbuk Institute of Science and Technology",
+            "Korea Brain Research Institute"
+          ]
+        },
+        {
+          "name": "\ub178\uc2ac\uae30",
+          "affiliations": [
+            "Korea Brain Research Institute"
+          ]
+        },
+        {
+          "name": "Ji Young Mun",
+          "affiliations": [
+            "Korea Brain Research Institute"
+          ]
+        },
+        {
+          "name": "Na Young Kim",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Na Young Kim"
+      ],
+      "published": "2026-11-10",
+      "updated": "2026-11-12T12:28:57.059296",
+      "categories": [
+        "Cell Image Analysis Techniques"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.48550/arxiv.2611.12651",
       "url": "https://doi.org/10.48550/arxiv.2611.12651",
@@ -55,6 +107,93 @@
       "updated": "2026-11-11T12:16:26.678958",
       "categories": [
         "Quantum and electron transport phenomena"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2611.12651",
+      "url": "https://arxiv.org/abs/2611.12651",
+      "pdf_url": "https://arxiv.org/pdf/2611.12651",
+      "source": "arXiv (Cornell University)",
+      "title": "Neutronic Field-Effect Transistor",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Dusan Sarenac",
+          "affiliations": []
+        },
+        {
+          "name": "Charles W. Clark",
+          "affiliations": []
+        },
+        {
+          "name": "Owen Lailey",
+          "affiliations": []
+        },
+        {
+          "name": "Muhammad Arif",
+          "affiliations": []
+        },
+        {
+          "name": "Wangchun Chen",
+          "affiliations": []
+        },
+        {
+          "name": "David G. Cory",
+          "affiliations": []
+        },
+        {
+          "name": "M. G. Huber",
+          "affiliations": []
+        },
+        {
+          "name": "J. Nsofini",
+          "affiliations": []
+        },
+        {
+          "name": "Dmitry A. Pushin",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "David Cory",
+        "Dmitry Pushin"
+      ],
+      "published": "2026-11-09",
+      "updated": "2026-11-12T12:28:57.059296",
+      "categories": [
+        "Quantum and electron transport phenomena"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.48550/arxiv.2611.13371",
+      "url": "https://doi.org/10.48550/arxiv.2611.13371",
+      "pdf_url": "",
+      "source": "arXiv (Cornell University)",
+      "title": "Syndrome extraction for quantum LDPC codes in silicon: Distributed entanglement and mobile ancillas",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "William Chow",
+          "affiliations": []
+        },
+        {
+          "name": "Jonathan Baugh",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Jonathan Baugh"
+      ],
+      "published": "2026-11-09",
+      "updated": "2026-11-12T12:28:57.059296",
+      "categories": [
+        "Quantum Computing Algorithms and Architecture"
       ],
       "matched_keywords": [
         "tracked author"
@@ -243,6 +382,105 @@
       "updated": "2026-11-04T10:54:05.112534",
       "categories": [
         "Optical Polarization and Ellipsometry"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1021/acsnano.6c15481",
+      "url": "https://doi.org/10.1021/acsnano.6c15481",
+      "pdf_url": "",
+      "source": "ACS Nano",
+      "title": "Cation-Intercalated Mott Insulator \u03b1-RuCl3 Superlattice for Actively Tuned Optoelectronics",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Ran Tang",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ]
+        },
+        {
+          "name": "Daozhi Shen",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ]
+        },
+        {
+          "name": "Linglan Guo",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ]
+        },
+        {
+          "name": "Qiaolin Gu",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ]
+        },
+        {
+          "name": "Xinyue Li",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ]
+        },
+        {
+          "name": "Dingyun Zhang",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ]
+        },
+        {
+          "name": "Yufan Mao",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ]
+        },
+        {
+          "name": "Feifan Wang",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ]
+        },
+        {
+          "name": "Mingjun Ren",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ]
+        },
+        {
+          "name": "Xinquan Zhang",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ]
+        },
+        {
+          "name": "Limin Zhu",
+          "affiliations": [
+            "Shanghai Jiao Tong University"
+          ]
+        },
+        {
+          "name": "Bowen Yang",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Adam W. Tsen",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Adam Tsen"
+      ],
+      "published": "2026-11-02",
+      "updated": "2026-11-12T12:28:57.059296",
+      "categories": [
+        "2D Materials and Applications"
       ],
       "matched_keywords": [
         "tracked author"
