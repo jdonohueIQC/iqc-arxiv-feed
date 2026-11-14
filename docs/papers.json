@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-13T15:46:30.892248+00:00",
-  "total": 115,
+  "updated": "2026-11-14T14:37:34.083048+00:00",
+  "total": 117,
   "papers": [
     {
       "id": "https://doi.org/10.1038/s44303-026-00212-4",
@@ -47,6 +47,58 @@
       ],
       "published": "2026-11-10",
       "updated": "2026-11-12T12:28:57.059296",
+      "categories": [
+        "Cell Image Analysis Techniques"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2611.13581",
+      "url": "https://arxiv.org/abs/2611.13581",
+      "pdf_url": "https://arxiv.org/pdf/2611.13581",
+      "source": "npj Imaging",
+      "title": "Lightweight deep learning framework for astrocyte-centric 3D reconstruction across normal and stress-associated ultrastructural states",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Bowen Deng",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Jeong Gwang-Jin",
+          "affiliations": [
+            "Daegu Gyeongbuk Institute of Science and Technology",
+            "Korea Brain Research Institute"
+          ]
+        },
+        {
+          "name": "\ub178\uc2ac\uae30",
+          "affiliations": [
+            "Korea Brain Research Institute"
+          ]
+        },
+        {
+          "name": "Ji Young Mun",
+          "affiliations": [
+            "Korea Brain Research Institute"
+          ]
+        },
+        {
+          "name": "Na Young Kim",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Na Young Kim"
+      ],
+      "published": "2026-11-10",
+      "updated": "2026-11-13T13:42:25.865203",
       "categories": [
         "Cell Image Analysis Techniques"
       ],
@@ -192,6 +244,39 @@
       ],
       "published": "2026-11-09",
       "updated": "2026-11-12T12:28:57.059296",
+      "categories": [
+        "Quantum Computing Algorithms and Architecture"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2611.13371",
+      "url": "https://arxiv.org/abs/2611.13371",
+      "pdf_url": "https://arxiv.org/pdf/2611.13371",
+      "source": "arXiv (Cornell University)",
+      "title": "Syndrome extraction for quantum LDPC codes in silicon: Distributed entanglement and mobile ancillas",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "William Chow",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Jonathan Baugh",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Jonathan Baugh"
+      ],
+      "published": "2026-11-09",
+      "updated": "2026-11-14T11:04:58.165337",
       "categories": [
         "Quantum Computing Algorithms and Architecture"
       ],

@@ -5,12 +5,24 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2026 15:46:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 14:37:34 +0000</lastBuildDate>
     <ttl>360</ttl>
     <item>
       <title>Lightweight deep learning framework for astrocyte-centric 3D reconstruction across normal and stress-associated ultrastructural states</title>
       <link>https://doi.org/10.1038/s44303-026-00212-4</link>
       <guid isPermaLink="true">https://doi.org/10.1038/s44303-026-00212-4</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <author>Bowen Deng, Jeong Gwang-Jin, 노슬기, Ji Young Mun, Na Young Kim</author>
+      <description>Abstract not available.
+
+Tracked authors: Na Young Kim
+
+Source: npj Imaging</description>
+    </item>
+    <item>
+      <title>Lightweight deep learning framework for astrocyte-centric 3D reconstruction across normal and stress-associated ultrastructural states</title>
+      <link>https://arxiv.org/abs/2611.13581</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.13581</guid>
       <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
       <author>Bowen Deng, Jeong Gwang-Jin, 노슬기, Ji Young Mun, Na Young Kim</author>
       <description>Abstract not available.
@@ -47,6 +59,18 @@ Source: arXiv (Cornell University)</description>
       <title>Syndrome extraction for quantum LDPC codes in silicon: Distributed entanglement and mobile ancillas</title>
       <link>https://doi.org/10.48550/arxiv.2611.13371</link>
       <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2611.13371</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <author>William Chow, Jonathan Baugh</author>
+      <description>Abstract not available.
+
+Tracked authors: Jonathan Baugh
+
+Source: arXiv (Cornell University)</description>
+    </item>
+    <item>
+      <title>Syndrome extraction for quantum LDPC codes in silicon: Distributed entanglement and mobile ancillas</title>
+      <link>https://arxiv.org/abs/2611.13371</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.13371</guid>
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
       <author>William Chow, Jonathan Baugh</author>
       <description>Abstract not available.
