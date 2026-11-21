@@ -1,7 +1,102 @@
 {
-  "updated": "2026-11-20T16:29:27.338187+00:00",
-  "total": 117,
+  "updated": "2026-11-21T15:45:58.073220+00:00",
+  "total": 119,
   "papers": [
+    {
+      "id": "2611.24655",
+      "url": "https://arxiv.org/abs/2611.24655",
+      "pdf_url": "https://arxiv.org/pdf/2611.24655",
+      "source": "arXiv (Cornell University)",
+      "title": "Generation of neutron Bessel beams",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Owen Lailey",
+          "affiliations": []
+        },
+        {
+          "name": "Dusan Sarenac",
+          "affiliations": []
+        },
+        {
+          "name": "Nir Emelianenko",
+          "affiliations": []
+        },
+        {
+          "name": "Charles W. Clark",
+          "affiliations": []
+        },
+        {
+          "name": "David G. Cory",
+          "affiliations": []
+        },
+        {
+          "name": "Huseyin Ekinci",
+          "affiliations": []
+        },
+        {
+          "name": "M. G. Huber",
+          "affiliations": []
+        },
+        {
+          "name": "Jeremy W. Paster",
+          "affiliations": []
+        },
+        {
+          "name": "Anna Sokolova",
+          "affiliations": []
+        },
+        {
+          "name": "Diego Alba Venero",
+          "affiliations": []
+        },
+        {
+          "name": "Dmitry A. Pushin",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "David Cory",
+        "Dmitry Pushin"
+      ],
+      "published": "2026-11-18",
+      "updated": "2026-11-21T10:27:49.728292",
+      "categories": [
+        "Orbital Angular Momentum in Optics"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.48550/arxiv.2611.25046",
+      "url": "https://doi.org/10.48550/arxiv.2611.25046",
+      "pdf_url": "",
+      "source": "arXiv (Cornell University)",
+      "title": "The Metacomplexity Structure of Search Problems",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Shalev Ben-David",
+          "affiliations": []
+        },
+        {
+          "name": "M. H. Ebtehaj",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Shalev Ben-David"
+      ],
+      "published": "2026-11-18",
+      "updated": "2026-11-21T10:27:49.728292",
+      "categories": [
+        "Computability, Logic, AI Algorithms"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "https://doi.org/10.1038/s44303-026-00212-4",
       "url": "https://doi.org/10.1038/s44303-026-00212-4",

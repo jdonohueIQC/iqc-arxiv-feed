@@ -5,8 +5,32 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Nov 2026 16:29:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 15:45:58 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>Generation of neutron Bessel beams</title>
+      <link>https://arxiv.org/abs/2611.24655</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.24655</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <author>Owen Lailey, Dusan Sarenac, Nir Emelianenko, Charles W. Clark, David G. Cory, Huseyin Ekinci, M. G. Huber, Jeremy W. Paster, Anna Sokolova, Diego Alba Venero, Dmitry A. Pushin</author>
+      <description>Abstract not available.
+
+Tracked authors: David Cory, Dmitry Pushin
+
+Source: arXiv (Cornell University)</description>
+    </item>
+    <item>
+      <title>The Metacomplexity Structure of Search Problems</title>
+      <link>https://doi.org/10.48550/arxiv.2611.25046</link>
+      <guid isPermaLink="true">https://doi.org/10.48550/arxiv.2611.25046</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <author>Shalev Ben-David, M. H. Ebtehaj</author>
+      <description>Abstract not available.
+
+Tracked authors: Shalev Ben-David
+
+Source: arXiv (Cornell University)</description>
+    </item>
     <item>
       <title>Lightweight deep learning framework for astrocyte-centric 3D reconstruction across normal and stress-associated ultrastructural states</title>
       <link>https://doi.org/10.1038/s44303-026-00212-4</link>
