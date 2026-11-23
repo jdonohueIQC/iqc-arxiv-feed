@@ -5,7 +5,7 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Nov 2026 15:46:18 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 19:38:15 +0000</lastBuildDate>
     <ttl>360</ttl>
     <item>
       <title>Generation of neutron Bessel beams</title>
@@ -30,6 +30,18 @@ Source: arXiv (Cornell University)</description>
 Tracked authors: Shalev Ben-David
 
 Source: arXiv (Cornell University)</description>
+    </item>
+    <item>
+      <title>The Metacomplexity Structure of Search Problems</title>
+      <link>https://arxiv.org/abs/2611.25046</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.25046</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <author>Shalev Ben-David, M. H. Ebtehaj</author>
+      <description>Abstract not available.
+
+Tracked authors: Shalev Ben-David
+
+Source: arXiv</description>
     </item>
     <item>
       <title>Lightweight deep learning framework for astrocyte-centric 3D reconstruction across normal and stress-associated ultrastructural states</title>

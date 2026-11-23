@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22T15:46:18.860374+00:00",
-  "total": 119,
+  "updated": "2026-11-23T19:38:15.815217+00:00",
+  "total": 120,
   "papers": [
     {
       "id": "2611.24655",
@@ -90,6 +90,41 @@
       ],
       "published": "2026-11-18",
       "updated": "2026-11-21T10:27:49.728292",
+      "categories": [
+        "Computability, Logic, AI Algorithms"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2611.25046",
+      "url": "https://arxiv.org/abs/2611.25046",
+      "pdf_url": "https://arxiv.org/pdf/2611.25046",
+      "source": "arXiv",
+      "title": "The Metacomplexity Structure of Search Problems",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Shalev Ben-David",
+          "affiliations": [
+            "University of Waterloo",
+            "Institute for Quantum Computing"
+          ]
+        },
+        {
+          "name": "M. H. Ebtehaj",
+          "affiliations": [
+            "University of Waterloo",
+            "Institute for Quantum Computing"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Shalev Ben-David"
+      ],
+      "published": "2026-11-18",
+      "updated": "2026-11-23T12:01:36.302904",
       "categories": [
         "Computability, Logic, AI Algorithms"
       ],
