@@ -5,8 +5,32 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Nov 2026 19:11:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 18:16:00 +0000</lastBuildDate>
     <ttl>360</ttl>
+    <item>
+      <title>On the viability of transatlantic quantum entanglement distribution using combined satellite and stratospheric relay nodes</title>
+      <link>https://arxiv.org/abs/2606.09805</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2606.09805</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <author>Kimia Mohammadi, Paul J. Godin, Thomas D. Jennewein</author>
+      <description>Abstract not available.
+
+Tracked authors: Thomas Jennewein
+
+Source: arXiv</description>
+    </item>
+    <item>
+      <title>Optimal fidelity over zero-capacity erasure channels</title>
+      <link>https://arxiv.org/abs/2611.30902</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.30902</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <author>Camilo Castro-Landolt, Rabsan Galib Ahmed, Graeme Smith</author>
+      <description>Abstract not available.
+
+Tracked authors: Graeme Smith
+
+Source: arXiv</description>
+    </item>
     <item>
       <title>Generation of neutron Bessel beams</title>
       <link>https://arxiv.org/abs/2611.24655</link>

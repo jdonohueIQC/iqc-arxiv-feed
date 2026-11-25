@@ -1,7 +1,79 @@
 {
-  "updated": "2026-11-24T19:11:41.530851+00:00",
-  "total": 120,
+  "updated": "2026-11-25T18:16:00.071210+00:00",
+  "total": 122,
   "papers": [
+    {
+      "id": "2606.09805",
+      "url": "https://arxiv.org/abs/2606.09805",
+      "pdf_url": "https://arxiv.org/pdf/2606.09805",
+      "source": "arXiv",
+      "title": "On the viability of transatlantic quantum entanglement distribution using combined satellite and stratospheric relay nodes",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Kimia Mohammadi",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Paul J. Godin",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "name": "Thomas D. Jennewein",
+          "affiliations": [
+            "University of Waterloo"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Thomas Jennewein"
+      ],
+      "published": "2026-11-24",
+      "updated": "2026-11-25T09:40:18.809321",
+      "categories": [
+        "Quantum Information and Cryptography"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2611.30902",
+      "url": "https://arxiv.org/abs/2611.30902",
+      "pdf_url": "https://arxiv.org/pdf/2611.30902",
+      "source": "arXiv",
+      "title": "Optimal fidelity over zero-capacity erasure channels",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Camilo Castro-Landolt",
+          "affiliations": []
+        },
+        {
+          "name": "Rabsan Galib Ahmed",
+          "affiliations": []
+        },
+        {
+          "name": "Graeme Smith",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Graeme Smith"
+      ],
+      "published": "2026-11-23",
+      "updated": "2026-11-25T09:40:18.809321",
+      "categories": [
+        "Quantum Information and Cryptography"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
     {
       "id": "2611.24655",
       "url": "https://arxiv.org/abs/2611.24655",
