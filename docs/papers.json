@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-25T18:16:00.071210+00:00",
-  "total": 122,
+  "updated": "2026-11-26T17:57:59.148351+00:00",
+  "total": 123,
   "papers": [
     {
       "id": "2606.09805",
@@ -199,6 +199,41 @@
       "updated": "2026-11-23T12:01:36.302904",
       "categories": [
         "Computability, Logic, AI Algorithms"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "2611.23528",
+      "url": "https://arxiv.org/abs/2611.23528",
+      "pdf_url": "https://arxiv.org/pdf/2611.23528",
+      "source": "arXiv",
+      "title": "Singlet flags: using native entanglement to restore the circuit distance of shuttled qLDPC codes in silicon",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "William Chow",
+          "affiliations": [
+            "University of Waterloo",
+            "Institute for Quantum Computing"
+          ]
+        },
+        {
+          "name": "Jonathan Baugh",
+          "affiliations": [
+            "University of Waterloo",
+            "Institute for Quantum Computing"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Jonathan Baugh"
+      ],
+      "published": "2026-11-17",
+      "updated": "2026-11-26T09:34:50.682384",
+      "categories": [
+        "Quantum Computing Algorithms and Architecture"
       ],
       "matched_keywords": [
         "tracked author"
