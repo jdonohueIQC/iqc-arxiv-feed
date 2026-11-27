@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-26T17:57:59.148351+00:00",
-  "total": 123,
+  "updated": "2026-11-27T17:43:28.161227+00:00",
+  "total": 125,
   "papers": [
     {
       "id": "2606.09805",
@@ -42,6 +42,51 @@
       ]
     },
     {
+      "id": "2611.33299",
+      "url": "https://arxiv.org/abs/2611.33299",
+      "pdf_url": "https://arxiv.org/pdf/2611.33299",
+      "source": "arXiv",
+      "title": "Quditology: harnessing many levels for quantum information processing",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Abhijit Chakraborty",
+          "affiliations": []
+        },
+        {
+          "name": "Zheng Shi",
+          "affiliations": []
+        },
+        {
+          "name": "Noah Goss",
+          "affiliations": []
+        },
+        {
+          "name": "Irfan A. Siddiqi",
+          "affiliations": []
+        },
+        {
+          "name": "Barry C. Sanders",
+          "affiliations": []
+        },
+        {
+          "name": "Christine A. Muschik",
+          "affiliations": []
+        }
+      ],
+      "iqc_authors": [
+        "Christine Muschik"
+      ],
+      "published": "2026-11-24",
+      "updated": "2026-11-27T09:11:17.138145",
+      "categories": [
+        "Quantum Computing Algorithms and Architecture"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
       "id": "2611.30902",
       "url": "https://arxiv.org/abs/2611.30902",
       "pdf_url": "https://arxiv.org/pdf/2611.30902",
@@ -69,6 +114,76 @@
       "updated": "2026-11-25T09:40:18.809321",
       "categories": [
         "Quantum Information and Cryptography"
+      ],
+      "matched_keywords": [
+        "tracked author"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.3390/ma19224907",
+      "url": "https://doi.org/10.3390/ma19224907",
+      "pdf_url": "",
+      "source": "Materials",
+      "title": "Boron-Nitride-Doped Graphene Oxide FETs for COVID-19 Detection: A Comparative Review Against Existing Market Solutions",
+      "summary": "Abstract not available.",
+      "authors": [
+        {
+          "name": "Alexander H. Xu",
+          "affiliations": [
+            "University of Waterloo",
+            "Waterloo Institute for Nanotechnology"
+          ]
+        },
+        {
+          "name": "Liena Zaidan",
+          "affiliations": [
+            "University of Waterloo",
+            "Waterloo Institute for Nanotechnology"
+          ]
+        },
+        {
+          "name": "Saeed Takaloo",
+          "affiliations": [
+            "University of Waterloo",
+            "Waterloo Institute for Nanotechnology"
+          ]
+        },
+        {
+          "name": "Dogu Kaan Bugra Ozyigit",
+          "affiliations": [
+            "University of Waterloo",
+            "Waterloo Institute for Nanotechnology"
+          ]
+        },
+        {
+          "name": "Bersu Ba\u015ftu\u011f Azer",
+          "affiliations": [
+            "University of Waterloo",
+            "Waterloo Institute for Nanotechnology"
+          ]
+        },
+        {
+          "name": "Michal Bajcsy",
+          "affiliations": [
+            "University of Waterloo",
+            "Waterloo Institute for Nanotechnology"
+          ]
+        },
+        {
+          "name": "Mustafa Yavuz",
+          "affiliations": [
+            "University of Waterloo",
+            "Waterloo Institute for Nanotechnology"
+          ]
+        }
+      ],
+      "iqc_authors": [
+        "Michal Bajcsy"
+      ],
+      "published": "2026-11-19",
+      "updated": "2026-11-27T09:11:17.138145",
+      "categories": [
+        "Electrochemical sensors and biosensors"
       ],
       "matched_keywords": [
         "tracked author"

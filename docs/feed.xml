@@ -5,7 +5,7 @@
     <link>https://arxiv.org/list/quant-ph/recent</link>
     <description>Papers by tracked IQC authors (arXiv + journals).</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Nov 2026 17:57:59 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 17:43:28 +0000</lastBuildDate>
     <ttl>360</ttl>
     <item>
       <title>On the viability of transatlantic quantum entanglement distribution using combined satellite and stratospheric relay nodes</title>
@@ -20,6 +20,18 @@ Tracked authors: Thomas Jennewein
 Source: arXiv</description>
     </item>
     <item>
+      <title>Quditology: harnessing many levels for quantum information processing</title>
+      <link>https://arxiv.org/abs/2611.33299</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.33299</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <author>Abhijit Chakraborty, Zheng Shi, Noah Goss, Irfan A. Siddiqi, Barry C. Sanders, Christine A. Muschik</author>
+      <description>Abstract not available.
+
+Tracked authors: Christine Muschik
+
+Source: arXiv</description>
+    </item>
+    <item>
       <title>Optimal fidelity over zero-capacity erasure channels</title>
       <link>https://arxiv.org/abs/2611.30902</link>
       <guid isPermaLink="true">https://arxiv.org/abs/2611.30902</guid>
@@ -30,6 +42,18 @@ Source: arXiv</description>
 Tracked authors: Graeme Smith
 
 Source: arXiv</description>
+    </item>
+    <item>
+      <title>Boron-Nitride-Doped Graphene Oxide FETs for COVID-19 Detection: A Comparative Review Against Existing Market Solutions</title>
+      <link>https://doi.org/10.3390/ma19224907</link>
+      <guid isPermaLink="true">https://doi.org/10.3390/ma19224907</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <author>Alexander H. Xu, Liena Zaidan, Saeed Takaloo, Dogu Kaan Bugra Ozyigit, Bersu Baştuğ Azer, Michal Bajcsy, Mustafa Yavuz</author>
+      <description>Abstract not available.
+
+Tracked authors: Michal Bajcsy
+
+Source: Materials</description>
     </item>
     <item>
       <title>Generation of neutron Bessel beams</title>
